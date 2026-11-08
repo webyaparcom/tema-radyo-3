@@ -1,0 +1,216 @@
+{
+  "name": "Kurumsal",
+  "path": "kurumsal",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Hakkımızda",
+        "en": "About",
+        "ar": "من نحن"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [
+          "ssfq0k",
+          "22pj3g"
+        ],
+        "footer": []
+      },
+      "index": 0,
+      "icon": "info",
+      "description": {
+        "tr": "Gece Frekansı, lisanslı müziği ve açık künyeyi yayının önkoşulu sayan kurgusal bir demo radyodur. Sitede gerçek ses yayını yoktur; kişi ve kurumlar kurgusaldır.",
+        "en": "Gece Frekansi is a fictional demo radio that treats licensed music and an open masthead as preconditions of broadcasting. There is no real audio stream; people and organisations are fictional.",
+        "ar": "غيجه فريكانسي إذاعة تجريبية افتراضية تعدّ الموسيقى المرخّصة وبيانات الإدارة المعلنة شرطين مسبقين للبث. لا يوجد بث صوتي حقيقي، والأشخاص والمؤسسات افتراضيون."
+      }
+    },
+    {
+      "name": {
+        "tr": "Misyon",
+        "en": "Mission",
+        "ar": "المهمة"
+      },
+      "status": "play",
+      "id": "misyon",
+      "path": "misyon",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [
+          "oguvwz"
+        ],
+        "footer": []
+      },
+      "index": 1,
+      "icon": "policy",
+      "description": {
+        "tr": "Misyonumuz",
+        "en": "Our mission",
+        "ar": "مهمتنا"
+      }
+    },
+    {
+      "name": {
+        "tr": "Vizyon",
+        "en": "Vision",
+        "ar": "الرؤية"
+      },
+      "status": "play",
+      "id": "vizyon",
+      "path": "vizyon",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [
+          "oguvwz"
+        ],
+        "footer": []
+      },
+      "index": 2,
+      "icon": "policy",
+      "description": {
+        "tr": "Vizyonumuz",
+        "en": "Our vision",
+        "ar": "رؤيتنا"
+      }
+    },
+    {
+      "name": {
+        "tr": "Kalite Politikamız",
+        "en": "Quality Policy",
+        "ar": "سياسة الجودة"
+      },
+      "status": "play",
+      "id": "kalitepolitikamiz",
+      "path": "kalitepolitikamiz",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [
+          "oguvwz"
+        ],
+        "footer": []
+      },
+      "index": 3,
+      "icon": "policy",
+      "description": {
+        "tr": "Kalite politikamız",
+        "en": "Our quality policy",
+        "ar": "سياسة الجودة لدينا"
+      }
+    },
+    {
+      "name": {
+        "tr": "Gizlilik Politikası",
+        "en": "Privacy Policy",
+        "ar": "سياسة الخصوصية"
+      },
+      "status": "play",
+      "id": "gizlilikpolitikasi",
+      "path": "gizlilikpolitikasi",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [
+          "oguvwz"
+        ],
+        "footer": []
+      },
+      "index": 4,
+      "icon": "policy",
+      "description": {
+        "tr": "Gizlilik politikası",
+        "en": "Privacy policy",
+        "ar": "سياسة الخصوصية"
+      }
+    },
+    {
+      "name": {
+        "tr": "Kişisel Veriler",
+        "en": "Personal Data",
+        "ar": "البيانات الشخصية"
+      },
+      "status": "play",
+      "id": "kisiselveriler",
+      "path": "kisiselveriler",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [
+          "oguvwz"
+        ],
+        "footer": []
+      },
+      "index": 5,
+      "icon": "policy",
+      "description": {
+        "tr": "Kişisel verilerin korunması",
+        "en": "Protection of personal data",
+        "ar": "حماية البيانات الشخصية"
+      }
+    },
+    {
+      "name": {
+        "tr": "Kullanıcı Hakları",
+        "en": "User Rights",
+        "ar": "حقوق المستخدم"
+      },
+      "status": "play",
+      "id": "kullanicahaklari",
+      "path": "kullanicahaklari",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [
+          "oguvwz"
+        ],
+        "footer": []
+      },
+      "index": 6,
+      "icon": "policy",
+      "description": {
+        "tr": "Kullanıcı hakları",
+        "en": "User rights",
+        "ar": "حقوق المستخدم"
+      }
+    },
+    {
+      "name": {
+        "tr": "Yasal Uyarı",
+        "en": "Legal Notice",
+        "ar": "إشعار قانوني"
+      },
+      "status": "play",
+      "id": "yasaluyari",
+      "path": "yasaluyari",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [
+          "oguvwz"
+        ],
+        "footer": []
+      },
+      "index": 7,
+      "icon": "policy",
+      "description": {
+        "tr": "Yasal uyarı",
+        "en": "Legal notice",
+        "ar": "إشعار قانوني"
+      }
+    }
+  ],
+  "index": 2,
+  "desing": {
+    "header": [],
+    "body": [
+      "tp5jo4"
+    ],
+    "footer": []
+  }
+}

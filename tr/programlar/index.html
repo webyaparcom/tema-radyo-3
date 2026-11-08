@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="tr" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <title>Programlar</title>
+  <meta name="description" content="Kurgusal program örnekleri; ses yayını bu demoda yoktur." />
+  <meta name="keywords" content="radyo, yerel radyo, yayın akışı" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://radyo-3.webyapar.com/tr/programlar/" />
+  <link rel="alternate" hreflang="tr" href="https://radyo-3.webyapar.com/tr/programlar/" />
+  <link rel="alternate" hreflang="en" href="https://radyo-3.webyapar.com/en/programlar/" />
+  <link rel="alternate" hreflang="ar" href="https://radyo-3.webyapar.com/ar/programlar/" />
+  <link rel="alternate" hreflang="x-default" href="https://radyo-3.webyapar.com/tr/programlar/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Programlar" />
+  <meta property="og:description" content="Kurgusal program örnekleri; ses yayını bu demoda yoktur." />
+  <meta property="og:url" content="https://radyo-3.webyapar.com/tr/programlar/" />
+  <meta property="og:image" content="https://radyo-3.webyapar.com/img/logo.png" />
+  <meta property="og:image:alt" content="Programlar" />
+  <meta property="og:site_name" content="Gece Frekansı" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="ar_SA" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Programlar" />
+  <meta name="twitter:description" content="Kurgusal program örnekleri; ses yayını bu demoda yoktur." />
+  <meta name="twitter:image" content="https://radyo-3.webyapar.com/img/logo.png" />
+
+  <meta name="theme-color" content="#2DD4BF" />
+  <meta name="mx-api-base" content="none" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=osqum" />
+  <link rel="stylesheet" href="/src/fonts/barlow-condensed.css?v=osqum" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=osqum" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=osqum" />
+  <link rel="stylesheet" href="/src/rubik.css?v=osqum" />
+  <link rel="stylesheet" href="/src/css.css?v=osqum" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=osqum" />
+  
+  <link rel="stylesheet" href="/src/mx-ui.css?v=osqum" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=osqum" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=osqum" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=osqum" />
+  <link rel="shortcut icon" href="/img/icon.png?v=osqum" type="image/png" />
+  <link rel="apple-touch-icon" href="/img/icon.png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://radyo-3.webyapar.com/#website",
+      "url": "https://radyo-3.webyapar.com/",
+      "name": "Gece Frekansı",
+      "description": "Gece Frekansı: yayın akışı, programlar ve reklam talebi; künye ve lisans bilgileri açık. (Demo site — ses yayını yoktur)",
+      "inLanguage": "tr",
+      "publisher": {
+        "@id": "https://radyo-3.webyapar.com/#organization"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://radyo-3.webyapar.com/#organization",
+      "name": "Gece Frekansı",
+      "url": "https://radyo-3.webyapar.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://radyo-3.webyapar.com/img/logo.png"
+      },
+      "image": "https://radyo-3.webyapar.com/img/logo.png",
+      "description": "Gece Frekansı: yayın akışı, programlar ve reklam talebi; künye ve lisans bilgileri açık. (Demo site — ses yayını yoktur)",
+      "telephone": "+90 342 000 00 00",
+      "email": "studyo@gecefrekansi.example",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Medya Sk. No: 8 Kat: 2, Şahinbey, Gaziantep (kurgusal adres)"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+90 342 000 00 00",
+        "email": "studyo@gecefrekansi.example"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://radyo-3.webyapar.com/tr/programlar/#webpage",
+      "url": "https://radyo-3.webyapar.com/tr/programlar/",
+      "name": "Programlar",
+      "description": "Kurgusal program örnekleri; ses yayını bu demoda yoktur.",
+      "inLanguage": "tr",
+      "isPartOf": {
+        "@id": "https://radyo-3.webyapar.com/#website"
+      },
+      "about": {
+        "@id": "https://radyo-3.webyapar.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://radyo-3.webyapar.com/img/logo.png"
+      },
+      "dateModified": "2026-11-05T19:39:08.214Z",
+      "breadcrumb": {
+        "@id": "https://radyo-3.webyapar.com/tr/programlar/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://radyo-3.webyapar.com/tr/programlar/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Gece Frekansı",
+          "item": "https://radyo-3.webyapar.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Programlar",
+          "item": "https://radyo-3.webyapar.com/tr/programlar/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+  
+<link rel="stylesheet" href="style.css?v=osqum">
+</head>
+
+<body>
+  <a class="mx-skip-link" href="#content">İçeriğe atla</a>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
+  <div id="header"><div class="h0000-db" id="db-bf0y26" role="region" aria-label="Demo site uyarısı" data-tone="info" style="--db-bg:var(--mx-site-text, #1b1b1b);--db-fg:var(--mx-site-bg, #ffffff)">
+  <span class="material-symbols-outlined h0000-db-icon" aria-hidden="true">info</span>
+  <p class="h0000-db-text">Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz</p>
+  <a class="h0000-db-cta" href="https://webyapar.com/temalar#radyo-3" target="_blank" rel="noopener noreferrer">
+    <span>Bu temayı iste</span><span class="mx-visually-hidden"> (yeni sekmede açılır)</span>
+    <span class="material-symbols-outlined mx-flip h0000-db-arrow" aria-hidden="true">arrow_forward</span>
+  </a>
+  
+</div>
+
+<script>
+  
+  (function () {
+    var kok = document.getElementById("db-bf0y26");
+    if (!kok) {
+      return;
+    }
+    var itilenler = [];
+    var gorulen = [];
+
+    function ustaTasi() {
+      var govde = document.body;
+      if (!govde || kok.parentNode === govde) {
+        return;
+      }
+      var ilk = document.getElementById("header");
+      if (ilk && ilk.parentNode === govde) {
+        govde.insertBefore(kok, ilk);
+      } else {
+        govde.insertBefore(kok, govde.firstChild);
+      }
+    }
+
+    function adayMi(el) {
+      if (el === kok || kok.contains(el) || el.nodeType !== 1) {
+        return false;
+      }
+      var cs = window.getComputedStyle(el);
+      if ((cs.position !== "fixed" && cs.position !== "sticky") || cs.display === "none") {
+        return false;
+      }
+      
+      return parseFloat(cs.top) === 0 && el.offsetHeight > 0 && el.offsetHeight <= 200;
+    }
+
+    function it() {
+      var h = kok.offsetHeight;
+      document.documentElement.style.setProperty("--mx-demo-bandi-h", h + "px");
+      var liste = document.querySelectorAll("#header *, body > *");
+      for (var i = 0; i < liste.length; i++) {
+        var el = liste[i];
+        if (gorulen.indexOf(el) !== -1) {
+          continue;
+        }
+        if (adayMi(el)) {
+          gorulen.push(el);
+          itilenler.push(el);
+        }
+      }
+      for (var j = 0; j < itilenler.length; j++) {
+        itilenler[j].style.top = h + "px";
+      }
+    }
+
+    ustaTasi();
+    it();
+    window.addEventListener("load", function () {
+      ustaTasi();
+      it();
+      setTimeout(it, 400);
+      setTimeout(it, 1500);
+    });
+    window.addEventListener("resize", it);
+    if (window.ResizeObserver) {
+      new window.ResizeObserver(it).observe(kok);
+    }
+  })();
+</script>
+<header class="h0001-m10 h0001-m10-logolu-acik h0001-m10--cta-butonlu" role="banner">
+  <div class="h0001-m10-scrim" aria-hidden="true"></div>
+  <div class="h0001-m10-ic">
+    <a class="h0001-m10-logo" href="/tr/" aria-label="Anasayfa - Gece Frekansı">
+      <img class="h0001-m10-logo-koyu" src="/img/logo.png" alt="Gece Frekansı" loading="eager" decoding="async" />
+      <img class="h0001-m10-logo-acik" src="/img/logo-acik.svg" alt="" aria-hidden="true" loading="eager" decoding="async" />
+    </a>
+    <nav class="h0001-m10-nav" aria-label="Navigasyon">
+      <ul><li><a class="h0001-m10-oge" href="/tr/">Anasayfa</a></li><li><a class="h0001-m10-oge" href="/tr/programlar/" aria-current="page">Programlar</a></li><li><a class="h0001-m10-oge" href="/tr/yayin-akisi/">Yayın Akışı</a></li><li><a class="h0001-m10-oge" href="/tr/reklam/">Reklam</a></li><li><a class="h0001-m10-oge" href="/tr/kunye/">Künye</a></li><li><a class="h0001-m10-oge" href="/tr/galeri/">Galeri</a></li><li><a class="h0001-m10-oge" href="/tr/iletisim/">İletişim</a></li></ul>
+    </nav>
+    <div class="h0001-m10-sag">
+      <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/programlar/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/programlar/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/programlar/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+      <a class="h0001-m10-cta" href="/tr/yayin-akisi/">Yayın akışı<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+      <button class="h0001-m10-hamburger" type="button" aria-expanded="false" aria-controls="m10-iu6hrr-panel" aria-label="Menüyü Aç/Kapat">
+        <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+      </button>
+    </div>
+  </div>
+  <div class="h0001-m10-panel" id="m10-iu6hrr-panel" hidden>
+    <div class="h0001-m10-panel-ust">
+      <a class="h0001-m10-logo h0001-m10-logo--panel" href="/tr/" aria-label="Anasayfa - Gece Frekansı">
+        <img src="/img/logo.png" alt="Gece Frekansı" loading="lazy" decoding="async" />
+      </a>
+      <button class="h0001-m10-kapat" type="button" aria-label="Menüyü Kapat">
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+    </div>
+    <nav class="h0001-m10-panel-nav" aria-label="Navigasyon">
+      <ul><li><a class="h0001-m10-oge" href="/tr/">Anasayfa</a></li><li><a class="h0001-m10-oge" href="/tr/programlar/" aria-current="page">Programlar</a></li><li><a class="h0001-m10-oge" href="/tr/yayin-akisi/">Yayın Akışı</a></li><li><a class="h0001-m10-oge" href="/tr/reklam/">Reklam</a></li><li><a class="h0001-m10-oge" href="/tr/kunye/">Künye</a></li><li><a class="h0001-m10-oge" href="/tr/galeri/">Galeri</a></li><li><a class="h0001-m10-oge" href="/tr/iletisim/">İletişim</a></li></ul>
+    </nav>
+    <div class="h0001-m10-panel-alt">
+      <a class="h0001-m10-cta" href="/tr/yayin-akisi/">Yayın akışı<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+      <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/programlar/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/programlar/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/programlar/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+    </div>
+  </div>
+</header>
+
+
+<script>
+  (function () {
+    var kok = document.querySelector(".h0001-m10");
+    if (!kok) { return; }
+    var dugme = kok.querySelector(".h0001-m10-hamburger");
+    var panel = kok.querySelector(".h0001-m10-panel");
+    var kapat = kok.querySelector(".h0001-m10-kapat");
+
+    
+    function heroMu(el) {
+      if (!el || el.nodeType !== 1) { return false; }
+      if (el.hasAttribute("data-mx-hero")) { return true; }
+      var c = String(el.className || "");
+      return /(^|\s)[bhf]\d{4}-(hero|h\d|kb)(\s|$|-)/.test(c) || /hero|slider|swiper|kenburns/i.test(c);
+    }
+    
+    var heroVar = true, deneme = 0, bekliyor = false, sabit = false;
+    function heroKarar() {
+      var icerik = document.getElementById("content");
+      var ilk = icerik ? icerik.firstElementChild : null;
+      if (!ilk && deneme < 40 && document.readyState === "loading") { deneme++; setTimeout(heroKarar, 25); return; }
+      heroVar = heroMu(kok.nextElementSibling) || heroMu(ilk);
+      if (!heroVar) {
+        kok.classList.add("h0001-m10-akista");
+        kok.classList.add("h0001-m10-kati");
+      } else {
+        kok.classList.remove("h0001-m10-akista");
+        if (!sabit) { kok.classList.remove("h0001-m10-kati"); }
+      }
+      uygula();
+    }
+
+    
+    function uygula() {
+      bekliyor = false;
+      var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+      if (!sabit && y > 40) {
+        kok.classList.add("h0001-m10-kati");
+        kok.classList.add("h0001-m10-sabit");
+        sabit = true;
+      } else if (sabit && y <= 4) {
+        kok.classList.remove("h0001-m10-sabit");
+        if (heroVar) { kok.classList.remove("h0001-m10-kati"); }
+        sabit = false;
+      }
+    }
+    window.addEventListener("scroll", function () { if (!bekliyor) { bekliyor = true; window.requestAnimationFrame(uygula); } }, { passive: true });
+    heroKarar();
+    window.addEventListener("load", heroKarar);
+
+    
+    function ac() {
+      if (!panel) { return; }
+      panel.hidden = false;
+      if (dugme) { dugme.setAttribute("aria-expanded", "true"); }
+      document.body.style.overflow = "hidden";
+      if (kapat) { kapat.focus(); }
+    }
+    function kapa() {
+      if (!panel || panel.hidden) { return; }
+      panel.hidden = true;
+      if (dugme) { dugme.setAttribute("aria-expanded", "false"); dugme.focus(); }
+      document.body.style.overflow = "";
+    }
+    if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
+    if (kapat) { kapat.addEventListener("click", kapa); }
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
+  })();
+</script>
+<section class="h0002-kb h0002-kb--kart" data-mx-hero="1" aria-roledescription="carousel" aria-label="Tanıtım slaytları" style="--kb-yk: 76;" data-kb-sure="6500" data-kb-pause="Otomatik oynatmayı durdur" data-kb-play="Otomatik oynatmayı başlat">
+  <div class="h0002-kb-slaytlar"><div class="h0002-kb-slayt h0002-kb-aktif" role="group" aria-roledescription="slide" aria-label="1 / 3" aria-hidden="false"><div class="h0002-kb-medya"><img src="/img/radyo-anten.webp" alt="Tepede verici anteni" width="1920" height="1080" loading="eager" decoding="async" fetchpriority="high" /></div><div class="h0002-kb-scrim" aria-hidden="true"></div><div class="h0002-kb-icerik"><div class="h0002-kb-ic"><p class="h0002-kb-eyebrow">Gece yayını · dinleyici istekleri</p><h2 class="h0002-kb-baslik">Şehir uyurken frekans açık</h2><p class="h0002-kb-metin">Gece Frekansı; akşam seçkisi, gece sohbeti ve saat başı haberle yayın yapan kurgusal bir demo radyodur. Künye, RTÜK lisansı ve müzik lisansları sitede açıkça yazılıdır; bu demoda ses yayını yoktur.</p><a class="h0002-kb-cta" href="/tr/yayin-akisi/">Yayın akışı<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="h0002-kb-slayt" role="group" aria-roledescription="slide" aria-label="2 / 3" aria-hidden="true"><div class="h0002-kb-medya"><img src="/img/radyo-kulaklik.webp" alt="Mikser üzerinde stüdyo kulaklığı" width="1920" height="1080" loading="lazy" decoding="async" /></div><div class="h0002-kb-scrim" aria-hidden="true"></div><div class="h0002-kb-icerik"><div class="h0002-kb-ic"><p class="h0002-kb-eyebrow">Programlar</p><h2 class="h0002-kb-baslik">Günaydın Frekans</h2><p class="h0002-kb-metin">Sabah 06:00 – 10:00: müzik, trafik ve yerel gündem.</p><a class="h0002-kb-cta" href="/tr/programlar/">Programlar<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="h0002-kb-slayt" role="group" aria-roledescription="slide" aria-label="3 / 3" aria-hidden="true"><div class="h0002-kb-medya"><img src="/img/radyo-mikser.webp" alt="Işıklı yayın mikseri" width="1920" height="1080" loading="lazy" decoding="async" /></div><div class="h0002-kb-scrim" aria-hidden="true"></div><div class="h0002-kb-icerik"><div class="h0002-kb-ic"><p class="h0002-kb-eyebrow">Programlar</p><h2 class="h0002-kb-baslik">Gün Ortası Seçkisi</h2><p class="h0002-kb-metin">10:00 – 14:00: türkçe ve yabancı pop seçkisi.</p><a class="h0002-kb-cta" href="/tr/programlar/">Programlar<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div></div>
+  <div class="h0002-kb-kontrol">
+    <button class="h0002-kb-ok h0002-kb-ok--geri" type="button" aria-label="Önceki slayt">
+      <span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>
+    </button>
+    <div class="h0002-kb-noktalar"><button class="h0002-kb-nokta" type="button" aria-label="1. slayta git" aria-current="true"></button><button class="h0002-kb-nokta" type="button" aria-label="2. slayta git"></button><button class="h0002-kb-nokta" type="button" aria-label="3. slayta git"></button></div>
+    <button class="h0002-kb-ok h0002-kb-ok--ileri" type="button" aria-label="Sonraki slayt">
+      <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
+    </button>
+    <button class="h0002-kb-oynat" type="button" aria-pressed="true" aria-label="Otomatik oynatmayı durdur">
+      <span class="material-symbols-outlined" aria-hidden="true">pause</span>
+    </button>
+  </div>
+  <p class="h0002-kb-durum" aria-live="polite" aria-atomic="true"></p>
+</section>
+
+
+<script>
+  (function () {
+    var kok = document.querySelector(".h0002-kb");
+    if (!kok) { return; }
+    var slaytlar = kok.querySelectorAll(".h0002-kb-slayt");
+    var noktalar = kok.querySelectorAll(".h0002-kb-nokta");
+    var geri = kok.querySelector(".h0002-kb-ok--geri");
+    var ileri = kok.querySelector(".h0002-kb-ok--ileri");
+    var oynat = kok.querySelector(".h0002-kb-oynat");
+    var durum = kok.querySelector(".h0002-kb-durum");
+    var n = slaytlar.length;
+    if (n < 2) { return; }
+    var azalt = false;
+    try { azalt = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) { azalt = false; }
+    var rtl = (document.documentElement.getAttribute("dir") || "").toLowerCase() === "rtl";
+    var sure = parseInt(kok.getAttribute("data-kb-sure"), 10);
+    if (!isFinite(sure) || sure < 3000) { sure = 6000; }
+    if (sure > 20000) { sure = 20000; }
+    var otomatik = kok.getAttribute("data-kb-otomatik") !== "0" && !azalt;
+    var aktif = 0, sayac = null, duraklat = false;
+
+    function goster(i) {
+      i = (i + n) % n;
+      for (var k = 0; k < n; k++) {
+        var acikMi = k === i;
+        slaytlar[k].classList.toggle("h0002-kb-aktif", acikMi);
+        slaytlar[k].setAttribute("aria-hidden", acikMi ? "false" : "true");
+        if (noktalar[k]) {
+          if (acikMi) { noktalar[k].setAttribute("aria-current", "true"); } else { noktalar[k].removeAttribute("aria-current"); }
+        }
+      }
+      aktif = i;
+      if (durum) { durum.textContent = slaytlar[i].getAttribute("aria-label") || ""; }
+    }
+    function baslat() {
+      durdur();
+      if (!otomatik || duraklat) { return; }
+      sayac = setInterval(function () { goster(aktif + 1); }, sure);
+    }
+    function durdur() { if (sayac) { clearInterval(sayac); sayac = null; } }
+    function oynatGuncelle() {
+      if (!oynat) { return; }
+      var ikon = oynat.querySelector(".material-symbols-outlined");
+      oynat.setAttribute("aria-pressed", otomatik ? "true" : "false");
+      oynat.setAttribute("aria-label", otomatik ? (kok.getAttribute("data-kb-pause") || "") : (kok.getAttribute("data-kb-play") || ""));
+      if (ikon) { ikon.textContent = otomatik ? "pause" : "play_arrow"; }
+    }
+
+    if (geri) { geri.addEventListener("click", function () { goster(aktif - 1); baslat(); }); }
+    if (ileri) { ileri.addEventListener("click", function () { goster(aktif + 1); baslat(); }); }
+    for (var d = 0; d < noktalar.length; d++) {
+      (function (idx) { noktalar[idx].addEventListener("click", function () { goster(idx); baslat(); }); })(d);
+    }
+    if (oynat) {
+      oynat.addEventListener("click", function () {
+        otomatik = !otomatik;
+        oynatGuncelle();
+        if (otomatik) { baslat(); } else { durdur(); }
+      });
+    }
+    
+    kok.setAttribute("tabindex", "0");
+    kok.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowRight") { e.preventDefault(); goster(rtl ? aktif - 1 : aktif + 1); baslat(); }
+      else if (e.key === "ArrowLeft") { e.preventDefault(); goster(rtl ? aktif + 1 : aktif - 1); baslat(); }
+      else if (e.key === "Home") { e.preventDefault(); goster(0); baslat(); }
+      else if (e.key === "End") { e.preventDefault(); goster(n - 1); baslat(); }
+    });
+    
+    kok.addEventListener("mouseenter", function () { duraklat = true; durdur(); });
+    kok.addEventListener("mouseleave", function () { duraklat = false; baslat(); });
+    kok.addEventListener("focusin", function () { duraklat = true; durdur(); });
+    kok.addEventListener("focusout", function (e) { if (!kok.contains(e.relatedTarget)) { duraklat = false; baslat(); } });
+    
+    var bx = null;
+    kok.addEventListener("touchstart", function (e) { bx = e.touches && e.touches[0] ? e.touches[0].clientX : null; }, { passive: true });
+    kok.addEventListener("touchend", function (e) {
+      if (bx === null || !e.changedTouches || !e.changedTouches[0]) { return; }
+      var fark = e.changedTouches[0].clientX - bx; bx = null;
+      if (Math.abs(fark) < 40) { return; }
+      var ileriMi = fark < 0; if (rtl) { ileriMi = !ileriMi; }
+      goster(ileriMi ? aktif + 1 : aktif - 1); baslat();
+    }, { passive: true });
+    
+    document.addEventListener("visibilitychange", function () { if (document.hidden) { durdur(); } else { baslat(); } });
+
+    goster(0);
+    oynatGuncelle();
+    baslat();
+  })();
+</script>
+</div>
+  <div id="content"><h1 style="position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">Programlar</h1><section class="b0000-hs b0000-hs-kart-gecis" id="hs-1l7y20">
+  <div class="b0000-hs-wrap">
+    <header class="b0000-hs-head"><p class="b0000-hs-eyebrow">Programlar</p><h2 class="b0000-hs-title">Gün boyu yayın</h2><p class="b0000-hs-desc">Kurgusal program örnekleri; ses yayını bu demoda yoktur.</p></header>
+    <div class="b0000-hs-body">
+      <div class="b0000-hs-tabs" role="tablist" aria-label="Hizmet sekmeleri" aria-orientation="horizontal"><button type="button" class="b0000-hs-tab" role="tab" id="hs-1l7y20-t0" aria-controls="hs-1l7y20-p0" aria-selected="true" tabindex="0"><span class="b0000-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">wb_twilight</span></span><span class="b0000-hs-tab-ad">Günaydın Frekans</span><span class="b0000-hs-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></button><button type="button" class="b0000-hs-tab" role="tab" id="hs-1l7y20-t1" aria-controls="hs-1l7y20-p1" aria-selected="false" tabindex="-1"><span class="b0000-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">library_music</span></span><span class="b0000-hs-tab-ad">Gün Ortası Seçkisi</span><span class="b0000-hs-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></button><button type="button" class="b0000-hs-tab" role="tab" id="hs-1l7y20-t2" aria-controls="hs-1l7y20-p2" aria-selected="false" tabindex="-1"><span class="b0000-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">directions_car</span></span><span class="b0000-hs-tab-ad">Yolda Frekans</span><span class="b0000-hs-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></button><button type="button" class="b0000-hs-tab" role="tab" id="hs-1l7y20-t3" aria-controls="hs-1l7y20-p3" aria-selected="false" tabindex="-1"><span class="b0000-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">nights_stay</span></span><span class="b0000-hs-tab-ad">Gece Yarısı Sohbeti</span><span class="b0000-hs-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></button><button type="button" class="b0000-hs-tab" role="tab" id="hs-1l7y20-t4" aria-controls="hs-1l7y20-p4" aria-selected="false" tabindex="-1"><span class="b0000-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">newspaper</span></span><span class="b0000-hs-tab-ad">Yerel Gündem</span><span class="b0000-hs-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></button><button type="button" class="b0000-hs-tab" role="tab" id="hs-1l7y20-t5" aria-controls="hs-1l7y20-p5" aria-selected="false" tabindex="-1"><span class="b0000-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">mic</span></span><span class="b0000-hs-tab-ad">Hafta Sonu Konuklu</span><span class="b0000-hs-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></button></div>
+      <div class="b0000-hs-panels"><div class="b0000-hs-panel b0000-hs-on" role="tabpanel" id="hs-1l7y20-p0" aria-labelledby="hs-1l7y20-t0" tabindex="0"><button type="button" class="b0000-hs-acc" aria-expanded="true" aria-controls="hs-1l7y20-p0"><span class="b0000-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">wb_twilight</span></span><span class="b0000-hs-tab-ad">Günaydın Frekans</span><span class="b0000-hs-acc-ok" aria-hidden="true"><span class="material-symbols-outlined">expand_more</span></span></button><div class="b0000-hs-panel-in"><div class="b0000-hs-media"><img src="/img/radyo-mikrofon.webp" alt="Pop filtreli yayın mikrofonu" width="1200" height="675" loading="lazy" decoding="async" /></div><div class="b0000-hs-metin"><h3 class="b0000-hs-panel-ad">Günaydın Frekans</h3><p class="b0000-hs-panel-ozet">Sabah 06:00 – 10:00: müzik, trafik ve yerel gündem.</p><p class="b0000-hs-maddeler-baslik">Neler dahil?</p><ul class="b0000-hs-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>MESAM · MSG lisansı kapsamında müzik</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Saat başı kısa haber bülteni</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>İstek hattı: telefon ve e-posta</span></li></ul><a class="b0000-hs-btn" href="/tr/programlar/"><span>Detaylı bilgi</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0000-hs-panel" role="tabpanel" id="hs-1l7y20-p1" aria-labelledby="hs-1l7y20-t1" tabindex="0"><button type="button" class="b0000-hs-acc" aria-expanded="false" aria-controls="hs-1l7y20-p1"><span class="b0000-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">library_music</span></span><span class="b0000-hs-tab-ad">Gün Ortası Seçkisi</span><span class="b0000-hs-acc-ok" aria-hidden="true"><span class="material-symbols-outlined">expand_more</span></span></button><div class="b0000-hs-panel-in"><div class="b0000-hs-media"><img src="/img/radyo-kulaklik.webp" alt="Mikser üzerinde stüdyo kulaklığı" width="1200" height="675" loading="lazy" decoding="async" /></div><div class="b0000-hs-metin"><h3 class="b0000-hs-panel-ad">Gün Ortası Seçkisi</h3><p class="b0000-hs-panel-ozet">10:00 – 14:00: türkçe ve yabancı pop seçkisi.</p><p class="b0000-hs-maddeler-baslik">Neler dahil?</p><ul class="b0000-hs-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>MESAM · MSG lisansı kapsamında müzik</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Saat başı kısa haber bülteni</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>İstek hattı: telefon ve e-posta</span></li></ul><a class="b0000-hs-btn" href="/tr/programlar/"><span>Detaylı bilgi</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0000-hs-panel" role="tabpanel" id="hs-1l7y20-p2" aria-labelledby="hs-1l7y20-t2" tabindex="0"><button type="button" class="b0000-hs-acc" aria-expanded="false" aria-controls="hs-1l7y20-p2"><span class="b0000-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">directions_car</span></span><span class="b0000-hs-tab-ad">Yolda Frekans</span><span class="b0000-hs-acc-ok" aria-hidden="true"><span class="material-symbols-outlined">expand_more</span></span></button><div class="b0000-hs-panel-in"><div class="b0000-hs-media"><img src="/img/radyo-mikser.webp" alt="Işıklı yayın mikseri" width="1200" height="675" loading="lazy" decoding="async" /></div><div class="b0000-hs-metin"><h3 class="b0000-hs-panel-ad">Yolda Frekans</h3><p class="b0000-hs-panel-ozet">16:00 – 19:00: eve dönüş yolunda enerjik müzik.</p><p class="b0000-hs-maddeler-baslik">Neler dahil?</p><ul class="b0000-hs-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>MESAM · MSG lisansı kapsamında müzik</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Saat başı kısa haber bülteni</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>İstek hattı: telefon ve e-posta</span></li></ul><a class="b0000-hs-btn" href="/tr/programlar/"><span>Detaylı bilgi</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0000-hs-panel" role="tabpanel" id="hs-1l7y20-p3" aria-labelledby="hs-1l7y20-t3" tabindex="0"><button type="button" class="b0000-hs-acc" aria-expanded="false" aria-controls="hs-1l7y20-p3"><span class="b0000-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">nights_stay</span></span><span class="b0000-hs-tab-ad">Gece Yarısı Sohbeti</span><span class="b0000-hs-acc-ok" aria-hidden="true"><span class="material-symbols-outlined">expand_more</span></span></button><div class="b0000-hs-panel-in"><div class="b0000-hs-media"><img src="/img/radyo-anten.webp" alt="Tepede verici anteni" width="1200" height="675" loading="lazy" decoding="async" /></div><div class="b0000-hs-metin"><h3 class="b0000-hs-panel-ad">Gece Yarısı Sohbeti</h3><p class="b0000-hs-panel-ozet">22:00 – 24:00: dinleyici istekleri ve sohbet.</p><p class="b0000-hs-maddeler-baslik">Neler dahil?</p><ul class="b0000-hs-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>MESAM · MSG lisansı kapsamında müzik</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Saat başı kısa haber bülteni</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>İstek hattı: telefon ve e-posta</span></li></ul><a class="b0000-hs-btn" href="/tr/programlar/"><span>Detaylı bilgi</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0000-hs-panel" role="tabpanel" id="hs-1l7y20-p4" aria-labelledby="hs-1l7y20-t4" tabindex="0"><button type="button" class="b0000-hs-acc" aria-expanded="false" aria-controls="hs-1l7y20-p4"><span class="b0000-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">newspaper</span></span><span class="b0000-hs-tab-ad">Yerel Gündem</span><span class="b0000-hs-acc-ok" aria-hidden="true"><span class="material-symbols-outlined">expand_more</span></span></button><div class="b0000-hs-panel-in"><div class="b0000-hs-media"><img src="/img/radyo-hero-studyo.webp" alt="Mikrofon ve mikserli stüdyo" width="1200" height="675" loading="lazy" decoding="async" /></div><div class="b0000-hs-metin"><h3 class="b0000-hs-panel-ad">Yerel Gündem</h3><p class="b0000-hs-panel-ozet">Saat başı kısa haber bültenleri.</p><p class="b0000-hs-maddeler-baslik">Neler dahil?</p><ul class="b0000-hs-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>MESAM · MSG lisansı kapsamında müzik</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Saat başı kısa haber bülteni</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>İstek hattı: telefon ve e-posta</span></li></ul><a class="b0000-hs-btn" href="/tr/programlar/"><span>Detaylı bilgi</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0000-hs-panel" role="tabpanel" id="hs-1l7y20-p5" aria-labelledby="hs-1l7y20-t5" tabindex="0"><button type="button" class="b0000-hs-acc" aria-expanded="false" aria-controls="hs-1l7y20-p5"><span class="b0000-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">mic</span></span><span class="b0000-hs-tab-ad">Hafta Sonu Konuklu</span><span class="b0000-hs-acc-ok" aria-hidden="true"><span class="material-symbols-outlined">expand_more</span></span></button><div class="b0000-hs-panel-in"><div class="b0000-hs-media"><img src="/img/radyo-mikrofon.webp" alt="Pop filtreli yayın mikrofonu" width="1200" height="675" loading="lazy" decoding="async" /></div><div class="b0000-hs-metin"><h3 class="b0000-hs-panel-ad">Hafta Sonu Konuklu</h3><p class="b0000-hs-panel-ozet">Cumartesi 12:00: şehirden konuklarla söyleşi.</p><p class="b0000-hs-maddeler-baslik">Neler dahil?</p><ul class="b0000-hs-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>MESAM · MSG lisansı kapsamında müzik</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Saat başı kısa haber bülteni</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>İstek hattı: telefon ve e-posta</span></li></ul><a class="b0000-hs-btn" href="/tr/programlar/"><span>Detaylı bilgi</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div></div>
+    </div>
+  </div>
+</section>
+
+
+
+<script>
+  
+  (function () {
+    var kok = document.getElementById("hs-1l7y20");
+    if (!kok || kok.getAttribute("data-hs-hazir") === "1") { return; }
+    kok.setAttribute("data-hs-hazir", "1");
+    kok.className += " b0000-hs-js";
+    var sekmeler = kok.querySelectorAll(".b0000-hs-tab");
+    var paneller = kok.querySelectorAll(".b0000-hs-panel");
+    var accler = kok.querySelectorAll(".b0000-hs-acc");
+    var yatay = kok.querySelector(".b0000-hs-tabs").getAttribute("aria-orientation") !== "vertical";
+    var n = sekmeler.length;
+    if (!n) { return; }
+
+    function rtlMi() {
+      var el = kok;
+      while (el && el !== document.documentElement) {
+        if (el.getAttribute("dir")) { return el.getAttribute("dir") === "rtl"; }
+        el = el.parentNode;
+      }
+      return (document.documentElement.getAttribute("dir") || "") === "rtl";
+    }
+
+    function sec(i, odakla) {
+      var j;
+      for (j = 0; j < n; j++) {
+        var acik = j === i;
+        sekmeler[j].setAttribute("aria-selected", acik ? "true" : "false");
+        sekmeler[j].setAttribute("tabindex", acik ? "0" : "-1");
+        if (paneller[j]) {
+          if (acik) { paneller[j].className += " b0000-hs-on"; }
+          else { paneller[j].className = paneller[j].className.replace(/\s*b0000-hs-on\b/g, ""); }
+        }
+        if (accler[j]) { accler[j].setAttribute("aria-expanded", acik ? "true" : "false"); }
+      }
+      if (odakla) { sekmeler[i].focus(); }
+    }
+
+    function tusla(ev) {
+      var i = parseInt(ev.currentTarget.getAttribute("data-hs-i"), 10);
+      var k = ev.key;
+      var ileri = yatay ? (rtlMi() ? "ArrowLeft" : "ArrowRight") : "ArrowDown";
+      var geri = yatay ? (rtlMi() ? "ArrowRight" : "ArrowLeft") : "ArrowUp";
+      var hedef = -1;
+      if (k === ileri) { hedef = (i + 1) % n; }
+      else if (k === geri) { hedef = (i - 1 + n) % n; }
+      else if (k === "Home") { hedef = 0; }
+      else if (k === "End") { hedef = n - 1; }
+      if (hedef !== -1) { ev.preventDefault(); sec(hedef, true); }
+    }
+
+    var i;
+    for (i = 0; i < n; i++) {
+      sekmeler[i].setAttribute("data-hs-i", String(i));
+      sekmeler[i].addEventListener("click", function (ev) { sec(parseInt(ev.currentTarget.getAttribute("data-hs-i"), 10), false); });
+      sekmeler[i].addEventListener("keydown", tusla);
+      if (accler[i]) {
+        accler[i].setAttribute("data-hs-i", String(i));
+        accler[i].addEventListener("click", function (ev) {
+          var idx = parseInt(ev.currentTarget.getAttribute("data-hs-i"), 10);
+          var acikMi = ev.currentTarget.getAttribute("aria-expanded") === "true";
+          if (acikMi) {
+            
+            paneller[idx].className = paneller[idx].className.replace(/\s*b0000-hs-on\b/g, "");
+            ev.currentTarget.setAttribute("aria-expanded", "false");
+          } else { sec(idx, false); }
+        });
+      }
+    }
+    sec(0, false);
+  })();
+</script>
+<section class="b0001-sa b0001-sa-dikey" id="sa-nopq7k" style="--sa-n:4">
+  <div class="b0001-sa-wrap">
+    <header class="b0001-sa-head"><p class="b0001-sa-eyebrow">Dinleyici</p><h2 class="b0001-sa-title">Dinleyiciden yayına</h2><p class="b0001-sa-desc">İstek ve ileti süreci.</p></header>
+    <ol class="b0001-sa-list" aria-label="Süreç adımları"><li class="b0001-sa-step"><span class="b0001-sa-no" aria-hidden="true">1</span><div class="b0001-sa-govde"><span class="b0001-sa-etiket">Adım 1</span><h3 class="b0001-sa-h">İstek gönderin</h3><p class="b0001-sa-p">Telefon ya da e-posta ile şarkı isteğinizi iletin.</p></div><span class="b0001-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0001-sa-step"><span class="b0001-sa-no" aria-hidden="true">2</span><div class="b0001-sa-govde"><span class="b0001-sa-etiket">Adım 2</span><h3 class="b0001-sa-h">Programcı seçer</h3><p class="b0001-sa-p">İstekler program akışına göre değerlendirilir.</p></div><span class="b0001-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0001-sa-step"><span class="b0001-sa-no" aria-hidden="true">3</span><div class="b0001-sa-govde"><span class="b0001-sa-etiket">Adım 3</span><h3 class="b0001-sa-h">Lisanslı yayın</h3><p class="b0001-sa-p">Müzik, lisanslar kapsamında yayına alınır.</p></div><span class="b0001-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0001-sa-step"><span class="b0001-sa-no" aria-hidden="true">4</span><div class="b0001-sa-govde"><span class="b0001-sa-etiket">Adım 4</span><h3 class="b0001-sa-h">Geri bildirim</h3><p class="b0001-sa-p">Görüşleriniz izleyici temsilcisine iletilebilir.</p></div><span class="b0001-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li></ol>
+  </div>
+</section>
+
+
+
+<script>
+  
+  (function () {
+    var kok = document.getElementById("sa-nopq7k");
+    if (!kok || kok.getAttribute("data-sa-hazir") === "1") { return; }
+    kok.setAttribute("data-sa-hazir", "1");
+    if (!("IntersectionObserver" in window)) { return; }
+    var adimlar = kok.querySelectorAll(".b0001-sa-step");
+    var n = adimlar.length;
+    if (!n) { return; }
+    var gorunen = [];
+    var i;
+    for (i = 0; i < n; i++) { gorunen.push(false); }
+    function uygula() {
+      var son = -1;
+      var j;
+      for (j = 0; j < n; j++) { if (gorunen[j]) { son = j; } }
+      for (j = 0; j < n; j++) {
+        var c = adimlar[j].className.replace(/\s*b0001-sa-(aktif|gecti)\b/g, "");
+        if (son >= 0 && j < son) { c += " b0001-sa-gecti"; }
+        else if (j === son) { c += " b0001-sa-aktif"; }
+        adimlar[j].className = c;
+      }
+    }
+    var io = new IntersectionObserver(function (girdiler) {
+      var j;
+      for (j = 0; j < girdiler.length; j++) {
+        gorunen[parseInt(girdiler[j].target.getAttribute("data-sa-i"), 10)] = girdiler[j].isIntersecting;
+      }
+      uygula();
+    }, { threshold: 0.5 });
+    for (i = 0; i < n; i++) { adimlar[i].setAttribute("data-sa-i", String(i)); io.observe(adimlar[i]); }
+  })();
+</script>
+<section class="b0002-c3 b0002-c3-gradient" id="c3-z84ptx">
+  <div class="b0002-c3-wrap">
+    <div class="b0002-c3-kutu">
+      <span class="b0002-c3-daire b0002-c3-daire-1" aria-hidden="true"></span>
+      <span class="b0002-c3-daire b0002-c3-daire-2" aria-hidden="true"></span>
+      <span class="b0002-c3-daire b0002-c3-daire-3" aria-hidden="true"></span>
+      <div class="b0002-c3-icerik">
+        <h2 class="b0002-c3-title">Radyomuzda reklam vermek ister misiniz?</h2>
+        <p class="b0002-c3-text">Yayın akışına uygun reklam paketi için talep gönderin.</p>
+        <div class="b0002-c3-btns"><a class="b0002-c3-btn b0002-c3-btn-1" href="/tr/reklam/"><span>Reklam talebi</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a><a class="b0002-c3-btn b0002-c3-btn-2" href="/tr/kunye/">Künye</a></div>
+      </div>
+      <div class="b0002-c3-yan"><div class="b0002-c3-kart"><div class="b0002-c3-kart-bas"><span class="b0002-c3-wa-ikon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4 5.3 5.3 0 0 0 3.2.7 2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></span><p class="b0002-c3-kart-title">Hemen ulaşın</p></div><a class="b0002-c3-num" href="tel:+903420000000"><bdi dir="ltr">+90 342 000 00 00</bdi></a><p class="b0002-c3-saat"><span class="material-symbols-outlined" aria-hidden="true">schedule</span><span><span class="b0002-c3-saat-etiket">Çalışma saatleri:</span> Yayın 7/24 (kurgusal) · Stüdyo hattı hafta içi 10:00 – 18:00</span></p><a class="b0002-c3-wa" href="https://wa.me/903420000000?text=Merhaba%2C%20demo%20siteniz%20%C3%BCzerinden%20ula%C5%9F%C4%B1yorum." target="_blank" rel="noopener"><span class="b0002-c3-wa-ikon b0002-c3-wa-ikon-kucuk" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4 5.3 5.3 0 0 0 3.2.7 2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></span><span>WhatsApp&#39;tan yazın</span></a></div></div>
+    </div>
+  </div>
+</section>
+
+
+</div>
+  <div id="footer"><footer class="f0000-f9" role="contentinfo">
+  <div class="f0000-f9__main f0000-f9__main--c3">
+    <div class="f0000-f9__col f0000-f9__brand">
+      <a href="/tr/" class="f0000-f9__logo" aria-label="Anasayfa - Gece Frekansı">
+        <img src="/img/logo.png" alt="Gece Frekansı Logo" loading="lazy" />
+      </a>
+      <p class="f0000-f9__about">Gece Frekansı: yayın akışı, programlar ve reklam talebi; künye ve lisans bilgileri açık. (Demo site — ses yayını yoktur)</p>
+    </div>
+    <nav class="f0000-f9__col f0000-f9__pages" aria-label="Navigasyon">
+      <h3 class="f0000-f9__title">Sayfalar</h3>
+      <ul class="f0000-f9__list">
+        <li><a class="f0000-f9__link" href="/tr/">Anasayfa</a></li><li><a class="f0000-f9__link" href="/tr/programlar/">Programlar</a></li><li><a class="f0000-f9__link" href="/tr/yayin-akisi/">Yayın Akışı</a></li><li><a class="f0000-f9__link" href="/tr/reklam/">Reklam</a></li><li><a class="f0000-f9__link" href="/tr/kunye/">Künye</a></li><li><a class="f0000-f9__link" href="/tr/galeri/">Galeri</a></li><li><a class="f0000-f9__link" href="/tr/iletisim/">İletişim</a></li>
+      </ul>
+    </nav>
+    <div class="f0000-f9__col f0000-f9__contact"><h3 class="f0000-f9__title">İletişim</h3><ul class="f0000-f9__list"><li><span class="material-symbols-outlined" aria-hidden="true">location_on</span><span>Medya Sk. No: 8 Kat: 2, Şahinbey, Gaziantep (kurgusal adres)</span></li><li><span class="material-symbols-outlined" aria-hidden="true">call</span><a class="f0000-f9__link" href="tel:+903420000000" dir="ltr">+90 342 000 00 00</a></li><li><span class="material-symbols-outlined" aria-hidden="true">mail</span><a class="f0000-f9__link" href="mailto:studyo@gecefrekansi.example">studyo@gecefrekansi.example</a></li></ul></div>
+    
+  </div>
+  <div class="f0000-f9__bottom">
+    <p class="f0000-f9__rights">&copy; 2026 Gece Frekansı. Tüm hakları saklıdır.</p>
+    <ul class="f0000-f9__legal"><li><a class="f0000-f9__link" href="/tr/gizlilikpolitikasi/">Gizlilik Politikası</a></li><li><a class="f0000-f9__link" href="/tr/kisiselveriler/">Kişisel Veriler</a></li><li><a class="f0000-f9__link" href="/tr/kullanicahaklari/">Kullanıcı Hakları</a></li><li><a class="f0000-f9__link" href="/tr/yasaluyari/">Yasal Uyarı</a></li></ul>
+    <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/programlar/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/programlar/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/programlar/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+  </div>
+</footer>
+
+<div class="f0001-dk" role="contentinfo" aria-label="Demo bilgisi">
+  <p class="f0001-dk-text">Bu demo <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> tarafından hazırlanmıştır — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#radyo-3" target="_blank" rel="noopener noreferrer"><span>Bu temayı iste</span><span class="mx-visually-hidden"> (yeni sekmede açılır)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
+</div>
+
+<nav class="wm-yasal" aria-label="Kurumsal ve Yasal" style="box-sizing:border-box;width:100%;max-width:100%;padding:12px 16px;background:var(--mx-site-bg, #0C1218);color:var(--mx-site-text, #f3f4f6);display:flex;flex-wrap:wrap;gap:4px 16px;align-items:center;justify-content:center;text-align:center;overflow-wrap:anywhere"><strong style="color:var(--mx-site-text, #f3f4f6)">Kurumsal ve Yasal</strong><a href="/tr/hakkimizda/" style="color:var(--mx-site-text, #f3f4f6);padding:6px 0;text-decoration:underline;min-width:0">Hakkımızda</a><a href="/tr/misyon/" style="color:var(--mx-site-text, #f3f4f6);padding:6px 0;text-decoration:underline;min-width:0">Misyon</a><a href="/tr/vizyon/" style="color:var(--mx-site-text, #f3f4f6);padding:6px 0;text-decoration:underline;min-width:0">Vizyon</a><a href="/tr/kalitepolitikamiz/" style="color:var(--mx-site-text, #f3f4f6);padding:6px 0;text-decoration:underline;min-width:0">Kalite Politikamız</a></nav></div>
+
+  
+
+  <script defer src="/src/swiper-bundle.min.js"></script>
+  <script defer src="/src/mx-ui.js?v=osqum"></script>
+  <script defer src="/src/mx-store.js?v=osqum"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=osqum"></script>
+  <script defer src="/src/cookie.js?v=osqum"></script>
+
+</body>
+
+</html>

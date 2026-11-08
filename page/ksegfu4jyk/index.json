@@ -1,0 +1,43 @@
+{
+  "id": "ksegfu4jyk",
+  "name": {
+    "tr": "Künye",
+    "en": "Masthead",
+    "ar": "بيانات الإدارة"
+  },
+  "description": {
+    "tr": "Künye, RTÜK lisansı ve müzik lisansı bilgisi.",
+    "en": "Masthead, RTÜK licence and music licence information.",
+    "ar": "بيانات الإدارة وترخيص RTÜK وترخيص الموسيقى."
+  },
+  "keyword": {
+    "tr": "künye, lisans",
+    "en": "masthead, licence",
+    "ar": "بيانات الإدارة، ترخيص"
+  },
+  "path": "kunye",
+  "icon": "badge",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "oguvwz"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "text": {
+    "tr": "<h2>Künye ve lisans bilgileri</h2><p>Gece Frekansı, bu demo sitede kurgusal bir yerel radyodur. Aşağıdaki bilgiler örnektir (DEMO).</p><ul><li>RTÜK yayın lisansı: DEMO-RT-0000</li><li>Sorumlu müdür: Selim Aksoy (kurgusal)</li><li>Yer sağlayıcı: Demo Barındırma Hizmetleri (kurgusal)</li><li>Elektronik tebligat adresi: gecefrekansi@hs01.kep.tr (kurgusal)</li></ul><p>Müzik yayınları MESAM ve MSG lisansları kapsamında yapılır; podcast ve arşiv için ayrı lisans gerekir.</p><p><em>Bu sitede ses yayını yoktur; demodur.</em></p>",
+    "en": "<h2>Masthead and licence information</h2><p>On this demo site Gece Frekansı is a fictional local radio station. The details below are samples (DEMO).</p><ul><li>RTÜK broadcast licence: DEMO-RT-0000</li><li>Editor in charge: Selim Aksoy (fictional)</li><li>Hosting provider: Demo Hosting Services (fictional)</li><li>Electronic notification address: gecefrekansi@hs01.kep.tr (fictional)</li></ul><p>Music is broadcast under MESAM and MSG licences; podcasts and archives need a separate licence.</p><p><em>There is no audio stream on this site; it is a demo.</em></p>",
+    "ar": "<h2>بيانات الإدارة والترخيص</h2><p>تُعدّ «غيجه فريكانسي» في هذا الموقع التجريبي إذاعة محلية افتراضية. البيانات أدناه أمثلة (DEMO).</p><ul><li>ترخيص البث من RTÜK: DEMO-RT-0000</li><li>المدير المسؤول: سليم أقصوي (افتراضي)</li><li>مزوّد الاستضافة: خدمات استضافة تجريبية (افتراضي)</li><li>عنوان التبليغ الإلكتروني: gecefrekansi@hs01.kep.tr (افتراضي)</li></ul><p>تُبَثّ الموسيقى بموجب تراخيص MESAM وMSG، ويلزم ترخيص منفصل للبودكاست والأرشيف.</p><p><em>لا يوجد بث صوتي في هذا الموقع؛ فهو تجريبي.</em></p>"
+  },
+  "title": {
+    "tr": "Künye",
+    "en": "Masthead",
+    "ar": "بيانات الإدارة"
+  },
+  "date": "2026-10-31T14:51:53.525Z",
+  "update": "2026-11-05T19:39:08.220Z"
+}

@@ -1,0 +1,3779 @@
+{
+  "data": [
+    {
+      "index": 0,
+      "name": "Menu",
+      "path": "menu-2",
+      "local": "header",
+      "category": "menu",
+      "id": "t5mn01",
+      "desing": {
+        "bgcolor": "#000000",
+        "color": "#F5F5F5",
+        "activebgcolor": "#C4A035",
+        "activecolor": "#000000",
+        "height": "100px",
+        "ariaToggle": {
+          "tr": "Menüyü aç/kapat",
+          "en": "Toggle menu",
+          "ar": "تبديل القائمة"
+        },
+        "ariaClose": {
+          "tr": "Menüyü kapat",
+          "en": "Close menu"
+        },
+        "logobg": "transparent",
+        "logoborder": "none",
+        "logoradius": "0",
+        "logopad": "0",
+        "logopadmobil": "0",
+        "logomaxh": "100px",
+        "logoimg": "",
+        "langcolor": "currentColor",
+        "langbg": "transparent",
+        "tekSatir": ""
+      },
+      "version": "1.0.0",
+      "icon": "menu"
+    },
+    {
+      "name": "Slider",
+      "path": "slider",
+      "local": "header",
+      "category": "slider",
+      "id": "t5sl01",
+      "data": [
+        {
+          "img": "1.jpg"
+        },
+        {
+          "img": "2.jpg"
+        },
+        {
+          "img": "3.jpg"
+        }
+      ],
+      "desing": {
+        "delay": 3500,
+        "margin": "0px 0 0 0"
+      },
+      "version": "1.0.0",
+      "icon": "view_carousel",
+      "index": 1
+    },
+    {
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "id": "t5ct01",
+      "desing": {
+        "color": "#C4A035",
+        "name": {
+          "tr": "Bize Ulaşın"
+        },
+        "margin": "30px 0px 30px 0px",
+        "stil": "",
+        "linkcolor": "#1B3A6B"
+      },
+      "data": [
+        {
+          "icon": "phone",
+          "text": "0530 000 00 00",
+          "url": "tel:05300000000"
+        },
+        {
+          "icon": "email",
+          "text": "info@{{domain}}"
+        },
+        {
+          "icon": "map",
+          "text": "Adres Bilgisi Henüz eklenmedi Şehitkamil / Gaziantep"
+        }
+      ],
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "index": 2
+    },
+    {
+      "name": "Maps",
+      "path": "map",
+      "local": "body",
+      "category": "map",
+      "id": "t5mp01",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "backgroundcolor": "#ffffff",
+        "color": "#C4A035",
+        "img": "map.png",
+        "externalUrl": "",
+        "stil": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "badgeText": {
+          "tr": "Konumumuz",
+          "en": "Our Location",
+          "ar": "موقعنا"
+        },
+        "infoTitle": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "اتصل بنا"
+        },
+        "directions": {
+          "tr": "Yol tarifi al",
+          "en": "Get directions",
+          "ar": "احصل على الاتجاهات"
+        }
+      },
+      "version": "1.0.0",
+      "icon": "map",
+      "index": 3
+    },
+    {
+      "index": 4,
+      "name": "Page Desing",
+      "path": "page-desing-sade",
+      "local": "body",
+      "category": "page",
+      "id": "t5pd01",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "32",
+        "backgroundcolor": "#000",
+        "menu-active": "#C4A035",
+        "category": "page",
+        "textcolor": "#ffffff",
+        "activetext": "#ffffff"
+      },
+      "version": "1.0.0",
+      "icon": "web"
+    },
+    {
+      "name": "Footer 1",
+      "path": "footer-1",
+      "local": "footer",
+      "category": "footer",
+      "id": "t5ft01",
+      "desing": {
+        "bgcolor": "#000000",
+        "color": "#F5F5F5",
+        "img": "",
+        "imgwidth": "250px",
+        "stil": "",
+        "showlang": true,
+        "showsocial": true,
+        "social": [],
+        "langcolor": ""
+      },
+      "data": [],
+      "version": "1.0.0",
+      "icon": "web_asset",
+      "index": 5
+    },
+    {
+      "id": "t5hr01",
+      "name": "Hero",
+      "path": "hero-1",
+      "local": "body",
+      "category": "hero",
+      "version": "1.1.0",
+      "icon": "hero",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, #000000 0%, #000000cc 50%, #000000 100%)",
+        "overlay": "linear-gradient(135deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.82) 100%)",
+        "title_accent": "linear-gradient(135deg, #C4A035, #C4A035)",
+        "btn_primary_bg": "#C4A035",
+        "btn_primary_color": "#111111",
+        "stat_accent": "#C4A035",
+        "shape1": "linear-gradient(135deg, rgba(196, 160, 53, 0.4), rgba(196, 160, 53, 0.12))",
+        "shape2": "linear-gradient(135deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.25))",
+        "shape3": "linear-gradient(135deg, rgba(255,255,255,0.14), rgba(255,255,255,0.04))",
+        "title": {
+          "tr": "Kurumsal Çözümlerle Yanınızdayız",
+          "en": "Corporate Solutions"
+        },
+        "description": {
+          "tr": "Profesyonel ekibimizle markanıza özel hizmetler sunuyoruz.",
+          "en": "Tailored services for your brand."
+        },
+        "badge": {
+          "tr": "Güvenilir Partner",
+          "en": "Trusted Partner"
+        },
+        "image": "",
+        "alt": {
+          "tr": "Hero",
+          "en": "Hero"
+        },
+        "btn1": {
+          "tr": "Keşfet",
+          "en": "Explore"
+        },
+        "btn1_url": "urunler",
+        "btn2": {
+          "tr": "İletişim",
+          "en": "Contact"
+        },
+        "btn2_url": "iletisim",
+        "stats": "150+|Proje|50+|Müşteri|10+|Yıl",
+        "stil": ""
+      },
+      "index": 6
+    },
+    {
+      "id": "t5ls01",
+      "name": "Ana Sayfa Liste",
+      "path": "page-list",
+      "local": "body",
+      "category": "page-list",
+      "version": "1.0.0",
+      "icon": "grid_view",
+      "desing": {
+        "page": "page",
+        "size": 4,
+        "category": "",
+        "aspect-ratio": "1 / 1",
+        "eyebrow": {
+          "tr": "",
+          "en": ""
+        },
+        "sectionTitle": {
+          "tr": "",
+          "en": ""
+        },
+        "sectionSubtitle": {
+          "tr": "",
+          "en": ""
+        },
+        "ctaLabel": {
+          "tr": "",
+          "en": ""
+        },
+        "showAllProducts": false,
+        "margin": "20px 0px 20px 0px",
+        "bgcolor": "transparent",
+        "cardbg": "#ffffff",
+        "titlecolor": "#111827",
+        "textcolor": "#4b5563",
+        "bordercolor": "rgba(17, 24, 39, 0.1)",
+        "radius": "14px",
+        "accent": "#1e3a5f"
+      },
+      "index": 7
+    },
+    {
+      "id": "t5st01",
+      "name": "İstatistik",
+      "path": "stats-1",
+      "local": "body",
+      "category": "stats",
+      "version": "1.0.0",
+      "icon": "monitoring",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, #000000 0%, #000000dd 100%)",
+        "numbercolor": "#C4A035",
+        "labelcolor": "#e2e8f0",
+        "stil": "",
+        "iconsize": "56px",
+        "iconbox": "88px"
+      },
+      "data": [
+        {
+          "number": 150,
+          "suffix": "+",
+          "label": {
+            "tr": "Tamamlanan Proje",
+            "en": "Projects"
+          },
+          "icon": "task_alt"
+        },
+        {
+          "number": 50,
+          "suffix": "+",
+          "label": {
+            "tr": "Mutlu Müşteri",
+            "en": "Clients"
+          },
+          "icon": "sentiment_satisfied"
+        },
+        {
+          "number": 10,
+          "suffix": "+",
+          "label": {
+            "tr": "Yıllik Deneyim",
+            "en": "Years"
+          },
+          "icon": "workspace_premium"
+        },
+        {
+          "number": 24,
+          "suffix": "/7",
+          "label": {
+            "tr": "Destek",
+            "en": "Support"
+          },
+          "icon": "support_agent"
+        }
+      ],
+      "index": 8
+    },
+    {
+      "id": "t5ca01",
+      "name": "CTA",
+      "path": "cta-1",
+      "local": "body",
+      "category": "cta",
+      "version": "1.1.0",
+      "icon": "campaign",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, #000000 0%, #000000ee 100%)",
+        "btnbg": "#C4A035",
+        "btncolor": "#111111",
+        "title": {
+          "tr": "Projenizi Birlikte Hayata Geçirelim",
+          "en": "Let's Build Together"
+        },
+        "description": {
+          "tr": "Ücretsiz keşif görüşmesi icin hemen iletisime geçin.",
+          "en": "Contact us for a free discovery call."
+        },
+        "btn1Text": {
+          "tr": "İletişime Gec",
+          "en": "Contact"
+        },
+        "btn1Url": "iletisim",
+        "btn2Text": {
+          "tr": "Ürünler",
+          "en": "Products"
+        },
+        "btn2Url": "urunler",
+        "stil": ""
+      },
+      "index": 9
+    },
+    {
+      "id": "t5plpr",
+      "name": "Ürünler Liste",
+      "path": "page-list",
+      "local": "body",
+      "category": "page-list",
+      "version": "1.0.0",
+      "icon": "grid_view",
+      "desing": {
+        "page": "products",
+        "size": 4,
+        "category": "",
+        "aspect-ratio": "1 / 1",
+        "eyebrow": {
+          "tr": "",
+          "en": ""
+        },
+        "sectionTitle": {
+          "tr": "",
+          "en": ""
+        },
+        "sectionSubtitle": {
+          "tr": "",
+          "en": ""
+        },
+        "ctaLabel": {
+          "tr": "",
+          "en": ""
+        },
+        "showAllProducts": false,
+        "margin": "20px 0px 20px 0px",
+        "bgcolor": "transparent",
+        "cardbg": "#ffffff",
+        "titlecolor": "#111827",
+        "textcolor": "#4b5563",
+        "bordercolor": "rgba(17, 24, 39, 0.1)",
+        "radius": "14px",
+        "accent": "#1e3a5f"
+      },
+      "index": 10
+    },
+    {
+      "id": "t5in01",
+      "name": "Tanitim",
+      "path": "module-1",
+      "local": "body",
+      "category": "module",
+      "version": "1.1.0",
+      "icon": "business",
+      "index": 11,
+      "desing": {
+        "name": {
+          "tr": "Bizi Tanıyın",
+          "en": "About Us"
+        },
+        "description": {
+          "tr": "Yılların deneyimi ve uzman kadromuzla kurumsal çözümler sunuyoruz.",
+          "en": "Corporate solutions with experience and expertise."
+        },
+        "name2": {
+          "tr": "Vizyonumuz",
+          "en": "Vision"
+        },
+        "spot2": {
+          "tr": "Sektörümüzde yenilikçi yaklaşımlarla öncü olmak.",
+          "en": "Lead with innovation."
+        },
+        "icon2": "visibility",
+        "name3": {
+          "tr": "Misyonumuz",
+          "en": "Mission"
+        },
+        "spot3": {
+          "tr": "İhtiyaç duyulan çözümleri hızlı ve şeffaf sunmak.",
+          "en": "Deliver solutions fast and clearly."
+        },
+        "icon3": "flag",
+        "img": "index.jpg",
+        "bgcolor": "#000000",
+        "fontcolor": "#fff",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Kurumsal",
+          "en": "Corporate"
+        },
+        "stil": ""
+      }
+    },
+    {
+      "name": "Demo Kredi Şeridi",
+      "description": "Demo sitelerin alt bilgisinde duran kredi şeridi: «Bu demo Webyapar tarafından hazırlanmıştır — Bu temayı iste». Marka adı çevrilmez (Latin, dir=ltr izole), bağlantı demo adına göre webyapar.com/temalar#<slug>. Üç dil (TR/EN/AR), mantıksal CSS (RTL), mobilde sarar, reduced-motion'a saygılı.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "demo",
+      "tags": [
+        "demo",
+        "footer",
+        "kredi",
+        "rtl"
+      ],
+      "desing": {
+        "href": "https://webyapar.com/temalar#radyo-3",
+        "brand": "Webyapar",
+        "text": {
+          "tr": "Bu demo {brand} tarafından hazırlanmıştır —",
+          "en": "This demo was prepared by {brand} —",
+          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "ariaLabel": {
+          "tr": "Demo bilgisi",
+          "en": "Demo credit",
+          "ar": "معلومات العرض التجريبي"
+        }
+      },
+      "id": "1tgc82",
+      "path": "demo-kredi",
+      "local": "footer",
+      "data": [],
+      "index": 12
+    },
+    {
+      "name": "Demo Bandı",
+      "description": "Demo sitelerin her sayfasının üstünde duran, kapatılamaz bilgi şeridi: «Bu bir demo sitedir» uyarısı ve «Bu temayı iste» bağlantısı. Sayfanın en üstüne yapışır (position:sticky), sabit menüleri bant yüksekliği kadar aşağı iter (--mx-demo-bandi-h). Üç dil (TR/EN/AR), Arapçada RTL, mobilde iki satıra sarar.",
+      "version": "1.0.0",
+      "icon": "info",
+      "category": "demo",
+      "tags": [
+        "demo",
+        "bant",
+        "uyarı",
+        "banner",
+        "rtl"
+      ],
+      "desing": {
+        "tone": "info",
+        "bandBg": "",
+        "bandFg": "",
+        "ctaHref": "https://webyapar.com/temalar#radyo-3",
+        "ariaLabel": {
+          "tr": "Demo site uyarısı",
+          "en": "Demo site notice",
+          "ar": "تنبيه الموقع التجريبي"
+        },
+        "text": {
+          "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
+          "en": "This is a demo site — the content is fictional and no payment is taken",
+          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        }
+      },
+      "id": "bf0y26",
+      "path": "demo-bandi",
+      "local": "header",
+      "data": [],
+      "index": 13
+    },
+    {
+      "name": {
+        "tr": "Menü 10 — Şeffaf overlay",
+        "en": "Menu 10 — Transparent overlay",
+        "ar": "القائمة 10 — شفافة فوق الهيرو"
+      },
+      "description": {
+        "tr": "Hero'nun üstüne binen şeffaf menü (position:absolute): başlangıçta şeffaf zemin + açık yazı (menutextOverlay) ve altında ince koyu gradient scrim; kaydırınca 300 ms'de katı zemine (menubg/menutext) geçer ve sabitlenir. Sayfada hero yoksa (#content ilk çocuğu data-mx-hero / *-hero değilse) baştan katı ve akışta. Mobil: tam ekran panel. desing.stil: sade | cta-butonlu (sağda vurgulu düğme). Dil seçici {{langbar}}. Üç dil + RTL.",
+        "en": "Transparent menu overlaid on the hero (position:absolute): transparent background + light text (menutextOverlay) with a thin dark gradient scrim underneath; on scroll it switches to a solid background (menubg/menutext) in 300 ms and sticks. Without a hero on the page (#content first child lacks data-mx-hero / *-hero) it starts solid and in flow. Mobile: full-screen panel. desing.stil: sade | cta-butonlu (accent button on the end side). Language switcher {{langbar}}. Three languages + RTL.",
+        "ar": "قائمة شفافة فوق الهيرو (position:absolute): خلفية شفافة ونص فاتح (menutextOverlay) مع تدرّج داكن رفيع أسفلها؛ عند التمرير تتحوّل خلال 300 ms إلى خلفية صلبة (menubg/menutext) وتثبت. إن لم توجد وحدة هيرو في الصفحة (أول عنصر في #content بلا data-mx-hero / *-hero) تبدأ صلبة وضمن التدفق. الجوال: لوحة بملء الشاشة. desing.stil: sade | cta-butonlu (زر بارز في جهة النهاية). محدد اللغة {{langbar}}. ثلاث لغات + RTL."
+      },
+      "version": "1.0.0",
+      "icon": "layers",
+      "category": "menu",
+      "tags": [
+        "menu",
+        "overlay",
+        "seffaf",
+        "transparent",
+        "hero",
+        "sticky",
+        "ar"
+      ],
+      "desing": {
+        "stil": "cta-butonlu",
+        "logo": "{{logo}}",
+        "logo_acik": "logo-acik.svg",
+        "logo_h": "48px",
+        "max": "1200px",
+        "showlang": true,
+        "menubg": "var(--mx-site-bg, #ffffff)",
+        "menutext": "var(--mx-site-text, #1b1b1b)",
+        "menutextOverlay": "#ffffff",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "cta": {
+          "tr": "Yayın akışı",
+          "en": "Schedule",
+          "ar": "جدول البث"
+        },
+        "cta_url": "yayin-akisi"
+      },
+      "data": [],
+      "id": "iu6hrr",
+      "path": "menu-10",
+      "local": "header",
+      "index": 14
+    },
+    {
+      "name": {
+        "tr": "Slider Ken Burns",
+        "en": "Ken Burns Slider",
+        "ar": "سلايدر كين بيرنز"
+      },
+      "description": {
+        "tr": "Sıfır bağımlılıklı tam genişlik slider (Swiper yok): görsel yavaş yakınlaşma/kayma (CSS keyframes 10 sn, reduced-motion'da kapalı), her slaytta eyebrow + h2 + metin + CTA ve metin giriş animasyonu; nokta + ok navigasyon, klavye ←/→, dokunma kaydırma, otomatik oynatma durdur/başlat düğmesi (hover/odakta duraklar, reduced-motion'da kapalı). data[] = [{img, alt{}, eyebrow{}, title{}, text{}, cta{}, url}]. desing.stil: tam | kart (içerik yarı saydam kartta) | bolunmus (görsel bitiş tarafında, metin düz zeminde). Yükseklik desing.yukseklik (vh, min 420px). Üç dil + RTL.",
+        "en": "Zero-dependency full-width slider (no Swiper): slow image zoom/pan (CSS keyframes 10 s, off under reduced-motion), eyebrow + h2 + text + CTA per slide with text entrance animation; dot + arrow navigation, keyboard ←/→, touch swipe, autoplay pause/play button (pauses on hover/focus, off under reduced-motion). data[] = [{img, alt{}, eyebrow{}, title{}, text{}, cta{}, url}]. desing.stil: tam | kart (content in a translucent card) | bolunmus (image on the end side, text on a solid background). Height desing.yukseklik (vh, min 420px). Three languages + RTL.",
+        "ar": "سلايدر بعرض كامل بدون أي تبعيات (بلا Swiper): تقريب/تحريك بطيء للصورة (CSS keyframes 10 ث، يتوقف عند تقليل الحركة)، في كل شريحة تسمية + h2 + نص + زر مع حركة دخول للنص؛ تنقّل بالنقاط والأسهم، لوحة المفاتيح ←/→، سحب باللمس، زر إيقاف/تشغيل التشغيل التلقائي (يتوقف عند التحويم/التركيز، ومعطّل عند تقليل الحركة). data[] = [{img, alt{}, eyebrow{}, title{}, text{}, cta{}, url}]. desing.stil: tam | kart (المحتوى في بطاقة شبه شفافة) | bolunmus (الصورة في جهة النهاية والنص على خلفية صلبة). الارتفاع desing.yukseklik (vh، الحد الأدنى 420px). ثلاث لغات + RTL."
+      },
+      "version": "1.0.0",
+      "icon": "slideshow",
+      "category": "slider",
+      "tags": [
+        "slider",
+        "kenburns",
+        "ken-burns",
+        "karusel",
+        "hero",
+        "sifir-bagimlilik",
+        "ar"
+      ],
+      "desing": {
+        "stil": "kart",
+        "yukseklik": 76,
+        "sure": 6500,
+        "otomatik": true,
+        "max": "1200px",
+        "overlay": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 25%, #0b1220)",
+        "overlayText": "#ffffff",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "text": "var(--mx-site-text, #1b1b1b)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "radius": "16px",
+        "aria_label": {
+          "tr": "Tanıtım slaytları",
+          "en": "Featured slides",
+          "ar": "شرائح تعريفية"
+        },
+        "prev_label": {
+          "tr": "Önceki slayt",
+          "en": "Previous slide",
+          "ar": "الشريحة السابقة"
+        },
+        "next_label": {
+          "tr": "Sonraki slayt",
+          "en": "Next slide",
+          "ar": "الشريحة التالية"
+        },
+        "dot_label": {
+          "tr": "{n}. slayta git",
+          "en": "Go to slide {n}",
+          "ar": "الانتقال إلى الشريحة {n}"
+        },
+        "pause_label": {
+          "tr": "Otomatik oynatmayı durdur",
+          "en": "Pause autoplay",
+          "ar": "إيقاف التشغيل التلقائي"
+        },
+        "play_label": {
+          "tr": "Otomatik oynatmayı başlat",
+          "en": "Start autoplay",
+          "ar": "بدء التشغيل التلقائي"
+        },
+        "slide_label": {
+          "tr": "{i} / {n}",
+          "en": "{i} of {n}",
+          "ar": "{i} من {n}"
+        }
+      },
+      "data": [
+        {
+          "img": "radyo-anten.webp",
+          "alt": {
+            "tr": "Tepede verici anteni",
+            "en": "A transmitter antenna on a hill",
+            "ar": "هوائي إرسال على تلة"
+          },
+          "eyebrow": {
+            "tr": "Gece yayını · dinleyici istekleri",
+            "en": "Night broadcast · listener requests",
+            "ar": "بث ليلي · طلبات المستمعين"
+          },
+          "title": {
+            "tr": "Şehir uyurken frekans açık",
+            "en": "The frequency stays on while the city sleeps",
+            "ar": "التردد مفتوح بينما تنام المدينة"
+          },
+          "text": {
+            "tr": "Gece Frekansı; akşam seçkisi, gece sohbeti ve saat başı haberle yayın yapan kurgusal bir demo radyodur. Künye, RTÜK lisansı ve müzik lisansları sitede açıkça yazılıdır; bu demoda ses yayını yoktur.",
+            "en": "Gece Frekansi is a fictional demo radio with an evening selection, late-night talk and news on the hour. The masthead, RTÜK licence and music licences are stated on the site; there is no audio stream in this demo.",
+            "ar": "غيجه فريكانسي إذاعة تجريبية افتراضية تبث مختارات المساء وحديث الليل والأخبار كل ساعة. بيانات الإدارة وترخيص RTÜK وتراخيص الموسيقى مذكورة في الموقع؛ ولا يوجد بث صوتي في هذا العرض."
+          },
+          "cta": {
+            "tr": "Yayın akışı",
+            "en": "Schedule",
+            "ar": "جدول البث"
+          },
+          "url": "yayin-akisi"
+        },
+        {
+          "img": "radyo-kulaklik.webp",
+          "alt": {
+            "tr": "Mikser üzerinde stüdyo kulaklığı",
+            "en": "Studio headphones on a mixing desk",
+            "ar": "سماعات استوديو على مازج"
+          },
+          "eyebrow": {
+            "tr": "Programlar",
+            "en": "Programmes",
+            "ar": "البرامج"
+          },
+          "title": {
+            "tr": "Günaydın Frekans",
+            "en": "Good Morning Frequency",
+            "ar": "صباح الخير فريكانس"
+          },
+          "text": {
+            "tr": "Sabah 06:00 – 10:00: müzik, trafik ve yerel gündem.",
+            "en": "Mornings 06:00 – 10:00: music, traffic and local news.",
+            "ar": "صباحًا 06:00 – 10:00: موسيقى ومرور وأخبار محلية."
+          },
+          "cta": {
+            "tr": "Programlar",
+            "en": "Programmes",
+            "ar": "البرامج"
+          },
+          "url": "programlar"
+        },
+        {
+          "img": "radyo-mikser.webp",
+          "alt": {
+            "tr": "Işıklı yayın mikseri",
+            "en": "A lit broadcast mixing desk",
+            "ar": "مازج بث مضاء"
+          },
+          "eyebrow": {
+            "tr": "Programlar",
+            "en": "Programmes",
+            "ar": "البرامج"
+          },
+          "title": {
+            "tr": "Gün Ortası Seçkisi",
+            "en": "Midday Mix",
+            "ar": "مختارات منتصف النهار"
+          },
+          "text": {
+            "tr": "10:00 – 14:00: türkçe ve yabancı pop seçkisi.",
+            "en": "10:00 – 14:00: a mix of Turkish and international pop.",
+            "ar": "10:00 – 14:00: مختارات بوب تركية وأجنبية."
+          },
+          "cta": {
+            "tr": "Programlar",
+            "en": "Programmes",
+            "ar": "البرامج"
+          },
+          "url": "programlar"
+        }
+      ],
+      "id": "jgkdn7",
+      "path": "slider-kenburns",
+      "local": "header",
+      "index": 15
+    },
+    {
+      "name": "Kurumsal Değerler 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "badgebg": "#2E6BFF",
+        "badgecolor": "#ffffff",
+        "badge": {
+          "tr": "Programlar",
+          "en": "Programmes",
+          "ar": "البرامج"
+        },
+        "title": {
+          "tr": "Gün boyu yayın",
+          "en": "On air all day",
+          "ar": "بث طوال اليوم"
+        },
+        "description": {
+          "tr": "Kurgusal program örnekleri; ses yayını bu demoda yoktur.",
+          "en": "Fictional sample programmes; there is no audio in this demo.",
+          "ar": "نماذج برامج افتراضية؛ ولا يوجد صوت في هذا العرض."
+        }
+      },
+      "data": [
+        {
+          "icon": "wb_twilight",
+          "name": {
+            "tr": "Günaydın Frekans",
+            "en": "Good Morning Frequency",
+            "ar": "صباح الخير فريكانس"
+          },
+          "description": {
+            "tr": "Sabah 06:00 – 10:00: müzik, trafik ve yerel gündem.",
+            "en": "Mornings 06:00 – 10:00: music, traffic and local news.",
+            "ar": "صباحًا 06:00 – 10:00: موسيقى ومرور وأخبار محلية."
+          }
+        },
+        {
+          "icon": "library_music",
+          "name": {
+            "tr": "Gün Ortası Seçkisi",
+            "en": "Midday Mix",
+            "ar": "مختارات منتصف النهار"
+          },
+          "description": {
+            "tr": "10:00 – 14:00: türkçe ve yabancı pop seçkisi.",
+            "en": "10:00 – 14:00: a mix of Turkish and international pop.",
+            "ar": "10:00 – 14:00: مختارات بوب تركية وأجنبية."
+          }
+        },
+        {
+          "icon": "directions_car",
+          "name": {
+            "tr": "Yolda Frekans",
+            "en": "Frequency On the Road",
+            "ar": "فريكانس على الطريق"
+          },
+          "description": {
+            "tr": "16:00 – 19:00: eve dönüş yolunda enerjik müzik.",
+            "en": "16:00 – 19:00: upbeat music for the drive home.",
+            "ar": "16:00 – 19:00: موسيقى نشيطة في طريق العودة."
+          }
+        },
+        {
+          "icon": "nights_stay",
+          "name": {
+            "tr": "Gece Yarısı Sohbeti",
+            "en": "Midnight Talk",
+            "ar": "حديث منتصف الليل"
+          },
+          "description": {
+            "tr": "22:00 – 24:00: dinleyici istekleri ve sohbet.",
+            "en": "22:00 – 24:00: listener requests and conversation.",
+            "ar": "22:00 – 24:00: طلبات المستمعين والحوار."
+          }
+        }
+      ],
+      "category": "values",
+      "description": "Kurumsal değer kartları (MLA tarzı dört sütun). Rakam yok; ikon, başlık ve kısa açıklama. Animasyon, mobil tek sütun ve prefers-reduced-motion destekler.",
+      "version": "1.0.0",
+      "icon": "diamond",
+      "id": "l7f5xg",
+      "path": "values-1",
+      "local": "body",
+      "index": 16
+    },
+    {
+      "name": "Kurumsal Değerler 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "badgebg": "#2E6BFF",
+        "badgecolor": "#ffffff",
+        "badge": {
+          "tr": "Programlar",
+          "en": "Programmes",
+          "ar": "البرامج"
+        },
+        "title": {
+          "tr": "Gün boyu yayın",
+          "en": "On air all day",
+          "ar": "بث طوال اليوم"
+        },
+        "description": {
+          "tr": "Kurgusal program örnekleri; ses yayını bu demoda yoktur.",
+          "en": "Fictional sample programmes; there is no audio in this demo.",
+          "ar": "نماذج برامج افتراضية؛ ولا يوجد صوت في هذا العرض."
+        }
+      },
+      "data": [
+        {
+          "icon": "wb_twilight",
+          "name": {
+            "tr": "Günaydın Frekans",
+            "en": "Good Morning Frequency",
+            "ar": "صباح الخير فريكانس"
+          },
+          "description": {
+            "tr": "Sabah 06:00 – 10:00: müzik, trafik ve yerel gündem.",
+            "en": "Mornings 06:00 – 10:00: music, traffic and local news.",
+            "ar": "صباحًا 06:00 – 10:00: موسيقى ومرور وأخبار محلية."
+          }
+        },
+        {
+          "icon": "library_music",
+          "name": {
+            "tr": "Gün Ortası Seçkisi",
+            "en": "Midday Mix",
+            "ar": "مختارات منتصف النهار"
+          },
+          "description": {
+            "tr": "10:00 – 14:00: türkçe ve yabancı pop seçkisi.",
+            "en": "10:00 – 14:00: a mix of Turkish and international pop.",
+            "ar": "10:00 – 14:00: مختارات بوب تركية وأجنبية."
+          }
+        },
+        {
+          "icon": "directions_car",
+          "name": {
+            "tr": "Yolda Frekans",
+            "en": "Frequency On the Road",
+            "ar": "فريكانس على الطريق"
+          },
+          "description": {
+            "tr": "16:00 – 19:00: eve dönüş yolunda enerjik müzik.",
+            "en": "16:00 – 19:00: upbeat music for the drive home.",
+            "ar": "16:00 – 19:00: موسيقى نشيطة في طريق العودة."
+          }
+        },
+        {
+          "icon": "nights_stay",
+          "name": {
+            "tr": "Gece Yarısı Sohbeti",
+            "en": "Midnight Talk",
+            "ar": "حديث منتصف الليل"
+          },
+          "description": {
+            "tr": "22:00 – 24:00: dinleyici istekleri ve sohbet.",
+            "en": "22:00 – 24:00: listener requests and conversation.",
+            "ar": "22:00 – 24:00: طلبات المستمعين والحوار."
+          }
+        },
+        {
+          "icon": "newspaper",
+          "name": {
+            "tr": "Yerel Gündem",
+            "en": "Local News",
+            "ar": "الأخبار المحلية"
+          },
+          "description": {
+            "tr": "Saat başı kısa haber bültenleri.",
+            "en": "Short news bulletins on the hour.",
+            "ar": "نشرات أخبار قصيرة كل ساعة."
+          }
+        },
+        {
+          "icon": "mic",
+          "name": {
+            "tr": "Hafta Sonu Konuklu",
+            "en": "Weekend Guests",
+            "ar": "ضيوف نهاية الأسبوع"
+          },
+          "description": {
+            "tr": "Cumartesi 12:00: şehirden konuklarla söyleşi.",
+            "en": "Saturday 12:00: interviews with guests from the city.",
+            "ar": "السبت 12:00: لقاءات مع ضيوف من المدينة."
+          }
+        }
+      ],
+      "category": "values",
+      "description": "Kurumsal değer kartları (MLA tarzı dört sütun). Rakam yok; ikon, başlık ve kısa açıklama. Animasyon, mobil tek sütun ve prefers-reduced-motion destekler.",
+      "version": "1.0.0",
+      "icon": "diamond",
+      "id": "8fi6ok",
+      "path": "values-1",
+      "local": "body",
+      "index": 17
+    },
+    {
+      "name": "Sekmeli Hizmetler",
+      "description": "Hizmet anlatımı sekmelerle: sol/üst sekme listesi (ikon + ad), seçili hizmetin görseli + açıklama + madde listesi + CTA. Mobilde akordeon. ARIA tabs kalıbı (ok tuşları, Home/End, RTL'de yön ters). desing.stil: dikey | yatay-ust | kart-gecis. Veri: data[] = [{ikon, ad{tr,en,ar}, ozet{}, maddeler[{}], img, alt{}, url}]. Renkler yalnız token (var(--mx-site-*)); koyu mod otomatik. Üç dil + RTL.",
+      "version": "1.0.0",
+      "icon": "view_sidebar",
+      "category": "hizmet",
+      "tags": [
+        "hizmet",
+        "sekme",
+        "tabs",
+        "akordeon",
+        "services",
+        "ar"
+      ],
+      "desing": {
+        "stil": "kart-gecis",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "16px",
+        "eyebrow": {
+          "tr": "Programlar",
+          "en": "Programmes",
+          "ar": "البرامج"
+        },
+        "title": {
+          "tr": "Gün boyu yayın",
+          "en": "On air all day",
+          "ar": "بث طوال اليوم"
+        },
+        "description": {
+          "tr": "Kurgusal program örnekleri; ses yayını bu demoda yoktur.",
+          "en": "Fictional sample programmes; there is no audio in this demo.",
+          "ar": "نماذج برامج افتراضية؛ ولا يوجد صوت في هذا العرض."
+        },
+        "ctaLabel": {
+          "tr": "Detaylı bilgi",
+          "en": "Learn more",
+          "ar": "مزيد من التفاصيل"
+        },
+        "tabsLabel": {
+          "tr": "Hizmet sekmeleri",
+          "en": "Service tabs",
+          "ar": "تبويبات الخدمات"
+        },
+        "featuresLabel": {
+          "tr": "Neler dahil?",
+          "en": "What's included?",
+          "ar": "ماذا يشمل؟"
+        }
+      },
+      "data": [
+        {
+          "ikon": "wb_twilight",
+          "ad": {
+            "tr": "Günaydın Frekans",
+            "en": "Good Morning Frequency",
+            "ar": "صباح الخير فريكانس"
+          },
+          "ozet": {
+            "tr": "Sabah 06:00 – 10:00: müzik, trafik ve yerel gündem.",
+            "en": "Mornings 06:00 – 10:00: music, traffic and local news.",
+            "ar": "صباحًا 06:00 – 10:00: موسيقى ومرور وأخبار محلية."
+          },
+          "maddeler": [
+            {
+              "tr": "MESAM · MSG lisansı kapsamında müzik",
+              "en": "Music under MESAM · MSG licences",
+              "ar": "موسيقى بموجب تراخيص MESAM · MSG"
+            },
+            {
+              "tr": "Saat başı kısa haber bülteni",
+              "en": "Short news bulletin on the hour",
+              "ar": "نشرة أخبار قصيرة كل ساعة"
+            },
+            {
+              "tr": "İstek hattı: telefon ve e-posta",
+              "en": "Request line: phone and e-mail",
+              "ar": "خط الطلبات: الهاتف والبريد"
+            }
+          ],
+          "img": "radyo-mikrofon.webp",
+          "alt": {
+            "tr": "Pop filtreli yayın mikrofonu",
+            "en": "A broadcast microphone with a pop filter",
+            "ar": "ميكروفون بث بمرشح"
+          },
+          "url": "programlar"
+        },
+        {
+          "ikon": "library_music",
+          "ad": {
+            "tr": "Gün Ortası Seçkisi",
+            "en": "Midday Mix",
+            "ar": "مختارات منتصف النهار"
+          },
+          "ozet": {
+            "tr": "10:00 – 14:00: türkçe ve yabancı pop seçkisi.",
+            "en": "10:00 – 14:00: a mix of Turkish and international pop.",
+            "ar": "10:00 – 14:00: مختارات بوب تركية وأجنبية."
+          },
+          "maddeler": [
+            {
+              "tr": "MESAM · MSG lisansı kapsamında müzik",
+              "en": "Music under MESAM · MSG licences",
+              "ar": "موسيقى بموجب تراخيص MESAM · MSG"
+            },
+            {
+              "tr": "Saat başı kısa haber bülteni",
+              "en": "Short news bulletin on the hour",
+              "ar": "نشرة أخبار قصيرة كل ساعة"
+            },
+            {
+              "tr": "İstek hattı: telefon ve e-posta",
+              "en": "Request line: phone and e-mail",
+              "ar": "خط الطلبات: الهاتف والبريد"
+            }
+          ],
+          "img": "radyo-kulaklik.webp",
+          "alt": {
+            "tr": "Mikser üzerinde stüdyo kulaklığı",
+            "en": "Studio headphones on a mixing desk",
+            "ar": "سماعات استوديو على مازج"
+          },
+          "url": "programlar"
+        },
+        {
+          "ikon": "directions_car",
+          "ad": {
+            "tr": "Yolda Frekans",
+            "en": "Frequency On the Road",
+            "ar": "فريكانس على الطريق"
+          },
+          "ozet": {
+            "tr": "16:00 – 19:00: eve dönüş yolunda enerjik müzik.",
+            "en": "16:00 – 19:00: upbeat music for the drive home.",
+            "ar": "16:00 – 19:00: موسيقى نشيطة في طريق العودة."
+          },
+          "maddeler": [
+            {
+              "tr": "MESAM · MSG lisansı kapsamında müzik",
+              "en": "Music under MESAM · MSG licences",
+              "ar": "موسيقى بموجب تراخيص MESAM · MSG"
+            },
+            {
+              "tr": "Saat başı kısa haber bülteni",
+              "en": "Short news bulletin on the hour",
+              "ar": "نشرة أخبار قصيرة كل ساعة"
+            },
+            {
+              "tr": "İstek hattı: telefon ve e-posta",
+              "en": "Request line: phone and e-mail",
+              "ar": "خط الطلبات: الهاتف والبريد"
+            }
+          ],
+          "img": "radyo-mikser.webp",
+          "alt": {
+            "tr": "Işıklı yayın mikseri",
+            "en": "A lit broadcast mixing desk",
+            "ar": "مازج بث مضاء"
+          },
+          "url": "programlar"
+        },
+        {
+          "ikon": "nights_stay",
+          "ad": {
+            "tr": "Gece Yarısı Sohbeti",
+            "en": "Midnight Talk",
+            "ar": "حديث منتصف الليل"
+          },
+          "ozet": {
+            "tr": "22:00 – 24:00: dinleyici istekleri ve sohbet.",
+            "en": "22:00 – 24:00: listener requests and conversation.",
+            "ar": "22:00 – 24:00: طلبات المستمعين والحوار."
+          },
+          "maddeler": [
+            {
+              "tr": "MESAM · MSG lisansı kapsamında müzik",
+              "en": "Music under MESAM · MSG licences",
+              "ar": "موسيقى بموجب تراخيص MESAM · MSG"
+            },
+            {
+              "tr": "Saat başı kısa haber bülteni",
+              "en": "Short news bulletin on the hour",
+              "ar": "نشرة أخبار قصيرة كل ساعة"
+            },
+            {
+              "tr": "İstek hattı: telefon ve e-posta",
+              "en": "Request line: phone and e-mail",
+              "ar": "خط الطلبات: الهاتف والبريد"
+            }
+          ],
+          "img": "radyo-anten.webp",
+          "alt": {
+            "tr": "Tepede verici anteni",
+            "en": "A transmitter antenna on a hill",
+            "ar": "هوائي إرسال على تلة"
+          },
+          "url": "programlar"
+        },
+        {
+          "ikon": "newspaper",
+          "ad": {
+            "tr": "Yerel Gündem",
+            "en": "Local News",
+            "ar": "الأخبار المحلية"
+          },
+          "ozet": {
+            "tr": "Saat başı kısa haber bültenleri.",
+            "en": "Short news bulletins on the hour.",
+            "ar": "نشرات أخبار قصيرة كل ساعة."
+          },
+          "maddeler": [
+            {
+              "tr": "MESAM · MSG lisansı kapsamında müzik",
+              "en": "Music under MESAM · MSG licences",
+              "ar": "موسيقى بموجب تراخيص MESAM · MSG"
+            },
+            {
+              "tr": "Saat başı kısa haber bülteni",
+              "en": "Short news bulletin on the hour",
+              "ar": "نشرة أخبار قصيرة كل ساعة"
+            },
+            {
+              "tr": "İstek hattı: telefon ve e-posta",
+              "en": "Request line: phone and e-mail",
+              "ar": "خط الطلبات: الهاتف والبريد"
+            }
+          ],
+          "img": "radyo-hero-studyo.webp",
+          "alt": {
+            "tr": "Mikrofon ve mikserli stüdyo",
+            "en": "A studio with a microphone and mixer",
+            "ar": "استوديو بميكروفون ومازج"
+          },
+          "url": "programlar"
+        },
+        {
+          "ikon": "mic",
+          "ad": {
+            "tr": "Hafta Sonu Konuklu",
+            "en": "Weekend Guests",
+            "ar": "ضيوف نهاية الأسبوع"
+          },
+          "ozet": {
+            "tr": "Cumartesi 12:00: şehirden konuklarla söyleşi.",
+            "en": "Saturday 12:00: interviews with guests from the city.",
+            "ar": "السبت 12:00: لقاءات مع ضيوف من المدينة."
+          },
+          "maddeler": [
+            {
+              "tr": "MESAM · MSG lisansı kapsamında müzik",
+              "en": "Music under MESAM · MSG licences",
+              "ar": "موسيقى بموجب تراخيص MESAM · MSG"
+            },
+            {
+              "tr": "Saat başı kısa haber bülteni",
+              "en": "Short news bulletin on the hour",
+              "ar": "نشرة أخبار قصيرة كل ساعة"
+            },
+            {
+              "tr": "İstek hattı: telefon ve e-posta",
+              "en": "Request line: phone and e-mail",
+              "ar": "خط الطلبات: الهاتف والبريد"
+            }
+          ],
+          "img": "radyo-mikrofon.webp",
+          "alt": {
+            "tr": "Pop filtreli yayın mikrofonu",
+            "en": "A broadcast microphone with a pop filter",
+            "ar": "ميكروفون بث بمرشح"
+          },
+          "url": "programlar"
+        }
+      ],
+      "id": "1l7y20",
+      "path": "hizmet-sekmeli",
+      "local": "body",
+      "index": 18
+    },
+    {
+      "name": "Zigzag Özellik",
+      "description": "Görsel-metin sırası satır satır değişen (sol/sağ) özellik anlatımı: numara rozeti, h3, paragraf, mini CTA; görsel kenarında dekoratif çerçeve/gölge. Kaydırmada satırlar sırayla belirir (IntersectionObserver; reduced-motion ya da JS yoksa hep görünür). desing.stil: cerceve | yuzen | sade. RTL'de sıra kendiliğinden aynalanır. Veri: data[] = [{baslik{tr,en,ar}, metin{}, img, alt{}, url, ctaLabel{}?}]. Renkler yalnız token; koyu mod otomatik.",
+      "version": "1.0.0",
+      "icon": "view_agenda",
+      "category": "ozellik",
+      "tags": [
+        "özellik",
+        "zigzag",
+        "features",
+        "görsel-metin",
+        "ar"
+      ],
+      "desing": {
+        "stil": "yuzen",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "20px",
+        "numara": true,
+        "eyebrow": {
+          "tr": "Programlar",
+          "en": "Programmes",
+          "ar": "البرامج"
+        },
+        "title": {
+          "tr": "Geceye eşlik eden üç kuşak",
+          "en": "Three slots that keep the night company",
+          "ar": "ثلاث فترات ترافق الليل"
+        },
+        "description": {
+          "tr": "Kurgusal program örnekleri; ses yayını bu demoda yoktur.",
+          "en": "Fictional sample programmes; there is no audio in this demo.",
+          "ar": "نماذج برامج افتراضية؛ لا يوجد صوت في هذا العرض."
+        },
+        "ctaLabel": {
+          "tr": "Daha fazla",
+          "en": "Read more",
+          "ar": "اقرأ المزيد"
+        }
+      },
+      "data": [
+        {
+          "baslik": {
+            "tr": "Akşam Seçkisi",
+            "en": "Evening Selection",
+            "ar": "مختارات المساء"
+          },
+          "metin": {
+            "tr": "19:00 – 22:00: slow ve akustik parçalar; lisanslı yayın.",
+            "en": "19:00 – 22:00: slow and acoustic tracks; licensed broadcast.",
+            "ar": "19:00 – 22:00: مقطوعات هادئة وصوتية؛ بث مرخّص."
+          },
+          "img": "radyo-kulaklik.webp",
+          "alt": {
+            "tr": "Mikser üzerinde stüdyo kulaklığı",
+            "en": "Studio headphones on a mixing desk",
+            "ar": "سماعات استوديو على مازج"
+          },
+          "url": "programlar"
+        },
+        {
+          "baslik": {
+            "tr": "Gece Yarısı Sohbeti",
+            "en": "Midnight Talk",
+            "ar": "حديث منتصف الليل"
+          },
+          "metin": {
+            "tr": "22:00 – 24:00: dinleyici istekleri ve sohbet; istekler telefon ya da e-posta ile.",
+            "en": "22:00 – 24:00: listener requests and conversation; requests by phone or e-mail.",
+            "ar": "22:00 – 24:00: طلبات المستمعين والحوار؛ الطلبات بالهاتف أو البريد."
+          },
+          "img": "radyo-mikrofon.webp",
+          "alt": {
+            "tr": "Pop filtreli yayın mikrofonu",
+            "en": "A broadcast microphone with a pop filter",
+            "ar": "ميكروفون بث بمرشح"
+          },
+          "url": "programlar"
+        },
+        {
+          "baslik": {
+            "tr": "Saat başı haber",
+            "en": "News on the hour",
+            "ar": "أخبار كل ساعة"
+          },
+          "metin": {
+            "tr": "Kısa yerel bültenler; künye ve sorumlu müdür bilgisi Künye sayfasında.",
+            "en": "Short local bulletins; masthead and editor-in-charge details on the Masthead page.",
+            "ar": "نشرات محلية قصيرة؛ بيانات الإدارة والمدير المسؤول في صفحة بيانات الإدارة."
+          },
+          "img": "radyo-mikser.webp",
+          "alt": {
+            "tr": "Işıklı yayın mikseri",
+            "en": "A lit broadcast mixing desk",
+            "ar": "مازج بث مضاء"
+          },
+          "url": "kunye"
+        }
+      ],
+      "id": "ouixnw",
+      "path": "ozellik-zigzag",
+      "local": "body",
+      "index": 19
+    },
+    {
+      "name": "Zaman Çizelgesi 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "badge": {
+          "tr": "Dinleyici",
+          "en": "Listeners",
+          "ar": "المستمعون"
+        },
+        "title": {
+          "tr": "Dinleyiciden yayına",
+          "en": "From listener to broadcast",
+          "ar": "من المستمع إلى البث"
+        },
+        "description": {
+          "tr": "İstek ve ileti süreci.",
+          "en": "How requests and messages work.",
+          "ar": "كيف تعمل الطلبات والرسائل."
+        },
+        "accentText": "#ffffff",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
+      },
+      "data": [
+        {
+          "year": "01",
+          "title": {
+            "tr": "İstek gönderin",
+            "en": "Send a request",
+            "ar": "أرسل طلبًا"
+          },
+          "text": {
+            "tr": "Telefon ya da e-posta ile şarkı isteğinizi iletin.",
+            "en": "Send your song request by phone or e-mail.",
+            "ar": "أرسل طلب أغنيتك بالهاتف أو البريد الإلكتروني."
+          }
+        },
+        {
+          "year": "02",
+          "title": {
+            "tr": "Programcı seçer",
+            "en": "The host picks",
+            "ar": "يختار المقدّم"
+          },
+          "text": {
+            "tr": "İstekler program akışına göre değerlendirilir.",
+            "en": "Requests are considered according to the programme flow.",
+            "ar": "تُقيَّم الطلبات بحسب سير البرنامج."
+          }
+        },
+        {
+          "year": "03",
+          "title": {
+            "tr": "Lisanslı yayın",
+            "en": "Licensed broadcast",
+            "ar": "بث مرخّص"
+          },
+          "text": {
+            "tr": "Müzik, lisanslar kapsamında yayına alınır.",
+            "en": "Music is broadcast under licences.",
+            "ar": "تُبَثّ الموسيقى بموجب التراخيص."
+          }
+        },
+        {
+          "year": "04",
+          "title": {
+            "tr": "Geri bildirim",
+            "en": "Feedback",
+            "ar": "الملاحظات"
+          },
+          "text": {
+            "tr": "Görüşleriniz izleyici temsilcisine iletilebilir.",
+            "en": "Your comments can be passed to the audience representative.",
+            "ar": "يمكن إحالة ملاحظاتك إلى ممثل المستمعين."
+          }
+        }
+      ],
+      "category": "timeline",
+      "description": "Zaman çizelgesi modülü. Kurumsal tarihçe, süreç adımları veya yol haritasını dikey çizgi + yıl rozetiyle listeler. Çok dilli başlık/metin ve animasyonlu giriş içerir.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "id": "rhwlwl",
+      "path": "timeline-1",
+      "local": "body",
+      "index": 20
+    },
+    {
+      "name": "Süreç Adımları",
+      "description": "3–6 adımlık süreç anlatımı: çizgi/ok ile bağlı daire numaralar, altında başlık + metin. Aktif adım vurgusu kaydırmayla ilerler (IntersectionObserver; JS yoksa tüm adımlar düz görünür). desing.stil: yatay (çizgiyle bağlı sıra; mobilde dikey zaman çizgisi) | dikey (iki yanlı zaman çizgisi) | kartli (kart + ok ayraç). Veri: data[] = [{no?, baslik{tr,en,ar}, metin{}, ikon?}]. Renkler yalnız token; koyu mod otomatik; RTL'de ok/çizgi yönü aynalanır.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "category": "surec",
+      "tags": [
+        "süreç",
+        "adım",
+        "zaman çizgisi",
+        "process",
+        "steps",
+        "ar"
+      ],
+      "desing": {
+        "stil": "kartli",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "16px",
+        "eyebrow": {
+          "tr": "Dinleyici",
+          "en": "Listeners",
+          "ar": "المستمعون"
+        },
+        "title": {
+          "tr": "Dinleyiciden yayına",
+          "en": "From listener to broadcast",
+          "ar": "من المستمع إلى البث"
+        },
+        "description": {
+          "tr": "İstek ve ileti süreci.",
+          "en": "How requests and messages work.",
+          "ar": "كيف تعمل الطلبات والرسائل."
+        },
+        "stepLabel": {
+          "tr": "Adım {n}",
+          "en": "Step {n}",
+          "ar": "الخطوة {n}"
+        },
+        "listLabel": {
+          "tr": "Süreç adımları",
+          "en": "Process steps",
+          "ar": "خطوات العملية"
+        }
+      },
+      "data": [
+        {
+          "baslik": {
+            "tr": "İstek gönderin",
+            "en": "Send a request",
+            "ar": "أرسل طلبًا"
+          },
+          "metin": {
+            "tr": "Telefon ya da e-posta ile şarkı isteğinizi iletin.",
+            "en": "Send your song request by phone or e-mail.",
+            "ar": "أرسل طلب أغنيتك بالهاتف أو البريد الإلكتروني."
+          },
+          "ikon": "forum"
+        },
+        {
+          "baslik": {
+            "tr": "Programcı seçer",
+            "en": "The host picks",
+            "ar": "يختار المقدّم"
+          },
+          "metin": {
+            "tr": "İstekler program akışına göre değerlendirilir.",
+            "en": "Requests are considered according to the programme flow.",
+            "ar": "تُقيَّم الطلبات بحسب سير البرنامج."
+          },
+          "ikon": "draw"
+        },
+        {
+          "baslik": {
+            "tr": "Lisanslı yayın",
+            "en": "Licensed broadcast",
+            "ar": "بث مرخّص"
+          },
+          "metin": {
+            "tr": "Müzik, lisanslar kapsamında yayına alınır.",
+            "en": "Music is broadcast under licences.",
+            "ar": "تُبَثّ الموسيقى بموجب التراخيص."
+          },
+          "ikon": "construction"
+        },
+        {
+          "baslik": {
+            "tr": "Geri bildirim",
+            "en": "Feedback",
+            "ar": "الملاحظات"
+          },
+          "metin": {
+            "tr": "Görüşleriniz izleyici temsilcisine iletilebilir.",
+            "en": "Your comments can be passed to the audience representative.",
+            "ar": "يمكن إحالة ملاحظاتك إلى ممثل المستمعين."
+          },
+          "ikon": "task_alt"
+        }
+      ],
+      "id": "6mykmy",
+      "path": "surec-adimlar",
+      "local": "body",
+      "index": 21
+    },
+    {
+      "name": "İstatistik Bandı 1",
+      "desing": {
+        "stil": "",
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "numbercolor": "#ffffff",
+        "labelcolor": "rgba(255,255,255,.88)",
+        "iconsize": "56px",
+        "iconbox": "88px"
+      },
+      "data": [
+        {
+          "number": 6,
+          "suffix": "",
+          "label": {
+            "tr": "Program",
+            "en": "Programmes",
+            "ar": "برامج"
+          },
+          "icon": "radio"
+        },
+        {
+          "number": 24,
+          "suffix": "sa",
+          "label": {
+            "tr": "Yayın günü (kurgusal)",
+            "en": "On air (fictional)",
+            "ar": "بث (افتراضي)"
+          },
+          "icon": "schedule"
+        },
+        {
+          "number": 1,
+          "suffix": "",
+          "label": {
+            "tr": "RTÜK lisans bilgisi",
+            "en": "RTÜK licence entry",
+            "ar": "بيان ترخيص RTÜK"
+          },
+          "icon": "verified"
+        },
+        {
+          "number": 2,
+          "suffix": "",
+          "label": {
+            "tr": "Müzik lisansı: MESAM · MSG",
+            "en": "Music licences: MESAM · MSG",
+            "ar": "تراخيص الموسيقى: MESAM · MSG"
+          },
+          "icon": "library_music"
+        }
+      ],
+      "category": "stats",
+      "description": "İstatistik / sayaç bandı modülü. Rakamlar görünür olduğunda 0'dan hedefe animasyonlu sayar (IntersectionObserver + easeOutCubic; prefers-reduced-motion'da animasyonsuz). İkon, sonek (+, /7) ve çok dilli etiket destekler. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (gradient bant, numbercolor/labelcolor, bugünkü görünüm) · \"kartli\" (sayfa zemininde yüzey kartları, üstte primary çizgi, hover'da yükselir) · \"serit-renkli\" (tek renk primary/primary-contrast şeridi, ikon solda rakam+etiket yanında, dikey ayraçlar). Varyant renkleri yalnız var(--mx-site-*) token çiftleri.",
+      "version": "1.1.0",
+      "icon": "monitoring",
+      "id": "22pj3g",
+      "path": "stats-1",
+      "local": "body",
+      "index": 22
+    },
+    {
+      "name": "Sayaç Şeridi (Stats 2)",
+      "description": "Tam genişlik renkli şerit (bgcolor/textcolor ÇİFT token), 3–5 sayaç: sayılar görünürken yukarı sayar (IntersectionObserver; reduced-motion ya da JS yoksa son değer doğrudan), önek/sonek (+, %, ₺), kısa açıklama, isteğe bağlı CSS desen (noktalar | cizgiler | yok). Sayı biçimi dile göre (Arapçada Latin hane). desing.stil: serit | kartli | ayrik-cizgili. Veri: data[] = [{deger, onek, sonek, ondalik?, etiket{tr,en,ar}, aciklama{}, ikon?}]. Koyu mod paletten; RTL mantıksal CSS.",
+      "version": "1.0.0",
+      "icon": "insights",
+      "category": "stats",
+      "tags": [
+        "istatistik",
+        "sayaç",
+        "stats",
+        "counter",
+        "şerit",
+        "ar"
+      ],
+      "desing": {
+        "stil": "serit",
+        "desen": "noktalar",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-primary, #2563eb)",
+        "textcolor": "var(--mx-site-primary-contrast, #ffffff)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 90%, var(--mx-site-primary, #2563eb))",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 26%, transparent)",
+        "radius": "16px",
+        "sure": 1000,
+        "title": {
+          "tr": "Rakamlarla",
+          "en": "By the numbers",
+          "ar": "بالأرقام"
+        },
+        "description": {
+          "tr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      "data": [
+        {
+          "deger": 6,
+          "onek": "",
+          "sonek": "",
+          "etiket": {
+            "tr": "Program",
+            "en": "Programmes",
+            "ar": "برامج"
+          },
+          "aciklama": {
+            "tr": "",
+            "en": "",
+            "ar": ""
+          },
+          "ikon": "radio"
+        },
+        {
+          "deger": 24,
+          "onek": "",
+          "sonek": "sa",
+          "etiket": {
+            "tr": "Yayın günü (kurgusal)",
+            "en": "On air (fictional)",
+            "ar": "بث (افتراضي)"
+          },
+          "aciklama": {
+            "tr": "",
+            "en": "",
+            "ar": ""
+          },
+          "ikon": "schedule"
+        },
+        {
+          "deger": 1,
+          "onek": "",
+          "sonek": "",
+          "etiket": {
+            "tr": "RTÜK lisans bilgisi",
+            "en": "RTÜK licence entry",
+            "ar": "بيان ترخيص RTÜK"
+          },
+          "aciklama": {
+            "tr": "",
+            "en": "",
+            "ar": ""
+          },
+          "ikon": "verified"
+        },
+        {
+          "deger": 2,
+          "onek": "",
+          "sonek": "",
+          "etiket": {
+            "tr": "Müzik lisansı: MESAM · MSG",
+            "en": "Music licences: MESAM · MSG",
+            "ar": "تراخيص الموسيقى: MESAM · MSG"
+          },
+          "aciklama": {
+            "tr": "",
+            "en": "",
+            "ar": ""
+          },
+          "ikon": "library_music"
+        }
+      ],
+      "id": "peej59",
+      "path": "stats-2",
+      "local": "body",
+      "index": 23
+    },
+    {
+      "name": "CTA Şerit 1",
+      "desing": {
+        "stil": "gradient",
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "btnbg": "#ffffff",
+        "btncolor": "#10203A",
+        "title": {
+          "tr": "Radyomuzda reklam vermek ister misiniz?",
+          "en": "Want to advertise on our radio?",
+          "ar": "هل تريد الإعلان في إذاعتنا؟"
+        },
+        "description": {
+          "tr": "Yayın akışına uygun reklam paketi için talep gönderin.",
+          "en": "Send a request for an advertising package that fits the schedule.",
+          "ar": "أرسل طلبًا لباقة إعلانية تناسب جدول البث."
+        },
+        "btn1Text": {
+          "tr": "Reklam talebi",
+          "en": "Advertising request",
+          "ar": "طلب إعلان"
+        },
+        "btn1Url": "reklam",
+        "btn2Text": {
+          "tr": "Künye",
+          "en": "Masthead",
+          "ar": "بيانات الإدارة"
+        },
+        "btn2Url": "kunye"
+      },
+      "category": "cta",
+      "description": "Harekete geçirici çağrı (CTA) şerit modülü. Gradient arka plan üzerinde başlık, açıklama ve iki buton gösterir. Buton URL'leri dil öneki olmadan pathnext (iletisim, urunler) — site routing ekler. Çok dilli metin ve animasyonlu giriş içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (gradient anahtarı tam genişlik bant, bugünkü görünüm) · \"gradient\" (token gradient primary→koyu, yuvarlak köşeli iç bant, ortalı yığın, ışık daireleri, hap düğmeler) · \"kart-yuzen\" (sayfa zemininde yüzen yüzey kartı, dekoratif primary daireler, sol vurgu çizgisi). Varyant renkleri yalnız var(--mx-site-*) token çiftleri.",
+      "version": "1.2.0",
+      "icon": "campaign",
+      "id": "eqcc15",
+      "path": "cta-1",
+      "local": "body",
+      "data": [],
+      "index": 24
+    },
+    {
+      "name": "Bant CTA (zengin) — CTA 3",
+      "description": "Tam genişlik iki sütunlu çağrı bandı: sol h2 + metin + 2 buton; sağ görsel/illüstrasyon ya da telefon-WhatsApp kartı (numara, saat). Arka plan: token zemin + hafif gradient katmanı + dekoratif daireler (CSS). desing.stil: gradient | gorselli (sağ sütun tam yükseklik görsel) | cerceveli-kart (içerik sayfa zemini üstünde yüzen kart). desing.sag: whatsapp | gorsel | yok. Zemin + yazı ÇİFT token (bgcolor = birincil, textcolor = birincil kontrast); WhatsApp kartı opak yüzey (cardbg/cardtext). Üç dil + RTL; koyu mod paletten.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "cta",
+      "tags": [
+        "cta",
+        "çağrı",
+        "whatsapp",
+        "bant",
+        "banner",
+        "ar"
+      ],
+      "desing": {
+        "stil": "gradient",
+        "sag": "whatsapp",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-primary, #2563eb)",
+        "textcolor": "var(--mx-site-primary-contrast, #ffffff)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 90%, var(--mx-site-primary, #2563eb))",
+        "pagebg": "var(--mx-site-bg, #ffffff)",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "cardtext": "var(--mx-site-text, #1b1b1b)",
+        "cardmuted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-surface, #ffffff))",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "radius": "24px",
+        "title": {
+          "tr": "Radyomuzda reklam vermek ister misiniz?",
+          "en": "Want to advertise on our radio?",
+          "ar": "هل تريد الإعلان في إذاعتنا؟"
+        },
+        "text": {
+          "tr": "Yayın akışına uygun reklam paketi için talep gönderin.",
+          "en": "Send a request for an advertising package that fits the schedule.",
+          "ar": "أرسل طلبًا لباقة إعلانية تناسب جدول البث."
+        },
+        "btn1Label": {
+          "tr": "Reklam talebi",
+          "en": "Advertising request",
+          "ar": "طلب إعلان"
+        },
+        "btn1Url": "reklam",
+        "btn2Label": {
+          "tr": "Künye",
+          "en": "Masthead",
+          "ar": "بيانات الإدارة"
+        },
+        "btn2Url": "kunye",
+        "number": "903420000000",
+        "numberText": "+90 342 000 00 00",
+        "waLabel": {
+          "tr": "WhatsApp'tan yazın",
+          "en": "Message us on WhatsApp",
+          "ar": "راسلنا عبر واتساب"
+        },
+        "waTitle": {
+          "tr": "Hemen ulaşın",
+          "en": "Reach us now",
+          "ar": "تواصل معنا الآن"
+        },
+        "hours": {
+          "tr": "Yayın 7/24 (kurgusal) · Stüdyo hattı hafta içi 10:00 – 18:00",
+          "en": "On air 24/7 (fictional) · Studio line weekdays 10:00 – 18:00",
+          "ar": "البث على مدار الساعة (افتراضي) · خط الاستوديو أيام الأسبوع 10:00 – 18:00"
+        },
+        "hoursLabel": {
+          "tr": "Çalışma saatleri",
+          "en": "Opening hours",
+          "ar": "ساعات العمل"
+        },
+        "waMessage": {
+          "tr": "Merhaba, demo siteniz üzerinden ulaşıyorum.",
+          "en": "Hello, I am reaching out via your demo site.",
+          "ar": "مرحبًا، أتواصل معكم عبر موقعكم التجريبي."
+        },
+        "img": "radyo-mikrofon.webp",
+        "alt": {
+          "tr": "Tepede verici anteni",
+          "en": "A transmitter antenna on a hill",
+          "ar": "هوائي إرسال على تلة"
+        }
+      },
+      "data": [],
+      "id": "z84ptx",
+      "path": "cta-3",
+      "local": "body",
+      "index": 25
+    },
+    {
+      "name": {
+        "tr": "Referans Logo Bandı",
+        "en": "Client Logo Strip",
+        "ar": "شريط شعارات العملاء"
+      },
+      "description": {
+        "tr": "Referans/partner logoları: gri tonlu, sonsuz yatay kayan bant (CSS keyframes, iki kopya; hover'da durur ve renklenir; reduced-motion'da statik ızgara). İsteğe bağlı başlık satırı. Görseli olmayan satırda metin rozeti. Üç varyant (desing.stil): kayan · izgara · cerceveli-kartlar. data[] = {name, img, url}. Üç dil, RTL, koyu mod token'larla.",
+        "en": "Client/partner logos: greyscale, infinite horizontal marquee (CSS keyframes, two copies; pauses and colors on hover; static grid under reduced-motion). Optional heading row. Rows without an image get a text badge. Three variants (desing.stil): kayan · izgara · cerceveli-kartlar. data[] = {name, img, url}. Three languages, RTL, dark mode via tokens.",
+        "ar": "شعارات العملاء/الشركاء: رمادية، شريط أفقي لا نهائي (CSS، نسختان؛ يتوقف ويتلوّن عند التمرير؛ شبكة ثابتة عند تقليل الحركة). صف عنوان اختياري. ثلاثة أنماط، ثلاث لغات، RTL، وضع داكن."
+      },
+      "version": "1.0.0",
+      "icon": "handshake",
+      "category": "referans",
+      "tags": [
+        "referans",
+        "logo",
+        "partner",
+        "marquee",
+        "clients",
+        "ar"
+      ],
+      "desing": {
+        "max": "1200px",
+        "stil": "kayan",
+        "speed": 32,
+        "logoH": "48px",
+        "grayscale": true,
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 70%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "radius": "14px",
+        "showTitle": true,
+        "title": {
+          "tr": "Program sponsorları (kurgusal)",
+          "en": "Programme sponsors (fictional)",
+          "ar": "رعاة البرامج (افتراضيون)"
+        },
+        "description": {
+          "tr": "Logolar temsilidir; kurgusal demo markalarıdır.",
+          "en": "Logos are illustrative; fictional demo brands.",
+          "ar": "الشعارات توضيحية؛ علامات تجريبية افتراضية."
+        },
+        "listLabel": {
+          "tr": "Referans logoları",
+          "en": "Client logos",
+          "ar": "شعارات العملاء"
+        }
+      },
+      "data": [
+        {
+          "name": "Zeugma Kafe",
+          "img": "",
+          "url": ""
+        },
+        {
+          "name": "Antep Otel Grubu",
+          "img": "",
+          "url": ""
+        },
+        {
+          "name": "Nizip Enerji",
+          "img": "",
+          "url": ""
+        },
+        {
+          "name": "Delta Lojistik",
+          "img": "",
+          "url": ""
+        },
+        {
+          "name": "Orion Tekstil",
+          "img": "",
+          "url": ""
+        },
+        {
+          "name": "Kale Sigorta",
+          "img": "",
+          "url": ""
+        }
+      ],
+      "id": "6opsto",
+      "path": "logo-bandi",
+      "local": "body",
+      "index": 26
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "local": "body",
+      "desing": {
+        "stil": "yuzen-gorsel",
+        "name": {
+          "tr": "Gece Frekansı",
+          "en": "Gece Frekansı",
+          "ar": "غيجه فريكانسي"
+        },
+        "description": {
+          "tr": "Gece Frekansı, lisanslı müziği ve açık künyeyi yayının önkoşulu sayan kurgusal bir demo radyodur. Sitede gerçek ses yayını yoktur; kişi ve kurumlar kurgusaldır.",
+          "en": "Gece Frekansi is a fictional demo radio that treats licensed music and an open masthead as preconditions of broadcasting. There is no real audio stream; people and organisations are fictional.",
+          "ar": "غيجه فريكانسي إذاعة تجريبية افتراضية تعدّ الموسيقى المرخّصة وبيانات الإدارة المعلنة شرطين مسبقين للبث. لا يوجد بث صوتي حقيقي، والأشخاص والمؤسسات افتراضيون."
+        },
+        "name2": {
+          "tr": "Lisanslı müzik",
+          "en": "Licensed music",
+          "ar": "موسيقى مرخّصة"
+        },
+        "spot2": {
+          "tr": "MESAM ve MSG lisansları kapsamında yayın.",
+          "en": "Broadcast under MESAM and MSG licences.",
+          "ar": "البث بموجب تراخيص MESAM وMSG."
+        },
+        "icon2": "copyright",
+        "name3": {
+          "tr": "Açık künye",
+          "en": "Open masthead",
+          "ar": "بيانات إدارة معلنة"
+        },
+        "spot3": {
+          "tr": "Sorumlu müdür ve lisans bilgisi sitede yazılıdır.",
+          "en": "The editor in charge and licence details are on the site.",
+          "ar": "المدير المسؤول وبيانات الترخيص مذكوران في الموقع."
+        },
+        "icon3": "badge",
+        "img": "radyo-mikrofon.webp",
+        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Hakkımızda",
+          "en": "About us",
+          "ar": "من نحن"
+        }
+      },
+      "category": "module",
+      "description": "Kurumsal tanıtım ve hakkımızda modülü. Firma tanıtımı, vizyon, misyon metinlerini görsel ile birlikte sunar. Ana sayfa şeridi ve temalar için varsayılan cok dilli metinler. İki kolonlu responsive tasarım, W2 animasyon ve icon desteği içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (beyaz çerçeveli yuvarlak görsel, bugünkü görünüm) · \"yuzen-gorsel\" (dik kart görsel bandın dışına taşar, gölgeli, hafif eğik) · \"cerceve-ofset\" (kare görsel, arkasında kaymış primary renk çerçeve) · \"ikon-liste\" (yatay görsel + vizyon/misyon ikonlu madde listesi; ikon icon2/icon3). Bant zemini/yazısı bgcolor/fontcolor çifti kalır; eklenen renkler yalnız var(--mx-site-*) token.",
+      "version": "1.2.0",
+      "icon": "business",
+      "id": "ssfq0k",
+      "path": "module-1",
+      "data": [],
+      "index": 27
+    },
+    {
+      "name": "Galeri Masonry (Filtre + Lightbox)",
+      "description": "Masonry (sütun) ya da sabit oranlı ızgara galeri: kategori çipleriyle filtre (?cat= URL durumu, aria-pressed), lightbox (klavye, filtrelenmişte yalnız görünenler gezilir), lazy yükleme (width/height ile CLS yok), görselsiz öğede nötr yer tutucu. gap:0 ile kenarsız ızgara, hover başlık. Öğeler data[] içinde {img, thumb?, title{tr,en,ar}, cat, w, h, alt{tr,en,ar}}; kategoriler desing.cats[]. Üç dil + RTL.",
+      "version": "1.0.0",
+      "icon": "photo_library",
+      "category": "galeri",
+      "tags": [
+        "galeri",
+        "masonry",
+        "filtre",
+        "lightbox",
+        "portfolyo",
+        "gallery",
+        "ar"
+      ],
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "gap": "12px",
+        "radius": "4px",
+        "columns": {
+          "d": 3,
+          "t": 3,
+          "m": 2
+        },
+        "ratio": "auto",
+        "captions": "hover",
+        "filter": true,
+        "lightbox": true,
+        "lazy": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Stüdyodan kareler",
+          "en": "From the studio",
+          "ar": "لقطات من الاستوديو"
+        },
+        "description": {
+          "tr": "Yayın stüdyosu ve ekipman görüntüleri; kişi yoktur.",
+          "en": "Studio and equipment images; no people.",
+          "ar": "صور الاستوديو والمعدات؛ دون أشخاص."
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد صور"
+          },
+          "one": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photo",
+            "ar": "صورة واحدة"
+          },
+          "two": {
+            "ar": "صورتان"
+          },
+          "few": {
+            "ar": "{n} صور"
+          },
+          "many": {
+            "ar": "{n} صورة"
+          },
+          "other": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photos",
+            "ar": "{n} صورة"
+          }
+        },
+        "emptyText": {
+          "tr": "Henüz gösterilecek görsel yok.",
+          "en": "There are no images to show yet.",
+          "ar": "لا توجد صور لعرضها بعد."
+        },
+        "lightboxLabels": {
+          "dialog": {
+            "tr": "Görsel görüntüleyici",
+            "en": "Image viewer",
+            "ar": "عارض الصور"
+          },
+          "close": {
+            "tr": "Kapat",
+            "en": "Close",
+            "ar": "إغلاق"
+          },
+          "prev": {
+            "tr": "Önceki görsel",
+            "en": "Previous image",
+            "ar": "الصورة السابقة"
+          },
+          "next": {
+            "tr": "Sonraki görsel",
+            "en": "Next image",
+            "ar": "الصورة التالية"
+          },
+          "counter": {
+            "tr": "{i} / {n}",
+            "en": "{i} / {n}",
+            "ar": "{i} من {n}"
+          }
+        },
+        "cats": [
+          {
+            "id": "studyo",
+            "name": {
+              "tr": "Stüdyo",
+              "en": "Studio",
+              "ar": "الاستوديو"
+            }
+          },
+          {
+            "id": "ekipman",
+            "name": {
+              "tr": "Ekipman",
+              "en": "Equipment",
+              "ar": "المعدات"
+            }
+          }
+        ]
+      },
+      "data": [
+        {
+          "img": "radyo-hero-studyo.webp",
+          "cat": "studyo",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Yayın stüdyosu",
+            "en": "Broadcast studio",
+            "ar": "استوديو البث"
+          },
+          "alt": {
+            "tr": "Mikrofon ve mikserli stüdyo",
+            "en": "A studio with a microphone and mixer",
+            "ar": "استوديو بميكروفون ومازج"
+          }
+        },
+        {
+          "img": "radyo-mikrofon.webp",
+          "cat": "ekipman",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Mikrofon",
+            "en": "Microphone",
+            "ar": "ميكروفون"
+          },
+          "alt": {
+            "tr": "Pop filtreli yayın mikrofonu",
+            "en": "A broadcast microphone with a pop filter",
+            "ar": "ميكروفون بث بمرشح"
+          }
+        },
+        {
+          "img": "radyo-kulaklik.webp",
+          "cat": "ekipman",
+          "w": 600,
+          "h": 800,
+          "title": {
+            "tr": "Kulaklık",
+            "en": "Headphones",
+            "ar": "سماعات"
+          },
+          "alt": {
+            "tr": "Mikser üzerinde stüdyo kulaklığı",
+            "en": "Studio headphones on a mixing desk",
+            "ar": "سماعات استوديو على مازج"
+          }
+        },
+        {
+          "img": "radyo-mikser.webp",
+          "cat": "ekipman",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Mikser",
+            "en": "Mixing desk",
+            "ar": "مازج"
+          },
+          "alt": {
+            "tr": "Işıklı yayın mikseri",
+            "en": "A lit broadcast mixing desk",
+            "ar": "مازج بث مضاء"
+          }
+        },
+        {
+          "img": "radyo-anten.webp",
+          "cat": "studyo",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Verici kulesi",
+            "en": "Transmitter tower",
+            "ar": "برج الإرسال"
+          },
+          "alt": {
+            "tr": "Tepede verici anteni",
+            "en": "A transmitter antenna on a hill",
+            "ar": "هوائي إرسال على تلة"
+          }
+        }
+      ],
+      "id": "4k2uqs",
+      "path": "galeri-masonry",
+      "local": "body",
+      "index": 28
+    },
+    {
+      "name": "Randevu / Rezervasyon Formu",
+      "description": "Statik randevu ve rezervasyon sihirbazı (30 Eki 2026): hizmet → uzman → tarih → saat → bilgi → onay; masa kipi (kişi sayısı + bölüm) ve gösterim kipi. Sunucusuz: gönderim WhatsApp hazır mesaj, mailto veya .ics dosyası. Kendi takvimi (Pazartesi/Cumartesi hafta başı, kapalı günler, mola, bekleme günü), üç dil (tr/en/ar, RTL), KVKK onayı, demo kipinde tarayıcıda 'randevularım' listesi.",
+      "version": "1.0.0",
+      "icon": "event_available",
+      "category": "randevu",
+      "tags": [
+        "randevu",
+        "rezervasyon",
+        "takvim",
+        "form",
+        "whatsapp",
+        "ics"
+      ],
+      "desing": {
+        "max": "960px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "errcolor": "color-mix(in srgb, #c81e1e 72%, var(--mx-site-text, #1b1b1b))",
+        "mode": "randevu",
+        "submit": "whatsapp",
+        "demo": true,
+        "weekStart": "auto",
+        "leadDays": 1,
+        "maxDays": 45,
+        "maxPartySize": 8,
+        "masaDuration": 90,
+        "requireEmail": false,
+        "phone": "+90 342 000 00 00",
+        "email": "studyo@gecefrekansi.example",
+        "location": {
+          "tr": "Medya Sk. No: 8 Kat: 2, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "8 Medya Street, Floor 2, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع الإعلام رقم 8، الطابق 2، شاهين بي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "badge": {
+          "tr": "Reklam",
+          "en": "Advertising",
+          "ar": "إعلان"
+        },
+        "title": {
+          "tr": "Reklam görüşmesi planlayın",
+          "en": "Plan an advertising call",
+          "ar": "خطط لمكالمة إعلانية"
+        },
+        "description": {
+          "tr": "Paketi ve uygun günü seçin; talebiniz bu demo sitede yalnızca tarayıcınızda oluşturulur.",
+          "en": "Choose a package and a convenient day; on this demo site your request is created only in your browser.",
+          "ar": "اختر الباقة واليوم المناسب؛ يُنشأ طلبك في متصفحك فقط."
+        },
+        "noscript": {
+          "tr": "Randevu formunu kullanmak için tarayıcınızda JavaScript açık olmalıdır. Bunun yerine bizi arayabilirsiniz.",
+          "en": "JavaScript must be enabled in your browser to use the booking form. You can call us instead.",
+          "ar": "يجب تفعيل JavaScript في المتصفح لاستخدام نموذج الحجز. يمكنك الاتصال بنا بدلًا من ذلك."
+        },
+        "services": [
+          {
+            "id": "s1",
+            "name": {
+              "tr": "Spot reklam görüşmesi",
+              "en": "Spot advertising call",
+              "ar": "مكالمة إعلانات قصيرة"
+            },
+            "duration": 30
+          },
+          {
+            "id": "s2",
+            "name": {
+              "tr": "Program sponsorluğu",
+              "en": "Programme sponsorship",
+              "ar": "رعاية برنامج"
+            },
+            "duration": 45
+          },
+          {
+            "id": "s3",
+            "name": {
+              "tr": "Etkinlik duyurusu",
+              "en": "Event announcement",
+              "ar": "إعلان فعالية"
+            },
+            "duration": 30
+          }
+        ],
+        "staff": [
+          {
+            "id": "p1",
+            "name": {
+              "tr": "Elif Yıldız",
+              "en": "Elif Yildiz",
+              "ar": "إليف يلدز"
+            },
+            "role": {
+              "tr": "Kıdemli danışman",
+              "en": "Senior advisor",
+              "ar": "مستشارة أولى"
+            },
+            "services": [
+              "s1",
+              "s2",
+              "s3"
+            ]
+          },
+          {
+            "id": "p2",
+            "name": {
+              "tr": "Murat Kaya",
+              "en": "Murat Kaya",
+              "ar": "مراد قايا"
+            },
+            "role": {
+              "tr": "Danışman",
+              "en": "Advisor",
+              "ar": "مستشار"
+            },
+            "services": [
+              "s1",
+              "s2"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "id": "ic",
+            "name": {
+              "tr": "İç salon",
+              "en": "Indoor",
+              "ar": "الصالة الداخلية"
+            }
+          },
+          {
+            "id": "bahce",
+            "name": {
+              "tr": "Bahçe",
+              "en": "Garden",
+              "ar": "الحديقة"
+            }
+          }
+        ],
+        "hours": {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "10:00",
+          "end": "17:30",
+          "slot": 30,
+          "breaks": [
+            {
+              "start": "12:30",
+              "end": "13:30"
+            }
+          ]
+        },
+        "closed": [
+          "2026-12-31",
+          "2027-01-01"
+        ],
+        "kvkk": {
+          "text": {
+            "tr": "Kişisel verilerimin bu talebin oluşturulması amacıyla işlenmesine ilişkin aydınlatma metnini okudum, anladım.",
+            "en": "I have read and understood the privacy notice on how my personal data is processed to create this request.",
+            "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية لإنشاء هذا الطلب وفهمته."
+          },
+          "href": "kisiselveriler"
+        },
+        "successText": {
+          "tr": "Talebiniz alındı. Reklam ekibimiz sizinle iletişime geçecektir.",
+          "en": "Your request has been received. Our advertising team will contact you.",
+          "ar": "تم استلام طلبك، وسيتواصل معك فريق الإعلانات."
+        },
+        "ui": {
+          "stepsLabel": {
+            "tr": "Adımlar",
+            "en": "Steps",
+            "ar": "الخطوات"
+          },
+          "stepOf": {
+            "tr": "Adım {n} / {m}",
+            "en": "Step {n} of {m}",
+            "ar": "الخطوة {n} من {m}"
+          },
+          "s_service": {
+            "tr": "Hizmet",
+            "en": "Service",
+            "ar": "الخدمة"
+          },
+          "s_staff": {
+            "tr": "Uzman",
+            "en": "Specialist",
+            "ar": "المختص"
+          },
+          "s_party": {
+            "tr": "Kişi",
+            "en": "Guests",
+            "ar": "الضيوف"
+          },
+          "s_date": {
+            "tr": "Tarih",
+            "en": "Date",
+            "ar": "التاريخ"
+          },
+          "s_time": {
+            "tr": "Saat",
+            "en": "Time",
+            "ar": "الوقت"
+          },
+          "s_info": {
+            "tr": "Bilgiler",
+            "en": "Details",
+            "ar": "البيانات"
+          },
+          "s_confirm": {
+            "tr": "Onay",
+            "en": "Confirm",
+            "ar": "التأكيد"
+          },
+          "back": {
+            "tr": "Geri",
+            "en": "Back",
+            "ar": "رجوع"
+          },
+          "next": {
+            "tr": "Devam",
+            "en": "Continue",
+            "ar": "متابعة"
+          },
+          "reqNote": {
+            "tr": "* ile işaretli alanlar zorunludur.",
+            "en": "Fields marked * are required.",
+            "ar": "الحقول المميزة بعلامة * إلزامية."
+          },
+          "t_service": {
+            "tr": "Hizmet seçin",
+            "en": "Choose a service",
+            "ar": "اختر الخدمة"
+          },
+          "minUnit": {
+            "tr": "{n} dk",
+            "en": "{n} min",
+            "ar": "{n} دقيقة"
+          },
+          "t_staff": {
+            "tr": "Uzman seçin",
+            "en": "Choose a specialist",
+            "ar": "اختر المختص"
+          },
+          "anyStaff": {
+            "tr": "Fark etmez",
+            "en": "No preference",
+            "ar": "لا تفضيل"
+          },
+          "anyStaffHint": {
+            "tr": "Uygun olan uzman atanır.",
+            "en": "The first available specialist is assigned.",
+            "ar": "يُسنَد الموعد إلى أول مختص متاح."
+          },
+          "t_party": {
+            "tr": "Kaç kişisiniz?",
+            "en": "How many guests?",
+            "ar": "كم عدد الضيوف؟"
+          },
+          "partyMinus": {
+            "tr": "Kişi sayısını azalt",
+            "en": "Decrease guests",
+            "ar": "تقليل عدد الضيوف"
+          },
+          "partyPlus": {
+            "tr": "Kişi sayısını artır",
+            "en": "Increase guests",
+            "ar": "زيادة عدد الضيوف"
+          },
+          "partyCount": {
+            "tr": {
+              "one": "{n} kişi",
+              "other": "{n} kişi"
+            },
+            "en": {
+              "one": "{n} guest",
+              "other": "{n} guests"
+            },
+            "ar": {
+              "zero": "{n} ضيف",
+              "one": "ضيف واحد",
+              "two": "ضيفان",
+              "few": "{n} ضيوف",
+              "many": "{n} ضيفًا",
+              "other": "{n} ضيف"
+            }
+          },
+          "groupHint": {
+            "tr": "{n} kişiden büyük gruplar için lütfen bizi arayın.",
+            "en": "For groups larger than {n}, please call us.",
+            "ar": "للمجموعات التي يزيد عددها عن {n}، يُرجى الاتصال بنا."
+          },
+          "t_section": {
+            "tr": "Bölüm tercihi",
+            "en": "Seating preference",
+            "ar": "تفضيل الجلسة"
+          },
+          "anySection": {
+            "tr": "Fark etmez",
+            "en": "No preference",
+            "ar": "لا تفضيل"
+          },
+          "t_date": {
+            "tr": "Tarih seçin",
+            "en": "Choose a date",
+            "ar": "اختر التاريخ"
+          },
+          "prevMonth": {
+            "tr": "Önceki ay",
+            "en": "Previous month",
+            "ar": "الشهر السابق"
+          },
+          "nextMonth": {
+            "tr": "Sonraki ay",
+            "en": "Next month",
+            "ar": "الشهر التالي"
+          },
+          "calHint": {
+            "tr": "Gezinmek için ok tuşlarını, seçmek için Enter tuşunu kullanın. Kapalı günler seçilemez.",
+            "en": "Use the arrow keys to move and Enter to select. Unavailable days cannot be chosen.",
+            "ar": "استخدم مفاتيح الأسهم للتنقل ومفتاح Enter للاختيار. لا يمكن اختيار الأيام غير المتاحة."
+          },
+          "dayUnavailable": {
+            "tr": "uygun değil",
+            "en": "unavailable",
+            "ar": "غير متاح"
+          },
+          "selectedDate": {
+            "tr": "Seçilen tarih: {d}",
+            "en": "Selected date: {d}",
+            "ar": "التاريخ المختار: {d}"
+          },
+          "t_time": {
+            "tr": "Saat seçin",
+            "en": "Choose a time",
+            "ar": "اختر الوقت"
+          },
+          "timesFor": {
+            "tr": "{d} için uygun saatler",
+            "en": "Available times for {d}",
+            "ar": "الأوقات المتاحة ليوم {d}"
+          },
+          "p_morning": {
+            "tr": "Sabah",
+            "en": "Morning",
+            "ar": "الصباح"
+          },
+          "p_afternoon": {
+            "tr": "Öğleden sonra",
+            "en": "Afternoon",
+            "ar": "بعد الظهر"
+          },
+          "p_evening": {
+            "tr": "Akşam",
+            "en": "Evening",
+            "ar": "المساء"
+          },
+          "slotTaken": {
+            "tr": "dolu",
+            "en": "booked",
+            "ar": "محجوز"
+          },
+          "noSlots": {
+            "tr": "Bu tarihte uygun saat kalmadı. Lütfen başka bir gün seçin.",
+            "en": "No times are left on this date. Please choose another day.",
+            "ar": "لا توجد أوقات متاحة في هذا اليوم. يُرجى اختيار يوم آخر."
+          },
+          "t_info": {
+            "tr": "İletişim bilgileriniz",
+            "en": "Your contact details",
+            "ar": "بيانات التواصل"
+          },
+          "fName": {
+            "tr": "Ad soyad",
+            "en": "Full name",
+            "ar": "الاسم الكامل"
+          },
+          "fPhone": {
+            "tr": "Telefon",
+            "en": "Phone",
+            "ar": "رقم الهاتف"
+          },
+          "fEmail": {
+            "tr": "E-posta",
+            "en": "E-mail",
+            "ar": "البريد الإلكتروني"
+          },
+          "fEmailOpt": {
+            "tr": "E-posta (isteğe bağlı)",
+            "en": "E-mail (optional)",
+            "ar": "البريد الإلكتروني (اختياري)"
+          },
+          "fNote": {
+            "tr": "Not (isteğe bağlı)",
+            "en": "Note (optional)",
+            "ar": "ملاحظة (اختياري)"
+          },
+          "eService": {
+            "tr": "Lütfen bir hizmet seçin.",
+            "en": "Please choose a service.",
+            "ar": "يُرجى اختيار خدمة."
+          },
+          "eDate": {
+            "tr": "Lütfen uygun bir tarih seçin.",
+            "en": "Please choose an available date.",
+            "ar": "يُرجى اختيار تاريخ متاح."
+          },
+          "eTime": {
+            "tr": "Lütfen bir saat seçin.",
+            "en": "Please choose a time.",
+            "ar": "يُرجى اختيار وقت."
+          },
+          "eName": {
+            "tr": "Lütfen adınızı ve soyadınızı yazın.",
+            "en": "Please enter your full name.",
+            "ar": "يُرجى كتابة اسمك الكامل."
+          },
+          "ePhone": {
+            "tr": "Geçerli bir telefon numarası yazın.",
+            "en": "Please enter a valid phone number.",
+            "ar": "يُرجى كتابة رقم هاتف صحيح."
+          },
+          "eEmail": {
+            "tr": "Geçerli bir e-posta adresi yazın.",
+            "en": "Please enter a valid e-mail address.",
+            "ar": "يُرجى كتابة بريد إلكتروني صحيح."
+          },
+          "eKvkk": {
+            "tr": "Devam etmek için aydınlatma metnini onaylamanız gerekir.",
+            "en": "You need to accept the privacy notice to continue.",
+            "ar": "يجب الموافقة على إشعار الخصوصية للمتابعة."
+          },
+          "t_confirm": {
+            "tr": "Özet ve onay",
+            "en": "Review and confirm",
+            "ar": "المراجعة والتأكيد"
+          },
+          "sum_service": {
+            "tr": "Hizmet",
+            "en": "Service",
+            "ar": "الخدمة"
+          },
+          "sum_staff": {
+            "tr": "Uzman",
+            "en": "Specialist",
+            "ar": "المختص"
+          },
+          "sum_party": {
+            "tr": "Kişi sayısı",
+            "en": "Guests",
+            "ar": "عدد الضيوف"
+          },
+          "sum_section": {
+            "tr": "Bölüm",
+            "en": "Seating",
+            "ar": "الجلسة"
+          },
+          "sum_date": {
+            "tr": "Tarih",
+            "en": "Date",
+            "ar": "التاريخ"
+          },
+          "sum_time": {
+            "tr": "Saat",
+            "en": "Time",
+            "ar": "الوقت"
+          },
+          "sum_name": {
+            "tr": "Ad soyad",
+            "en": "Name",
+            "ar": "الاسم"
+          },
+          "sum_phone": {
+            "tr": "Telefon",
+            "en": "Phone",
+            "ar": "الهاتف"
+          },
+          "sum_email": {
+            "tr": "E-posta",
+            "en": "E-mail",
+            "ar": "البريد الإلكتروني"
+          },
+          "sum_note": {
+            "tr": "Not",
+            "en": "Note",
+            "ar": "ملاحظة"
+          },
+          "kvkkLink": {
+            "tr": "Aydınlatma metni",
+            "en": "Privacy notice",
+            "ar": "إشعار الخصوصية"
+          },
+          "submit_whatsapp": {
+            "tr": "WhatsApp ile gönder",
+            "en": "Send via WhatsApp",
+            "ar": "إرسال عبر واتساب"
+          },
+          "submit_mailto": {
+            "tr": "E-posta ile gönder",
+            "en": "Send by e-mail",
+            "ar": "إرسال بالبريد الإلكتروني"
+          },
+          "submit_ics": {
+            "tr": "Takvim dosyasını indir",
+            "en": "Download calendar file",
+            "ar": "تنزيل ملف التقويم"
+          },
+          "showcaseNote": {
+            "tr": "Bu bölüm bir gösterimdir: girdiğiniz bilgiler hiçbir yere gönderilmez. Gerçek talep için bizi arayabilirsiniz.",
+            "en": "This is a showcase: nothing you enter is sent anywhere. To make a real request, please call us.",
+            "ar": "هذا القسم للعرض فقط: لا تُرسَل أي بيانات تدخلها. لتقديم طلب فعلي يُرجى الاتصال بنا."
+          },
+          "callUs": {
+            "tr": "Bizi arayın",
+            "en": "Call us",
+            "ar": "اتصل بنا"
+          },
+          "restart": {
+            "tr": "Başa dön",
+            "en": "Start over",
+            "ar": "العودة إلى البداية"
+          },
+          "doneTitle_randevu": {
+            "tr": "Randevu talebiniz hazır",
+            "en": "Your appointment request is ready",
+            "ar": "طلب موعدك جاهز"
+          },
+          "doneTitle_masa": {
+            "tr": "Rezervasyon talebiniz hazır",
+            "en": "Your reservation request is ready",
+            "ar": "طلب حجزك جاهز"
+          },
+          "doneHint_whatsapp": {
+            "tr": "Mesaj WhatsApp'ta hazır olarak açıldı. Talebin bize ulaşması için mesajı göndermeyi unutmayın.",
+            "en": "The message opened in WhatsApp, ready to send. Remember to send it so your request reaches us.",
+            "ar": "فُتحت الرسالة جاهزة في واتساب. لا تنسَ إرسالها كي يصلنا طلبك."
+          },
+          "doneHint_mailto": {
+            "tr": "E-posta uygulamanızda hazır bir taslak açıldı. Göndermeyi unutmayın.",
+            "en": "A draft e-mail opened in your mail app. Remember to send it.",
+            "ar": "فُتحت مسودة رسالة في تطبيق البريد. لا تنسَ إرسالها."
+          },
+          "doneHint_ics": {
+            "tr": "Takvim dosyası indirildi. Kaydı takvim uygulamanıza ekleyebilirsiniz.",
+            "en": "The calendar file was downloaded. You can add the booking to your calendar app.",
+            "ar": "تم تنزيل ملف التقويم. يمكنك إضافة الحجز إلى تطبيق التقويم."
+          },
+          "reopen": {
+            "tr": "Mesajı yeniden aç",
+            "en": "Open the message again",
+            "ar": "فتح الرسالة مرة أخرى"
+          },
+          "reopen_ics": {
+            "tr": "Dosyayı yeniden indir",
+            "en": "Download again",
+            "ar": "إعادة التنزيل"
+          },
+          "addCal": {
+            "tr": "Takvime ekle",
+            "en": "Add to calendar",
+            "ar": "إضافة إلى التقويم"
+          },
+          "newBooking_randevu": {
+            "tr": "Yeni randevu",
+            "en": "New appointment",
+            "ar": "موعد جديد"
+          },
+          "newBooking_masa": {
+            "tr": "Yeni rezervasyon",
+            "en": "New reservation",
+            "ar": "حجز جديد"
+          },
+          "demoNote": {
+            "tr": "Demo: bilgileriniz yalnızca bu tarayıcıda saklanır, hiçbir sunucuya gönderilmez.",
+            "en": "Demo: your details stay in this browser only and are never sent to a server.",
+            "ar": "عرض تجريبي: تبقى بياناتك في هذا المتصفح فقط ولا تُرسَل إلى أي خادم."
+          },
+          "myTitle_randevu": {
+            "tr": "Randevularım",
+            "en": "My appointments",
+            "ar": "مواعيدي"
+          },
+          "myTitle_masa": {
+            "tr": "Rezervasyonlarım",
+            "en": "My reservations",
+            "ar": "حجوزاتي"
+          },
+          "cancel": {
+            "tr": "İptal et",
+            "en": "Cancel",
+            "ar": "إلغاء"
+          },
+          "cancelAria": {
+            "tr": "{d} saat {t} kaydını iptal et",
+            "en": "Cancel the booking on {d} at {t}",
+            "ar": "إلغاء الحجز بتاريخ {d} الساعة {t}"
+          },
+          "cancelled": {
+            "tr": "Kayıt iptal edildi.",
+            "en": "Booking cancelled.",
+            "ar": "تم إلغاء الحجز."
+          },
+          "svcFallback_randevu": {
+            "tr": "Randevu",
+            "en": "Appointment",
+            "ar": "موعد"
+          },
+          "msg_randevu_head": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için {service} randevusu almak istiyorum.",
+            "en": "Hello, I would like to book {service} on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز موعد ({service}) بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_randevu_head_nosvc": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için randevu almak istiyorum.",
+            "en": "Hello, I would like to book an appointment on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز موعد بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_masa_head": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için {party} masa rezervasyonu yapmak istiyorum.",
+            "en": "Hello, I would like to reserve a table for {party} on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز طاولة لـ {party} بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_staff": {
+            "tr": "Tercih edilen uzman: {staff}",
+            "en": "Preferred specialist: {staff}",
+            "ar": "المختص المفضل: {staff}"
+          },
+          "msg_section": {
+            "tr": "Bölüm: {section}",
+            "en": "Seating: {section}",
+            "ar": "الجلسة: {section}"
+          },
+          "msg_phone": {
+            "tr": "Telefon: {phone}",
+            "en": "Phone: {phone}",
+            "ar": "الهاتف: {phone}"
+          },
+          "msg_email": {
+            "tr": "E-posta: {email}",
+            "en": "E-mail: {email}",
+            "ar": "البريد الإلكتروني: {email}"
+          },
+          "msg_note": {
+            "tr": "Not: {note}",
+            "en": "Note: {note}",
+            "ar": "ملاحظة: {note}"
+          },
+          "mailSubject_randevu": {
+            "tr": "Randevu talebi – {name}",
+            "en": "Appointment request – {name}",
+            "ar": "طلب موعد – {name}"
+          },
+          "mailSubject_masa": {
+            "tr": "Rezervasyon talebi – {name}",
+            "en": "Reservation request – {name}",
+            "ar": "طلب حجز – {name}"
+          },
+          "icsSummary_randevu": {
+            "tr": "Randevu: {service}",
+            "en": "Appointment: {service}",
+            "ar": "موعد: {service}"
+          },
+          "icsSummary_masa": {
+            "tr": "Masa rezervasyonu – {party}",
+            "en": "Table reservation – {party}",
+            "ar": "حجز طاولة – {party}"
+          }
+        }
+      },
+      "id": "0kfg5h",
+      "path": "randevu-formu",
+      "local": "body",
+      "data": [],
+      "index": 29
+    },
+    {
+      "name": "Page Desing 5",
+      "desing": {
+        "stil": "yatay-kart",
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "32",
+        "backgroundcolor": "#000",
+        "menu-active": "var(--mx-site-primary, #2563eb)",
+        "activetext": "var(--mx-site-primary-contrast, #ffffff)",
+        "textcolor": "#fff",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "border_radius": "4px",
+        "card_shadow": "0 24px 60px rgba(0,0,0,.18)",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "colortitle": "var(--mx-site-text, #1b1b1b)",
+        "coloractive": "var(--mx-site-primary, #2563eb)",
+        "ui": {
+          "tr": {
+            "home": "Anasayfa",
+            "products": "Sayfalar",
+            "dimensions": "Ölçüler",
+            "dimNote": "Standart üretim referansıdır; proje bazında özelleştirilebilir.",
+            "quote": "İletişim",
+            "whatsapp": "WhatsApp",
+            "prev": "Önceki",
+            "next": "Sonraki"
+          },
+          "en": {
+            "home": "Home",
+            "products": "Pages",
+            "dimensions": "Dimensions",
+            "dimNote": "Standard production reference; customizable per project.",
+            "quote": "Contact",
+            "whatsapp": "WhatsApp",
+            "prev": "Previous",
+            "next": "Next"
+          },
+          "ar": {
+            "home": "الرئيسية",
+            "products": "الصفحات",
+            "dimensions": "الأبعاد",
+            "dimNote": "مرجع إنتاج قياسي؛ قابل للتخصيص حسب المشروع.",
+            "quote": "اتصل بنا",
+            "whatsapp": "واتساب",
+            "prev": "السابق",
+            "next": "التالي"
+          }
+        },
+        "noTitle": {
+          "tr": "Başlık Yok",
+          "en": "No title",
+          "ar": "بدون عنوان"
+        },
+        "productNavAria": {
+          "tr": "Ürün navigasyonu",
+          "en": "Product navigation",
+          "ar": "تنقل المنتج"
+        }
+      },
+      "category": "page",
+      "description": "Sayfa basligi, yan menu ve icerik alani. Urun detayinda breadcrumb, olcu kartlari, teklif/WhatsApp CTA, onceki/sonraki urun navigasyonu. Kategori menusu ve responsive slide-in menu. Görsel varyant desing.stil (31 Eki 2026, yan menü bağlantıları): \"\" klasik (kutulu liste, bugünkü görünüm) · \"ikon-ustte-yuvarlak\" (ortalı karo, üstte daire ikon) · \"yatay-kart\" (ikon solda/RTL sağda, metin yanında, ayrı kartlar) · \"kenar-cizgili\" (kutu yok, başta ince çizgi; hover/aktifte primary çizgi ve içe kayma). Kart zemini bgcolor (31 Eki) korunur; eklenen renkler var(--mx-site-primary) türevi.",
+      "version": "1.4.0",
+      "icon": "web",
+      "id": "oguvwz",
+      "path": "page-desing-5",
+      "local": "body",
+      "data": [],
+      "index": 30
+    },
+    {
+      "name": {
+        "tr": "İletişim 7 — Bölünmüş panel",
+        "en": "Contact 7 — Split panel",
+        "ar": "اتصال 7 — لوحة مقسّمة"
+      },
+      "description": {
+        "tr": "Bölünmüş iletişim: koyu bilgi paneli (adres · telefon · e-posta · saat · sosyal · harita bağlantısı) + form (ad, e-posta, telefon, konu, mesaj, zorunlu KVKK onayı). Gönderim mailto: ya da WhatsApp hazır mesaj (desing.gonderim). Üç görsel varyant (desing.stil): bolunmus · kart-ustte · harita-arka (iframe arka plan, yüzen form). Üç dil, RTL, koyu mod token'larla.",
+        "en": "Split contact section: dark info panel (address · phone · e-mail · hours · social · map link) + form (name, e-mail, phone, subject, message, required privacy consent). Submission via mailto: or WhatsApp prefilled message (desing.gonderim). Three visual variants (desing.stil): bolunmus · kart-ustte · harita-arka (iframe background, floating form). Three languages, RTL, dark mode via tokens.",
+        "ar": "قسم اتصال مقسّم: لوحة معلومات داكنة (العنوان · الهاتف · البريد · ساعات العمل · التواصل الاجتماعي · رابط الخريطة) + نموذج (الاسم، البريد، الهاتف، الموضوع، الرسالة، موافقة خصوصية إلزامية). الإرسال عبر mailto: أو رسالة واتساب جاهزة. ثلاثة أنماط مرئية، ثلاث لغات، RTL، وضع داكن."
+      },
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "category": "contact",
+      "tags": [
+        "iletisim",
+        "contact",
+        "form",
+        "whatsapp",
+        "mailto",
+        "kvkk",
+        "ar"
+      ],
+      "desing": {
+        "max": "1200px",
+        "stil": "bolunmus",
+        "gonderim": "mailto",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "panelbg": "color-mix(in srgb, #0f172a 82%, var(--mx-site-primary, #2563eb))",
+        "paneltext": "#f1f5f9",
+        "panelmuted": "color-mix(in srgb, #f1f5f9 74%, transparent)",
+        "errcolor": "var(--mx-color-danger, #b42318)",
+        "radius": "4px",
+        "title": {
+          "tr": "Bize Ulaşın",
+          "en": "Get in Touch",
+          "ar": "تواصل معنا"
+        },
+        "description": {
+          "tr": "Sorularınız, teklif talepleriniz ve iş birlikleri için formu doldurun; en kısa sürede dönüş yapalım.",
+          "en": "Fill in the form for questions, quote requests and partnerships; we will get back to you shortly.",
+          "ar": "املأ النموذج لأسئلتك وطلبات عروض الأسعار والشراكات؛ سنعود إليك في أقرب وقت."
+        },
+        "panelTitle": {
+          "tr": "İletişim Bilgileri",
+          "en": "Contact Details",
+          "ar": "بيانات الاتصال"
+        },
+        "panelText": {
+          "tr": "Ofisimize uğrayın, arayın ya da yazın — size yardımcı olmaktan mutluluk duyarız.",
+          "en": "Drop by our office, call or write — we are happy to help.",
+          "ar": "تفضّل بزيارة مكتبنا أو اتصل بنا أو اكتب لنا — يسعدنا مساعدتك."
+        },
+        "address": {
+          "tr": "Medya Sk. No: 8 Kat: 2, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "8 Medya Street, Floor 2, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع الإعلام رقم 8، الطابق 2، شاهين بي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 000 00 00",
+        "whatsapp": "",
+        "email": "studyo@gecefrekansi.example",
+        "hours": {
+          "tr": "Yayın 7/24 (kurgusal) · Stüdyo hattı hafta içi 10:00 – 18:00",
+          "en": "On air 24/7 (fictional) · Studio line weekdays 10:00 – 18:00",
+          "ar": "البث على مدار الساعة (افتراضي) · خط الاستوديو أيام الأسبوع 10:00 – 18:00"
+        },
+        "mapUrl": "",
+        "mapEmbed": "",
+        "addressTitle": {
+          "tr": "Adres",
+          "en": "Address",
+          "ar": "العنوان"
+        },
+        "phoneTitle": {
+          "tr": "Telefon",
+          "en": "Phone",
+          "ar": "الهاتف"
+        },
+        "emailTitle": {
+          "tr": "E-posta",
+          "en": "E-mail",
+          "ar": "البريد الإلكتروني"
+        },
+        "hoursTitle": {
+          "tr": "Çalışma Saatleri",
+          "en": "Working Hours",
+          "ar": "ساعات العمل"
+        },
+        "mapLink": {
+          "tr": "Haritada gör",
+          "en": "View on map",
+          "ar": "عرض على الخريطة"
+        },
+        "mapTitle": {
+          "tr": "Konum haritası",
+          "en": "Location map",
+          "ar": "خريطة الموقع"
+        },
+        "socialTitle": {
+          "tr": "Bizi takip edin",
+          "en": "Follow us",
+          "ar": "تابعنا"
+        },
+        "social": [
+          {
+            "ad": "Instagram",
+            "url": "https://instagram.com/",
+            "icon": "photo_camera"
+          },
+          {
+            "ad": "LinkedIn",
+            "url": "https://linkedin.com/",
+            "icon": "work"
+          },
+          {
+            "ad": "YouTube",
+            "url": "https://youtube.com/",
+            "icon": "play_circle"
+          }
+        ],
+        "formTitle": {
+          "tr": "Mesaj Gönderin",
+          "en": "Send a Message",
+          "ar": "أرسل رسالة"
+        },
+        "nameLabel": {
+          "tr": "Ad Soyad",
+          "en": "Full name",
+          "ar": "الاسم الكامل"
+        },
+        "emailLabel": {
+          "tr": "E-posta",
+          "en": "E-mail",
+          "ar": "البريد الإلكتروني"
+        },
+        "phoneLabel": {
+          "tr": "Telefon",
+          "en": "Phone",
+          "ar": "الهاتف"
+        },
+        "subjectLabel": {
+          "tr": "Konu",
+          "en": "Subject",
+          "ar": "الموضوع"
+        },
+        "subjectPlaceholder": {
+          "tr": "Konu seçin",
+          "en": "Choose a subject",
+          "ar": "اختر الموضوع"
+        },
+        "subjects": [
+          {
+            "id": "teklif",
+            "name": {
+              "tr": "Teklif talebi",
+              "en": "Quote request",
+              "ar": "طلب عرض سعر"
+            }
+          },
+          {
+            "id": "bilgi",
+            "name": {
+              "tr": "Bilgi almak istiyorum",
+              "en": "I would like information",
+              "ar": "أرغب في الحصول على معلومات"
+            }
+          },
+          {
+            "id": "destek",
+            "name": {
+              "tr": "Destek",
+              "en": "Support",
+              "ar": "الدعم"
+            }
+          },
+          {
+            "id": "diger",
+            "name": {
+              "tr": "Diğer",
+              "en": "Other",
+              "ar": "أخرى"
+            }
+          }
+        ],
+        "messageLabel": {
+          "tr": "Mesajınız",
+          "en": "Your message",
+          "ar": "رسالتك"
+        },
+        "kvkkText": {
+          "tr": "Kişisel verilerimin iletişim amacıyla işlenmesine ilişkin aydınlatma metnini okudum, onaylıyorum.",
+          "en": "I have read and accept the privacy notice on processing my personal data for contact purposes.",
+          "ar": "قرأتُ إشعار الخصوصية بشأن معالجة بياناتي الشخصية لأغراض التواصل وأوافق عليه."
+        },
+        "kvkkLinkText": {
+          "tr": "Aydınlatma metni",
+          "en": "Privacy notice",
+          "ar": "إشعار الخصوصية"
+        },
+        "kvkkHref": "kisiselveriler",
+        "submitText": {
+          "tr": "Gönder",
+          "en": "Send",
+          "ar": "إرسال"
+        },
+        "submitWhatsappText": {
+          "tr": "WhatsApp ile gönder",
+          "en": "Send via WhatsApp",
+          "ar": "إرسال عبر واتساب"
+        },
+        "mailSubject": {
+          "tr": "Web sitesi iletişim formu",
+          "en": "Website contact form",
+          "ar": "نموذج الاتصال بالموقع"
+        },
+        "optionalText": {
+          "tr": "isteğe bağlı",
+          "en": "optional",
+          "ar": "اختياري"
+        },
+        "errRequired": {
+          "tr": "Bu alan zorunludur.",
+          "en": "This field is required.",
+          "ar": "هذا الحقل إلزامي."
+        },
+        "errEmail": {
+          "tr": "Geçerli bir e-posta adresi girin.",
+          "en": "Enter a valid e-mail address.",
+          "ar": "أدخل بريدًا إلكترونيًا صالحًا."
+        },
+        "errPhone": {
+          "tr": "Geçerli bir telefon numarası girin.",
+          "en": "Enter a valid phone number.",
+          "ar": "أدخل رقم هاتف صالحًا."
+        },
+        "errKvkk": {
+          "tr": "Devam etmek için onay kutusunu işaretleyin.",
+          "en": "Tick the consent box to continue.",
+          "ar": "حدّد خانة الموافقة للمتابعة."
+        },
+        "errSummary": {
+          "tr": "Lütfen işaretli alanları düzeltin.",
+          "en": "Please fix the highlighted fields.",
+          "ar": "يرجى تصحيح الحقول المحددة."
+        },
+        "okText": {
+          "tr": "E-posta uygulamanız açılıyor; mesajı oradan gönderebilirsiniz.",
+          "en": "Your e-mail app is opening; you can send the message from there.",
+          "ar": "يتم فتح تطبيق البريد الإلكتروني؛ يمكنك إرسال الرسالة من هناك."
+        },
+        "okWhatsappText": {
+          "tr": "WhatsApp açılıyor; hazır mesajı gönderebilirsiniz.",
+          "en": "WhatsApp is opening; you can send the prepared message.",
+          "ar": "يتم فتح واتساب؛ يمكنك إرسال الرسالة الجاهزة."
+        },
+        "waIntro": {
+          "tr": "Merhaba, web sitenizden yazıyorum.",
+          "en": "Hello, I am writing from your website.",
+          "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
+        }
+      },
+      "data": [],
+      "id": "h0p9j6",
+      "path": "contact-7",
+      "local": "body",
+      "index": 31
+    },
+    {
+      "name": "İletişim",
+      "desing": {
+        "stil": "kartli",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "name": {
+          "tr": "Resmî bilgiler",
+          "en": "Official details",
+          "ar": "بيانات رسمية"
+        },
+        "margin": "30px 0px 30px 0px",
+        "linkcolor": "var(--mx-site-primary, #2563eb)"
+      },
+      "data": [
+        {
+          "icon": "verified",
+          "text": {
+            "tr": "RTÜK yayın lisansı: DEMO-RT-0000 (kurgusal)",
+            "en": "RTÜK broadcast licence: DEMO-RT-0000 (fictional)",
+            "ar": "ترخيص البث من RTÜK: DEMO-RT-0000 (افتراضي)"
+          },
+          "url": ""
+        }
+      ],
+      "category": "contact",
+      "description": "İletişim bilgileri görüntüleme modülü. Telefon, email ve adres bilgilerini icon ile şık tasarımda sunar. 26 farklı projede kullanılır: kurumsal şirketler, restoranlar, e-ticaret siteleri, sağlık kuruluşları ve hizmet sektöründe. Responsive kart düzeni ve tıklanabilir telefon/email linkleri içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (çerçeveli liste, bugünkü görünüm) · \"kartli\" (her bilgi ortalı bir kart, 3→2→1 sütun) · \"koyu-panel\" (sol koyu başlık paneli primary/primary-contrast + sağda ayraçlı liste). Varyant renkleri yalnız var(--mx-site-*) token.",
+      "version": "1.1.0",
+      "icon": "contact_mail",
+      "id": "x8q2mr",
+      "path": "contact-3",
+      "local": "body",
+      "index": 32
+    },
+    {
+      "name": "Maps",
+      "desing": {
+        "stil": "cerceveli",
+        "height": "200",
+        "opacity": "0.5",
+        "backgroundcolor": "#ffffff",
+        "color": "#1e3046",
+        "img": "map.png",
+        "externalUrl": "",
+        "address": {
+          "tr": "Medya Sk. No: 8 Kat: 2, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "8 Medya Street, Floor 2, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع الإعلام رقم 8، الطابق 2، شاهين بي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 000 00 00",
+        "email": "studyo@gecefrekansi.example",
+        "badgeText": {
+          "tr": "Konumumuz",
+          "en": "Our Location",
+          "ar": "موقعنا"
+        },
+        "infoTitle": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "اتصل بنا"
+        },
+        "directions": {
+          "tr": "Yol tarifi al",
+          "en": "Get directions",
+          "ar": "احصل على الاتجاهات"
+        }
+      },
+      "category": "map",
+      "description": "Google Maps konum gösterim modülü. Firmanın fiziksel konumunu interaktif harita ile sergiler. 20 farklı projede kullanılır: kurumsal şirketler, restoranlar, sağlık kuruluşları, üretim firmaları ve hizmet sektöründe. Yol tarifi ve harita üzerinde zoom özellikleri vardır. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (dalgalı kenar, tam genişlik, bugünkü görünüm) · \"cerceveli\" (yuvarlak köşe + gölge + yüzey çerçeve, üstte adres rozeti: address ya da badgeText) · \"yan-bilgi\" (harita 2/3, yanda bilgi kartı: infoTitle, address/phone/email — boşsa setting'den — ve directions düğmesi). Kök eleman <a> olduğundan kartta ikinci bağlantı yok. Renkler var(--mx-site-*) token; backgroundcolor #ffffff kuralı değişmedi.",
+      "version": "1.1.0",
+      "icon": "map",
+      "id": "bbbo89",
+      "path": "map",
+      "local": "body",
+      "data": [],
+      "index": 33
+    },
+    {
+      "name": "Footer 9 — Kurumsal",
+      "desing": {
+        "showlang": true,
+        "maxpages": 8,
+        "bgcolor": "var(--mx-site-surface-2, #1f2937)",
+        "color": "var(--mx-site-text, #f3f4f6)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #f3f4f6) 72%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #f3f4f6) 18%, transparent)",
+        "logo_maxh": "56px",
+        "logo_plate": false,
+        "about": {
+          "tr": "Gece Frekansı: yayın akışı, programlar ve reklam talebi; künye ve lisans bilgileri açık. (Demo site — ses yayını yoktur)",
+          "en": "Gece Frekansı: broadcast schedule, programmes and advertising requests; masthead and licence details are open. (Demo site — no audio stream)",
+          "ar": "غيجه فريكانسي: جدول البث والبرامج وطلب الإعلان مع بيانات الإدارة والترخيص المعلنة. (موقع تجريبي — لا يوجد بث صوتي)"
+        },
+        "title_pages": {
+          "tr": "Sayfalar",
+          "en": "Pages",
+          "ar": "الصفحات"
+        },
+        "title_contact": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "ar": "اتصل بنا"
+        },
+        "title_social": {
+          "tr": "Bizi Takip Edin",
+          "en": "Follow Us",
+          "ar": "تابعنا"
+        },
+        "address": {
+          "tr": "Medya Sk. No: 8 Kat: 2, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "8 Medya Street, Floor 2, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع الإعلام رقم 8، الطابق 2، شاهين بي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 000 00 00",
+        "email": "studyo@gecefrekansi.example",
+        "social": [],
+        "legal": [
+          {
+            "text": {
+              "tr": "Gizlilik Politikası",
+              "en": "Privacy Policy",
+              "ar": "سياسة الخصوصية"
+            },
+            "name": {
+              "tr": "Gizlilik Politikası",
+              "en": "Privacy Policy",
+              "ar": "سياسة الخصوصية"
+            },
+            "href": "gizlilikpolitikasi"
+          },
+          {
+            "text": {
+              "tr": "Kişisel Veriler",
+              "en": "Personal Data",
+              "ar": "البيانات الشخصية"
+            },
+            "name": {
+              "tr": "Kişisel Veriler",
+              "en": "Personal Data",
+              "ar": "البيانات الشخصية"
+            },
+            "href": "kisiselveriler"
+          },
+          {
+            "text": {
+              "tr": "Kullanıcı Hakları",
+              "en": "User Rights",
+              "ar": "حقوق المستخدم"
+            },
+            "name": {
+              "tr": "Kullanıcı Hakları",
+              "en": "User Rights",
+              "ar": "حقوق المستخدم"
+            },
+            "href": "kullanicahaklari"
+          },
+          {
+            "text": {
+              "tr": "Yasal Uyarı",
+              "en": "Legal Notice",
+              "ar": "إشعار قانوني"
+            },
+            "name": {
+              "tr": "Yasal Uyarı",
+              "en": "Legal Notice",
+              "ar": "إشعار قانوني"
+            },
+            "href": "yasaluyari"
+          }
+        ],
+        "rightsText": {
+          "tr": "Tüm hakları saklıdır.",
+          "en": "All rights reserved.",
+          "ar": "جميع الحقوق محفوظة."
+        }
+      },
+      "category": "footer",
+      "data": [],
+      "description": "Kurumsal alt bilgi (footer): 4 sütun — marka (logo + kısa metin), sayfalar, iletişim (address/phone/email; boşsa setting.phone/email, hiçbiri yoksa sütun gizli), sosyal (social: [{ad,url}]; boşsa gizli). Alt şerit: telif (yıl otomatik), yasal bağlantılar (legal: [{text,href}], dil önekli), dil seçici. Renkler yalnız desing anahtarı + var(--mx-site-*, fallback): token'sız sitede fallback, colorScheme:auto sitede koyu mod uyumlu. logo_maxh / logo_plate footer-3 ile aynı.",
+      "version": "1.0.0",
+      "icon": "footer",
+      "id": "gb93vu",
+      "path": "footer-9",
+      "local": "footer",
+      "index": 34
+    },
+    {
+      "name": "Zaman Çizelgesi 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "badge": {
+          "tr": "Yayın akışı",
+          "en": "Schedule",
+          "ar": "جدول البث"
+        },
+        "title": {
+          "tr": "Bir günlük yayın akışı (örnek)",
+          "en": "A day on air (sample)",
+          "ar": "يوم من البث (نموذج)"
+        },
+        "description": {
+          "tr": "Saatler örnektir; haber bültenleri her saat başı yayınlanır.",
+          "en": "Times are samples; news bulletins air on the hour.",
+          "ar": "الأوقات نماذج؛ وتُبَثّ نشرات الأخبار كل ساعة."
+        },
+        "accentText": "#ffffff",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
+      },
+      "data": [
+        {
+          "year": "06:00",
+          "title": {
+            "tr": "Günaydın Frekans",
+            "en": "Good Morning Frequency",
+            "ar": "صباح الخير فريكانس"
+          },
+          "text": {
+            "tr": "Müzik, trafik ve yerel gündem.",
+            "en": "Music, traffic and local news.",
+            "ar": "موسيقى ومرور وأخبار محلية."
+          }
+        },
+        {
+          "year": "10:00",
+          "title": {
+            "tr": "Gün Ortası Seçkisi",
+            "en": "Midday Mix",
+            "ar": "مختارات منتصف النهار"
+          },
+          "text": {
+            "tr": "Pop seçkisi ve dinleyici notları.",
+            "en": "A pop mix and listener notes.",
+            "ar": "مختارات بوب وملاحظات المستمعين."
+          }
+        },
+        {
+          "year": "16:00",
+          "title": {
+            "tr": "Yolda Frekans",
+            "en": "Frequency On the Road",
+            "ar": "فريكانس على الطريق"
+          },
+          "text": {
+            "tr": "Eve dönüş yolunda enerjik yayın.",
+            "en": "Upbeat broadcast for the drive home.",
+            "ar": "بث نشط في طريق العودة."
+          }
+        },
+        {
+          "year": "19:00",
+          "title": {
+            "tr": "Akşam Seçkisi",
+            "en": "Evening Selection",
+            "ar": "مختارات المساء"
+          },
+          "text": {
+            "tr": "Slow ve akustik parçalar.",
+            "en": "Slow and acoustic tracks.",
+            "ar": "مقطوعات هادئة وصوتية."
+          }
+        },
+        {
+          "year": "22:00",
+          "title": {
+            "tr": "Gece Yarısı Sohbeti",
+            "en": "Midnight Talk",
+            "ar": "حديث منتصف الليل"
+          },
+          "text": {
+            "tr": "İstekler ve sohbet.",
+            "en": "Requests and conversation.",
+            "ar": "طلبات وحوار."
+          }
+        }
+      ],
+      "category": "timeline",
+      "description": "Zaman çizelgesi modülü. Kurumsal tarihçe, süreç adımları veya yol haritasını dikey çizgi + yıl rozetiyle listeler. Çok dilli başlık/metin ve animasyonlu giriş içerir.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "id": "54too0",
+      "path": "timeline-1",
+      "local": "body",
+      "index": 35
+    },
+    {
+      "name": "Süreç Adımları",
+      "description": "3–6 adımlık süreç anlatımı: çizgi/ok ile bağlı daire numaralar, altında başlık + metin. Aktif adım vurgusu kaydırmayla ilerler (IntersectionObserver; JS yoksa tüm adımlar düz görünür). desing.stil: yatay (çizgiyle bağlı sıra; mobilde dikey zaman çizgisi) | dikey (iki yanlı zaman çizgisi) | kartli (kart + ok ayraç). Veri: data[] = [{no?, baslik{tr,en,ar}, metin{}, ikon?}]. Renkler yalnız token; koyu mod otomatik; RTL'de ok/çizgi yönü aynalanır.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "category": "surec",
+      "tags": [
+        "süreç",
+        "adım",
+        "zaman çizgisi",
+        "process",
+        "steps",
+        "ar"
+      ],
+      "desing": {
+        "stil": "dikey",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "16px",
+        "eyebrow": {
+          "tr": "Dinleyici",
+          "en": "Listeners",
+          "ar": "المستمعون"
+        },
+        "title": {
+          "tr": "Dinleyiciden yayına",
+          "en": "From listener to broadcast",
+          "ar": "من المستمع إلى البث"
+        },
+        "description": {
+          "tr": "İstek ve ileti süreci.",
+          "en": "How requests and messages work.",
+          "ar": "كيف تعمل الطلبات والرسائل."
+        },
+        "stepLabel": {
+          "tr": "Adım {n}",
+          "en": "Step {n}",
+          "ar": "الخطوة {n}"
+        },
+        "listLabel": {
+          "tr": "Süreç adımları",
+          "en": "Process steps",
+          "ar": "خطوات العملية"
+        }
+      },
+      "data": [
+        {
+          "baslik": {
+            "tr": "İstek gönderin",
+            "en": "Send a request",
+            "ar": "أرسل طلبًا"
+          },
+          "metin": {
+            "tr": "Telefon ya da e-posta ile şarkı isteğinizi iletin.",
+            "en": "Send your song request by phone or e-mail.",
+            "ar": "أرسل طلب أغنيتك بالهاتف أو البريد الإلكتروني."
+          },
+          "ikon": "forum"
+        },
+        {
+          "baslik": {
+            "tr": "Programcı seçer",
+            "en": "The host picks",
+            "ar": "يختار المقدّم"
+          },
+          "metin": {
+            "tr": "İstekler program akışına göre değerlendirilir.",
+            "en": "Requests are considered according to the programme flow.",
+            "ar": "تُقيَّم الطلبات بحسب سير البرنامج."
+          },
+          "ikon": "draw"
+        },
+        {
+          "baslik": {
+            "tr": "Lisanslı yayın",
+            "en": "Licensed broadcast",
+            "ar": "بث مرخّص"
+          },
+          "metin": {
+            "tr": "Müzik, lisanslar kapsamında yayına alınır.",
+            "en": "Music is broadcast under licences.",
+            "ar": "تُبَثّ الموسيقى بموجب التراخيص."
+          },
+          "ikon": "construction"
+        },
+        {
+          "baslik": {
+            "tr": "Geri bildirim",
+            "en": "Feedback",
+            "ar": "الملاحظات"
+          },
+          "metin": {
+            "tr": "Görüşleriniz izleyici temsilcisine iletilebilir.",
+            "en": "Your comments can be passed to the audience representative.",
+            "ar": "يمكن إحالة ملاحظاتك إلى ممثل المستمعين."
+          },
+          "ikon": "task_alt"
+        }
+      ],
+      "id": "nopq7k",
+      "path": "surec-adimlar",
+      "local": "body",
+      "index": 36
+    },
+    {
+      "name": "Süreç Adımları",
+      "description": "3–6 adımlık süreç anlatımı: çizgi/ok ile bağlı daire numaralar, altında başlık + metin. Aktif adım vurgusu kaydırmayla ilerler (IntersectionObserver; JS yoksa tüm adımlar düz görünür). desing.stil: yatay (çizgiyle bağlı sıra; mobilde dikey zaman çizgisi) | dikey (iki yanlı zaman çizgisi) | kartli (kart + ok ayraç). Veri: data[] = [{no?, baslik{tr,en,ar}, metin{}, ikon?}]. Renkler yalnız token; koyu mod otomatik; RTL'de ok/çizgi yönü aynalanır.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "category": "surec",
+      "tags": [
+        "süreç",
+        "adım",
+        "zaman çizgisi",
+        "process",
+        "steps",
+        "ar"
+      ],
+      "desing": {
+        "stil": "dikey",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "16px",
+        "eyebrow": {
+          "tr": "Yayın akışı",
+          "en": "Schedule",
+          "ar": "جدول البث"
+        },
+        "title": {
+          "tr": "Bir günlük yayın akışı (örnek)",
+          "en": "A day on air (sample)",
+          "ar": "يوم من البث (نموذج)"
+        },
+        "description": {
+          "tr": "Saatler örnektir; haber bültenleri her saat başı yayınlanır.",
+          "en": "Times are samples; news bulletins air on the hour.",
+          "ar": "الأوقات نماذج؛ وتُبَثّ نشرات الأخبار كل ساعة."
+        },
+        "stepLabel": {
+          "tr": "Adım {n}",
+          "en": "Step {n}",
+          "ar": "الخطوة {n}"
+        },
+        "listLabel": {
+          "tr": "Süreç adımları",
+          "en": "Process steps",
+          "ar": "خطوات العملية"
+        }
+      },
+      "data": [
+        {
+          "baslik": {
+            "tr": "06:00 · Günaydın Frekans",
+            "en": "06:00 · Good Morning Frequency",
+            "ar": "06:00 · صباح الخير فريكانس"
+          },
+          "metin": {
+            "tr": "Müzik, trafik ve yerel gündem.",
+            "en": "Music, traffic and local news.",
+            "ar": "موسيقى ومرور وأخبار محلية."
+          },
+          "ikon": "forum"
+        },
+        {
+          "baslik": {
+            "tr": "10:00 · Gün Ortası Seçkisi",
+            "en": "10:00 · Midday Mix",
+            "ar": "10:00 · مختارات منتصف النهار"
+          },
+          "metin": {
+            "tr": "Pop seçkisi ve dinleyici notları.",
+            "en": "A pop mix and listener notes.",
+            "ar": "مختارات بوب وملاحظات المستمعين."
+          },
+          "ikon": "draw"
+        },
+        {
+          "baslik": {
+            "tr": "16:00 · Yolda Frekans",
+            "en": "16:00 · Frequency On the Road",
+            "ar": "16:00 · فريكانس على الطريق"
+          },
+          "metin": {
+            "tr": "Eve dönüş yolunda enerjik yayın.",
+            "en": "Upbeat broadcast for the drive home.",
+            "ar": "بث نشط في طريق العودة."
+          },
+          "ikon": "construction"
+        },
+        {
+          "baslik": {
+            "tr": "19:00 · Akşam Seçkisi",
+            "en": "19:00 · Evening Selection",
+            "ar": "19:00 · مختارات المساء"
+          },
+          "metin": {
+            "tr": "Slow ve akustik parçalar.",
+            "en": "Slow and acoustic tracks.",
+            "ar": "مقطوعات هادئة وصوتية."
+          },
+          "ikon": "task_alt"
+        },
+        {
+          "baslik": {
+            "tr": "22:00 · Gece Yarısı Sohbeti",
+            "en": "22:00 · Midnight Talk",
+            "ar": "22:00 · حديث منتصف الليل"
+          },
+          "metin": {
+            "tr": "İstekler ve sohbet.",
+            "en": "Requests and conversation.",
+            "ar": "طلبات وحوار."
+          },
+          "ikon": "local_shipping"
+        }
+      ],
+      "id": "y6r9w8",
+      "path": "surec-adimlar",
+      "local": "body",
+      "index": 37
+    }
+  ]
+}

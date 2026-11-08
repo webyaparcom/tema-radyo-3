@@ -1,0 +1,59 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Gece Frekansı: yayın akışı, programlar ve reklam talebi; künye ve lisans bilgileri açık. (Demo site — ses yayını yoktur)",
+    "en": "Gece Frekansı: broadcast schedule, programmes and advertising requests; masthead and licence details are open. (Demo site — no audio stream)",
+    "ar": "غيجه فريكانسي: جدول البث والبرامج وطلب الإعلان مع بيانات الإدارة والترخيص المعلنة. (موقع تجريبي — لا يوجد بث صوتي)"
+  },
+  "keyword": {
+    "tr": "radyo, yerel radyo, yayın akışı",
+    "en": "radio, local radio, broadcast schedule",
+    "ar": "إذاعة، إذاعة محلية، جدول البث"
+  },
+  "category": "Kurumsal",
+  "name": "Gece Frekansı",
+  "domain": "radyo-3.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "icon": "icon.png",
+  "theme_color": "#2DD4BF",
+  "publishMode": "static",
+  "phone": "+90 342 000 00 00",
+  "email": "studyo@gecefrekansi.example",
+  "address": "Medya Sk. No: 8 Kat: 2, Şahinbey, Gaziantep (kurgusal adres)",
+  "font": {
+    "body": "inter",
+    "heading": "barlow-condensed",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "2px",
+    "--mx-radius-md": "4px",
+    "--mx-radius-lg": "6px",
+    "--mx-radius-xl": "8px",
+    "--mx-shadow-md": "0 24px 60px rgba(0,0,0,.18)",
+    "--mx-dur": "280ms"
+  }
+}
