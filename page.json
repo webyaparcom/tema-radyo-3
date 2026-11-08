@@ -1,0 +1,172 @@
+{
+  "data": [
+    {
+      "id": "wnzk15417b",
+      "name": {
+        "tr": "Programlar",
+        "en": "Programmes",
+        "ar": "البرامج"
+      },
+      "description": {
+        "tr": "Kurgusal program örnekleri; ses yayını bu demoda yoktur.",
+        "en": "Fictional sample programmes; there is no audio in this demo.",
+        "ar": "نماذج برامج افتراضية؛ ولا يوجد صوت في هذا العرض."
+      },
+      "path": "programlar",
+      "icon": "radio",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "1l7y20",
+          "nopq7k",
+          "z84ptx"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "tfd8do8eul",
+      "name": {
+        "tr": "Yayın Akışı",
+        "en": "Schedule",
+        "ar": "جدول البث"
+      },
+      "description": {
+        "tr": "Bir günlük örnek yayın akışı.",
+        "en": "A sample daily broadcast schedule.",
+        "ar": "جدول بث يومي نموذجي."
+      },
+      "path": "yayin-akisi",
+      "icon": "schedule",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "y6r9w8"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "zy2aqcd3b9",
+      "name": {
+        "tr": "Reklam",
+        "en": "Advertising",
+        "ar": "الإعلان"
+      },
+      "description": {
+        "tr": "Paketi ve uygun günü seçin; talebiniz bu demo sitede yalnızca tarayıcınızda oluşturulur.",
+        "en": "Choose a package and a convenient day; on this demo site your request is created only in your browser.",
+        "ar": "اختر الباقة واليوم المناسب؛ يُنشأ طلبك في متصفحك فقط."
+      },
+      "path": "reklam",
+      "icon": "campaign",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "0kfg5h"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "ksegfu4jyk",
+      "name": {
+        "tr": "Künye",
+        "en": "Masthead",
+        "ar": "بيانات الإدارة"
+      },
+      "description": {
+        "tr": "Künye, RTÜK lisansı ve müzik lisansı bilgisi.",
+        "en": "Masthead, RTÜK licence and music licence information.",
+        "ar": "بيانات الإدارة وترخيص RTÜK وترخيص الموسيقى."
+      },
+      "path": "kunye",
+      "icon": "badge",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "oguvwz"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "a7qwhquh5k",
+      "name": {
+        "tr": "Galeri",
+        "en": "Gallery",
+        "ar": "المعرض"
+      },
+      "description": {
+        "tr": "Yayın stüdyosu ve ekipman görüntüleri; kişi yoktur.",
+        "en": "Studio and equipment images; no people.",
+        "ar": "صور الاستوديو والمعدات؛ دون أشخاص."
+      },
+      "path": "galeri",
+      "icon": "photo_library",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "4k2uqs"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "category": "",
+      "id": "xnzu5au0ag",
+      "url": "",
+      "path": "iletisim",
+      "index": 5,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "h0p9j6",
+          "x8q2mr",
+          "bbbo89"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon, e-posta ve çalışma saatleri.",
+        "en": "Address, phone, e-mail and opening hours.",
+        "ar": "العنوان والهاتف والبريد الإلكتروني وساعات العمل."
+      }
+    }
+  ],
+  "desc": [],
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "page": true,
+    "bgimg": true,
+    "detail": true,
+    "body": true
+  }
+}

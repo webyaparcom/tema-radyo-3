@@ -1,0 +1,39 @@
+{
+  "id": "zy2aqcd3b9",
+  "name": {
+    "tr": "Reklam",
+    "en": "Advertising",
+    "ar": "الإعلان"
+  },
+  "description": {
+    "tr": "Paketi ve uygun günü seçin; talebiniz bu demo sitede yalnızca tarayıcınızda oluşturulur.",
+    "en": "Choose a package and a convenient day; on this demo site your request is created only in your browser.",
+    "ar": "اختر الباقة واليوم المناسب؛ يُنشأ طلبك في متصفحك فقط."
+  },
+  "keyword": {
+    "tr": "radyo, yerel radyo, yayın akışı",
+    "en": "radio, local radio, broadcast schedule",
+    "ar": "إذاعة، إذاعة محلية، جدول البث"
+  },
+  "path": "reklam",
+  "icon": "campaign",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "0kfg5h"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Reklam",
+    "en": "Advertising",
+    "ar": "الإعلان"
+  },
+  "date": "2026-10-31T14:51:53.528Z",
+  "update": "2026-11-05T19:39:08.223Z"
+}

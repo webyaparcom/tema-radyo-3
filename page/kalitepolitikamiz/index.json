@@ -1,0 +1,43 @@
+{
+  "name": {
+    "tr": "Kalite Politikamız",
+    "en": "Quality Policy",
+    "ar": "سياسة الجودة"
+  },
+  "status": "play",
+  "id": "kalitepolitikamiz",
+  "path": "kalitepolitikamiz",
+  "category": "",
+  "text": {
+    "tr": "<h2>Kalite Politikamız</h2>\n<p>Lisanslı yayın, açık künye, doğrulanmış haber ve dinleyici geri bildirimi kalite anlayışımızın temelidir.</p>",
+    "en": "<h2>Our quality policy</h2>\n<p>Licensed broadcasting, an open masthead, verified news and listener feedback are the basis of our quality approach.</p>",
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>البث المرخّص وبيانات الإدارة المعلنة والأخبار الموثّقة وملاحظات المستمعين هي أساس نهجنا في الجودة.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [
+      "oguvwz"
+    ],
+    "footer": []
+  },
+  "desc": {},
+  "index": 3,
+  "icon": "policy",
+  "title": {
+    "tr": "Kalite Politikamız",
+    "en": "Quality Policy",
+    "ar": "سياسة الجودة"
+  },
+  "description": {
+    "tr": "Kalite politikamız",
+    "en": "Our quality policy",
+    "ar": "سياسة الجودة لدينا"
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "update": "2026-11-05T19:39:08.258Z",
+  "date": "2026-05-19"
+}

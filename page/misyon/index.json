@@ -1,0 +1,43 @@
+{
+  "name": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "status": "play",
+  "id": "misyon",
+  "path": "misyon",
+  "category": "",
+  "text": {
+    "tr": "<h2>Misyonumuz</h2>\n<p>Misyonumuz, şehre lisanslı müzik, güvenilir haber ve samimi bir yayın sunmaktır.</p>",
+    "en": "<h2>Our mission</h2>\n<p>Our mission is to give the city licensed music, reliable news and a friendly broadcast.</p>",
+    "ar": "<h2>مهمتنا</h2>\n<p>مهمتنا تقديم موسيقى مرخّصة وأخبار موثوقة وبث ودود للمدينة.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [
+      "oguvwz"
+    ],
+    "footer": []
+  },
+  "desc": {},
+  "index": 1,
+  "icon": "policy",
+  "title": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "description": {
+    "tr": "Misyonumuz",
+    "en": "Our mission",
+    "ar": "مهمتنا"
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "update": "2026-11-05T19:39:08.256Z",
+  "date": "2026-05-19"
+}
