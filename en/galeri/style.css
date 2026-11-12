@@ -978,6 +978,60 @@
     }
   }
 
+  
+  .f0000-f9__bar { display: none; }
+  .f0000-f9__bar-oge {
+    flex: 1 1 0;
+    min-width: 0;
+    min-height: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: var(--mx-site-text, #f3f4f6);
+    text-decoration: none;
+    opacity: 0.78;
+    transition: opacity 0.2s ease;
+  }
+  .f0000-f9__bar-oge:hover, .f0000-f9__bar-oge:focus-visible { opacity: 1; outline-color: currentColor; }
+  .f0000-f9__bar-oge .material-symbols-outlined { font-size: 22px; line-height: 1; color: var(--mx-site-primary, #2563eb); }
+  .f0000-f9__bar-ad {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    padding-inline: 4px;
+  }
+  .f0000-f9__bar-oge[aria-current="page"] { opacity: 1; }
+  .f0000-f9__bar-oge[aria-current="page"] .f0000-f9__bar-ad { font-weight: 700; }
+  @media (max-width: 768px) {
+    .f0000-f9 { padding-bottom: 72px; }
+    .f0000-f9__bar { display: flex; position: fixed; inset-inline: 0; bottom: 0; z-index: 9990; background: var(--mx-site-surface-2, #1f2937); border-top: 2px solid var(--mx-site-primary, #2563eb); box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.22); padding-bottom: env(safe-area-inset-bottom, 0); }
+  }
+
+  
+  @media (max-width: 768px) {
+    .f0000-f9__link,
+    .f0000-f9__chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 48px;
+      box-sizing: border-box;
+    }
+
+    .f0000-f9__bottom .wm-langbar li a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 48px;
+      min-height: 48px;
+    }
+  }
+
 
   
   .f0001-dk {
@@ -1006,3 +1060,4 @@
   @media (max-width: 480px) { .f0001-dk { font-size: 13px; } }
   @media (prefers-reduced-motion: reduce) { .f0001-dk-cta { transition: none; } .f0001-dk-cta:hover { gap: 4px; } }
 
+#header>header[class*="-m10"]:not([class*="-akista"]){top:var(--mx-demo-bandi-h,0px)}
