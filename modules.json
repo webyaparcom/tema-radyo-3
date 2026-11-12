@@ -31,7 +31,13 @@
         "logoimg": "",
         "langcolor": "currentColor",
         "langbg": "transparent",
-        "tekSatir": ""
+        "tekSatir": "",
+        "logoDark": "",
+        "duzen": "",
+        "ctaText": "",
+        "ctaHref": "",
+        "temaDugmesi": "",
+        "temaAnahtar": ""
       },
       "version": "1.0.0",
       "icon": "menu"
@@ -526,6 +532,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "id": "bf0y26",
@@ -734,7 +746,7 @@
             "ar": "مختارات منتصف النهار"
           },
           "text": {
-            "tr": "10:00 – 14:00: türkçe ve yabancı pop seçkisi.",
+            "tr": "10:00 – 14:00: Türkçe ve yabancı pop seçkisi.",
             "en": "10:00 – 14:00: a mix of Turkish and international pop.",
             "ar": "10:00 – 14:00: مختارات بوب تركية وأجنبية."
           },
@@ -800,7 +812,7 @@
             "ar": "مختارات منتصف النهار"
           },
           "description": {
-            "tr": "10:00 – 14:00: türkçe ve yabancı pop seçkisi.",
+            "tr": "10:00 – 14:00: Türkçe ve yabancı pop seçkisi.",
             "en": "10:00 – 14:00: a mix of Turkish and international pop.",
             "ar": "10:00 – 14:00: مختارات بوب تركية وأجنبية."
           }
@@ -890,7 +902,7 @@
             "ar": "مختارات منتصف النهار"
           },
           "description": {
-            "tr": "10:00 – 14:00: türkçe ve yabancı pop seçkisi.",
+            "tr": "10:00 – 14:00: Türkçe ve yabancı pop seçkisi.",
             "en": "10:00 – 14:00: a mix of Turkish and international pop.",
             "ar": "10:00 – 14:00: مختارات بوب تركية وأجنبية."
           }
@@ -1060,7 +1072,7 @@
             "ar": "مختارات منتصف النهار"
           },
           "ozet": {
-            "tr": "10:00 – 14:00: türkçe ve yabancı pop seçkisi.",
+            "tr": "10:00 – 14:00: Türkçe ve yabancı pop seçkisi.",
             "en": "10:00 – 14:00: a mix of Turkish and international pop.",
             "ar": "10:00 – 14:00: مختارات بوب تركية وأجنبية."
           },
@@ -1544,8 +1556,8 @@
             "ar": "الملاحظات"
           },
           "metin": {
-            "tr": "Görüşleriniz izleyici temsilcisine iletilebilir.",
-            "en": "Your comments can be passed to the audience representative.",
+            "tr": "Görüşleriniz dinleyici temsilcisine iletilebilir.",
+            "en": "Your comments can be passed to the listener representative.",
             "ar": "يمكن إحالة ملاحظاتك إلى ممثل المستمعين."
           },
           "ikon": "task_alt"
@@ -1827,9 +1839,9 @@
           "ar": "تواصل معنا الآن"
         },
         "hours": {
-          "tr": "Yayın 7/24 (kurgusal) · Stüdyo hattı hafta içi 10:00 – 18:00",
-          "en": "On air 24/7 (fictional) · Studio line weekdays 10:00 – 18:00",
-          "ar": "البث على مدار الساعة (افتراضي) · خط الاستوديو أيام الأسبوع 10:00 – 18:00"
+          "tr": "Yayın 7/24 (kurgusal) · Stüdyo hattı hafta içi 09:00 – 18:00",
+          "en": "On air 24/7 (fictional) · Studio line weekdays 09:00 – 18:00",
+          "ar": "البث على مدار الساعة (افتراضي) · خط الاستوديو أيام الأسبوع 09:00 – 18:00"
         },
         "hoursLabel": {
           "tr": "Çalışma saatleri",
@@ -3045,9 +3057,9 @@
         "whatsapp": "",
         "email": "studyo@gecefrekansi.example",
         "hours": {
-          "tr": "Yayın 7/24 (kurgusal) · Stüdyo hattı hafta içi 10:00 – 18:00",
-          "en": "On air 24/7 (fictional) · Studio line weekdays 10:00 – 18:00",
-          "ar": "البث على مدار الساعة (افتراضي) · خط الاستوديو أيام الأسبوع 10:00 – 18:00"
+          "tr": "Yayın 7/24 (kurgusal) · Stüdyo hattı hafta içi 09:00 – 18:00",
+          "en": "On air 24/7 (fictional) · Studio line weekdays 09:00 – 18:00",
+          "ar": "البث على مدار الساعة (افتراضي) · خط الاستوديو أيام الأسبوع 09:00 – 18:00"
         },
         "mapUrl": "",
         "mapEmbed": "",
@@ -3242,7 +3254,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "id": "h0p9j6",
@@ -3639,8 +3652,8 @@
             "ar": "الملاحظات"
           },
           "metin": {
-            "tr": "Görüşleriniz izleyici temsilcisine iletilebilir.",
-            "en": "Your comments can be passed to the audience representative.",
+            "tr": "Görüşleriniz dinleyici temsilcisine iletilebilir.",
+            "en": "Your comments can be passed to the listener representative.",
             "ar": "يمكن إحالة ملاحظاتك إلى ممثل المستمعين."
           },
           "ikon": "task_alt"
