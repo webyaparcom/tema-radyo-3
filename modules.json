@@ -564,7 +564,7 @@
       ],
       "desing": {
         "max": "1200px",
-        "accent": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+        "accent": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 45%, var(--mx-site-bg, #ffffff))",
         "accentText": "var(--mx-site-text, #111318)",
         "cta_url": "yayin-akisi",
         "stil": "cta-butonlu",
