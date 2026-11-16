@@ -1,78 +1,87 @@
-/* ozellik-zigzag — sunucu tarafı: satırları dile çözer; yer tutucular: zzclass zzhead zzrows.
-   Veri: json.data[] (yoksa desing.satirlar) = [{baslik{}, metin{}, img, alt{}, url, ctaLabel{}?}] */
-var zzDes = json.desing || {};
-var zzLang = json.lang || "tr";
+/* ozellik-zigzag-3 — Numaralı Özellik Listesi (1 Kas 2026, T1-B varyant).
+   Yer tutucular: oz3head oz3list. Veri: json.data[] = [{baslik{}, metin{}}]; görsel yalnız başlık sütununda (desing.img).
+   Ortak yardımcılar: esc t guvenliHref gorselYol evet sayi metinleriYaz (desing metinleri kaçışlı). */
+var D = json.desing || {};
+var L = json.lang || "tr";
 
-function zzEsc(s) {
+/* HTML kaçışı — html'e giden her değer bundan geçer */
+function esc(s) {
   return String(s == null ? "" : s)
     .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
 }
-function zzPick(v) { return wmPickLang(v, zzLang); }
-function zzUrl(v) {
-  var s = String(v == null ? "" : v).trim();
-  if (!s) { return ""; }
-  if (/^\s*(javascript|vbscript|file|data):/i.test(s)) { return ""; }
-  if (s.charAt(0) === "/" || /^https?:\/\//i.test(s)) { return s; }
-  return "/img/" + s;
-}
-function zzHref(v) {
+/* Dil seçimi: aktif dil → tr → en → ilk anahtar (motorun wmPickLang'i) */
+function t(v) { return wmPickLang(v, L); }
+/* Bağlantı: dış/mailto/tel/# aynen; iç sayfa adı → dil önekli yol; javascript: vb. reddedilir */
+function guvenliHref(v) {
   var s = String(v == null ? "" : v).trim();
   if (!s) { return ""; }
   if (/^\s*(javascript|vbscript|file|data):/i.test(s)) { return ""; }
   if (/^(https?:)?\/\//i.test(s) || /^(mailto:|tel:|#)/i.test(s) || s.charAt(0) === "/") { return s; }
   return wxLangInternalHref(s);
 }
-function zzBool(v, d) {
+/* Görsel yolu: "/" ve http(s) aynen; yalın ad → /img/<ad>; tehlikeli şema → "" */
+function gorselYol(v) {
+  var s = String(v == null ? "" : v).trim();
+  if (!s) { return ""; }
+  if (/^\s*(javascript|vbscript|file|data):/i.test(s)) { return ""; }
+  if (s.charAt(0) === "/" || /^https?:\/\//i.test(s)) { return s; }
+  return "/img/" + s;
+}
+function evet(v, d) {
   if (v === undefined || v === null || v === "") { return d; }
   return !(v === false || v === "false" || v === 0 || v === "0");
 }
+function sayi(v, d, mn, mx) {
+  var n = parseInt(v, 10);
+  if (!isFinite(n)) { n = d; }
+  return Math.min(mx, Math.max(mn, n));
+}
+/* desing'deki düz metin / {tr,en,ar} değerlerini {{anahtar}} yerine KAÇIŞLI yazar.
+   Motor aynı yer tutucuyu ham yazardı; back.js önce davrandığı için kaçışsız değer html'e ulaşmaz. */
+function metinleriYaz() {
+  var k;
+  for (k in D) {
+    if (!Object.prototype.hasOwnProperty.call(D, k)) { continue; }
+    var v = D[k];
+    if (v == null) { continue; }
+    var dilli = typeof v === "object" && !Array.isArray(v) && (typeof v.tr === "string" || typeof v.en === "string");
+    if (typeof v === "object" && !dilli) { continue; }
+    var deger = esc(t(v));
+    var desen = new RegExp("\\{\\{" + String(k).replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\}\\}", "g");
+    html = html.replace(desen, function () { return deger; });
+  }
+}
 
-var zzItems = Array.isArray(json.data) && json.data.length ? json.data : (Array.isArray(zzDes.satirlar) ? zzDes.satirlar : []);
-var zzStil = String(zzDes.stil || "cerceve");
-if (zzStil !== "cerceve" && zzStil !== "yuzen" && zzStil !== "sade") { zzStil = "cerceve"; }
-var zzNumara = zzBool(zzDes.numara, true);
-var zzCtaDef = zzPick(zzDes.ctaLabel);
-
-var zzRows = "";
-var zzN = 0;
-var zzi;
-for (zzi = 0; zzi < zzItems.length; zzi++) {
-  var it = zzItems[zzi] || {};
-  var baslik = zzPick(it.baslik);
-  var metin = zzPick(it.metin);
+var oz3Items = Array.isArray(json.data) ? json.data : [];
+var oz3List = "";
+var oz3N = 0;
+var oz3i;
+for (oz3i = 0; oz3i < oz3Items.length; oz3i++) {
+  var it = oz3Items[oz3i] || {};
+  var baslik = t(it.baslik);
+  var metin = t(it.metin);
   if (!baslik && !metin) { continue; }
-  zzN++;
-  var img = zzUrl(it.img);
-  var alt = zzPick(it.alt) || baslik;
-  var url = zzHref(it.url);
-  var cta = zzPick(it.ctaLabel) || zzCtaDef;
-  var no = zzN < 10 ? "0" + zzN : String(zzN);
-  var media = img
-    ? '<img class="modulex-zz-img" src="' + zzEsc(img) + '" alt="' + zzEsc(alt) + '" width="1200" height="900" loading="lazy" decoding="async" />'
-    : '<span class="modulex-zz-ph" role="img" aria-label="' + zzEsc(alt) + '"><span class="material-symbols-outlined" aria-hidden="true">' +
-      zzEsc(it.ikon || "auto_awesome") + "</span></span>";
-  zzRows += '<article class="modulex-zz-row">' +
-    '<div class="modulex-zz-media">' + media + "</div>" +
-    '<div class="modulex-zz-metin">' +
-    (zzNumara ? '<span class="modulex-zz-no" aria-hidden="true">' + no + "</span>" : "") +
-    (baslik ? '<h3 class="modulex-zz-h">' + zzEsc(baslik) + "</h3>" : "") +
-    (metin ? '<p class="modulex-zz-p">' + zzEsc(metin) + "</p>" : "") +
-    (url && cta ? '<a class="modulex-zz-link" href="' + zzEsc(url) + '"><span>' + zzEsc(cta) + '</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>' : "") +
-    "</div></article>";
+  oz3N++;
+  oz3List += '<li class="modulex-oz3-item">' +
+    '<span class="modulex-oz3-no" aria-hidden="true">' + (oz3N < 10 ? "0" + oz3N : String(oz3N)) + "</span>" +
+    '<div class="modulex-oz3-metin">' +
+    (baslik ? '<h3 class="modulex-oz3-h">' + esc(baslik) + "</h3>" : "") +
+    (metin ? '<p class="modulex-oz3-p">' + esc(metin) + "</p>" : "") +
+    "</div></li>";
 }
 
-var zzEyebrow = zzPick(zzDes.eyebrow);
-var zzTitle = zzPick(zzDes.title);
-var zzDesc = zzPick(zzDes.description);
-var zzHead = "";
-if (zzEyebrow || zzTitle || zzDesc) {
-  zzHead = '<header class="modulex-zz-head">' +
-    (zzEyebrow ? '<p class="modulex-zz-eyebrow">' + zzEsc(zzEyebrow) + "</p>" : "") +
-    (zzTitle ? '<h2 class="modulex-zz-title">' + zzEsc(zzTitle) + "</h2>" : "") +
-    (zzDesc ? '<p class="modulex-zz-desc">' + zzEsc(zzDesc) + "</p>" : "") + "</header>";
-}
+var oz3Img = gorselYol(D.img);
+var oz3Media = oz3Img ? '<img class="modulex-oz3-img" src="' + esc(oz3Img) + '" alt="' + esc(t(D.imgAlt)) + '" width="800" height="600" loading="lazy" decoding="async" />' : "";
+var oz3CtaUrl = guvenliHref(D.ctaUrl);
+var oz3Cta = oz3CtaUrl && t(D.ctaLabel) ? '<a class="modulex-oz3-cta" href="' + esc(oz3CtaUrl) + '">' + esc(t(D.ctaLabel)) + "</a>" : "";
 
-html = html.replace(/\{\{zzclass\}\}/g, function () { return " modulex-zz-" + zzStil; });
-html = html.replace(/\{\{zzhead\}\}/g, function () { return zzHead; });
-html = html.replace(/\{\{zzrows\}\}/g, function () { return zzRows; });
+var oz3Head = '<div class="modulex-oz3-head">' +
+  (t(D.eyebrow) ? '<p class="modulex-oz3-eyebrow">' + esc(t(D.eyebrow)) + "</p>" : "") +
+  (t(D.title) ? '<h2 class="modulex-oz3-title">' + esc(t(D.title)) + "</h2>" : "") +
+  (t(D.description) ? '<p class="modulex-oz3-desc">' + esc(t(D.description)) + "</p>" : "") +
+  oz3Cta + oz3Media + "</div>";
+
+html = html.replace(/\{\{oz3head\}\}/g, function () { return oz3Head; });
+html = html.replace(/\{\{oz3list\}\}/g, function () { return oz3List; });
+metinleriYaz();
